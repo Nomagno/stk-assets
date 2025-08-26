@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="c_AM_glass.png" shader="alphablend"/>
+  <material name="spa-concrete_green_AM-green.png">
+    <sfx filename="kerb.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="spa-barrier-grille.png" gloss-map="fake-hass-icon-pbr.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="bclaren.png" shader="alphatest"/>
+  <material name="spa-concrete_black.png" gloss-map="fake-hass-icon-pbr.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="spa-concrete_dark-blue.png" gloss-map="fake-hass-icon-pbr-2.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="bridge-contrete-2.jpg" gloss-map="fake-hass-icon-pbr-2.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="bush3.png" shader="alphatest"/>
+  <material name="spa-concrete_yellow.png">
+    <sfx filename="kerb.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="spa-curb-RW.png">
+    <sfx filename="kerb.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="spa-gravel.png" slowdown-time="0.05" max-speed="0.25">
+    <sfx filename="sand.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>>
+    <particles base="roadmain.xml" condition="skid drive"/>
+  </material>
+  <material name="spa-concrete_white.png" gloss-map="fake-hass-icon-pbr-2.png"/>
+  <material name="b_fakeads_2.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="fake-hass-icon.png" gloss-map="fake-hass-icon-pbr.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="fake-rbr-icon.png" gloss-map="fake-hass-icon-pbr.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="c_black_glass.png" shader="alphablend"/>
+  <material name="spa-grass.png" slowdown-time="0.10" max-speed="0.60"/>
+  <material name="hina_1.png" shader="alphatest"/>
+  <material name="letty_1.png" shader="alphatest"/>
+  <material name="metalpole_dds_img.png" gloss-map="fake-hass-icon-pbr.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="minoriko_1.png" shader="alphatest"/>
+  <material name="pit_speed_limiter.png" slowdown-time="0.15" max-speed="0.40" shader="alphatest"/>
+  <material name="pit_speed_unlimiter.png" shader="alphatest"/>
+  <material name="242.png" gloss-map="fake-hass-icon-pbr.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="reimu_1.png" shader="alphatest"/>
+  <material name="spa-wall-reles_L.png" gloss-map="fake-hass-icon-pbr-2.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="g_clock.png" gloss-map="fake-hass-icon-pbr.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="STAIRSD.png" gloss-map="fake-hass-icon-pbr.png" normal-map="fake-hass-icon-normal.png"/>
+  <material name="stkcrowd_lowPoly_b.png" shader="alphatest"/>
+  <material name="tree05_n.png" shader="alphatest"/>
+  <material name="tree02_n.png" shader="alphatest"/>
+  <material name="tree03_n.png" shader="alphatest"/>
+  <material name="tree04_n.png" shader="alphatest"/>
+</materials>

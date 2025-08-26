@@ -1,0 +1,137 @@
+--------------------------------------------------------------------------------
+-- World  : Toy Block Raceway
+-- Authors: RX1 & RuJo
+-- Email  : rx1@posteo.de, rujo@posteo.net
+-- Version: 3
+-- Source : https://online.supertuxkart.net/addons.php?type=tracks
+-- License: CC-BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/
+-- Date   : 2020-09-25
+--------------------------------------------------------------------------------
+This track was created with Blender v2.79b and the scripts from "blender_26" folder of the SuperTuxKart Media Repository (Revision 18272). It was tested with SuperTuxKart v1.2.
+
+
+Following files have been created by RX1 & RuJo and are released under CC-BY-SA 4.0:
+
+texture_123456_brick_blue.png
+texture_123456_brick_green.png
+texture_123456_brick_orange.png
+texture_abc_brick_a_blue.png
+texture_abc_brick_a_green.png
+texture_abc_brick_a_red.png
+texture_abc_brick_clear_green.png
+texture_abc_brick_clear_yellow.png
+texture_abc_brick_g_black.png
+texture_abc_brick_g_blue.png
+texture_abc_brick_g_green.png
+texture_abc_brick_m_black.png
+texture_abc_brick_m_green.png
+texture_abc_brick_m_red.png
+texture_abc_brick_m_yellow.png
+texture_abc_brick_s_red.png
+texture_abc_brick_s_yellow.png
+texture_abc_brick_y_black.png
+texture_abc_brick_y_purple.png
+texture_abc_brick_y_yellow.png
+texture_arrow_black-cyan_horizontal.png
+texture_arrow_black-yellow_horizontal.png
+texture_checkboard_bg.png
+texture_checkboard_bw.png
+texture_GrandStand01LP_P1.png
+texture_GrandStand01LP_P2.png
+texture_GrandStand01LP_P3.png
+texture_GrandStand01LP_P4.png
+texture_GrandStand02LP_P1.png
+texture_GrandStand02LP_P2.png
+texture_GrandStand02LP_P3.png
+texture_GrandStand02LP_P4.png
+texture_GrandStand03LP_P1.png
+texture_GrandStand03LP_P2.png
+texture_GrandStand03LP_P3.png
+texture_GrandStand03LP_P4.png
+texture_GrandStand04LP_P1.png
+texture_GrandStand04LP_P2.png
+texture_GrandStand04LP_P3.png
+texture_solid_black_invisible.png
+texture_solid_black.png
+texture_solid_blue_gravity.png
+texture_solid_blue-green_gravity.png
+texture_solid_blue-green.png
+texture_solid_blue.png
+texture_solid_dark_green_gravity.png
+texture_solid_dark_green.png
+texture_solid_green_gravity.png
+texture_solid_green_sticky.png
+texture_solid_green.png
+texture_solid_grey.png
+texture_solid_orange.png
+texture_solid_red_gravity.png
+texture_solid_red.png
+texture_solid_yellow_gravity.png
+texture_solid_yellow.png
+texture_stripes_red_yellow.png
+texture_transparent_lightblue_sky.png
+texture_yellow_smiley_scream_B.png
+texture_yellow_smiley_scream_P1.png
+texture_yellow_smiley_scream_P1B.png
+texture_yellow_smiley_scream_P2.png
+texture_yellow_smiley_scream_P2B.png
+texture_yellow_smiley_scream_P3.png
+texture_yellow_smiley_scream_P3B.png
+texture_yellow_smiley_scream_P4.png
+texture_yellow_smiley_scream_P4B.png
+texture_yellow_smiley_scream_P5.png
+texture_yellow_smiley_scream_P6.png
+texture_yellow_smiley_scream_P7.png
+texture_yellow_smiley_scream_P8.png
+texture_yellow_smiley_scream_P9.png
+texture_yellow_smiley_scream.png
+--------------------------------------------------------------------------------
+
+Following files were downloaded from https://pixabay.com/ and have been modified by RX1 & RuJo:
+
+wood_p2_mirrored_black.png
+wood_p2_mirrored_mod1.png
+wood_p2_mirrored_mod2.png
+wood_p2_mirrored_mod3.png
+wood_p2_mirrored_mod4.png
+
+License: see Pixabay_License.txt
+Source: https://pixabay.com/de/photos/muster-holz-retro-oberfl%C3%A4che-tisch-3371709/
+Author: https://pixabay.com/de/users/djedj-59194/
+
+--------------------------------------------------------------------------------
+
+Following files were taken from SuperTuxKart media repository (https://sourceforge.net/p/supertuxkart/code/HEAD/tree/) and have been modified by RX1 & RuJo:
+
+stk_generic_borde_mod_red.png
+stk_generic_plasticFabric_a_mod_darkblue.png
+stk_generic_plasticFabric_a_mod_grey.png
+stk_generic_plasticFabric_a_mod_red.png
+stkflag_blueBooster_a_mod_red.png
+--------------------------------------------------------------------------------
+
+Following files have been taken from SuperTuxKart media repository (https://sourceforge.net/p/supertuxkart/code/HEAD/tree/):
+
+stk_generic_plasticFabric_a.png
+stk_glassPanel_a.png
+stkflag_blueBooster_a.png
+stkflag_stkVerticalRed_a_static.png (stkflag_stkVerticalRed_a.png)
+--------------------------------------------------------------------------------
+
+The sound track "Runaround" was created by Yubatake and downloaded from https://opengameart.org/
+
+This sound track was modified by RX1 & RuJo in following ways:
+	- normalized and converted to ogg format
+	- shortened to make it loopable in SuperTuxKart
+	- additional creation of an 8 % faster version (for the final race lap)
+
+Files:
+	Yubatake_-_Runaround_(loopable).ogg
+	Yubatake_-_Runaround_(fast_loopable).ogg
+
+License: CC-BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/
+Source: https://opengameart.org/content/runaround
+Author: Yubatake - https://opengameart.org/users/yubatake
+--------------------------------------------------------------------------------
+
+All other contents of the track are released under CC-BY-SA 4.0.

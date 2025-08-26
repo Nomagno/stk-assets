@@ -1,0 +1,36 @@
+
+<?xml version="1.0"?>
+<particles emitter="point">
+
+    <spreading angle="27" />
+
+    <velocity  x="-0.0046193976625564343"
+               z="-0.0019134171618254484"
+               y="-0.0017" />
+
+    <materials>
+        <material name="black-dust.png" shader="alphablend"/>
+    </materials>
+
+    <rate      min="500"
+               max="1000"
+               decay_rate="0" />
+
+    <lifetime  min="0"
+               max="12000" />
+
+    <size      min="0.6"
+               max="0.8" />
+
+    <color     min="0 0 0"
+               max="0 0 0" />
+
+    <fadeout   time="300" />
+
+    <wind      flips="N"           />
+
+    <!--gravity   strength="-0.01"
+               only-force-time="500" /-->
+
+</particles>
+

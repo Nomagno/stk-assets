@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<music title    = "Kiss Adventure"
+       composer = "Marcia"
+       file     = "Kiss_Adventure.ogg"
+	   gain     = "1.0"/>

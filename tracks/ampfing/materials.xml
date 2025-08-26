@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="asfalto-trazada.png" gloss-map="roadgloss.png">
+    <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="asfalto.png" gloss-map="gloss.png">
+    <particles base="smokie.xml" condition="skid"/>
+  </material>
+  <material name="piano.png">
+    <sfx filename="kerb.ogg" min_speed="1.00" max_speed="25.00" min_pitch="0.80" max_pitch="0.85" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="cemento.png" slowdown-time="0.30" max-speed="0.25" gloss-map="gloss.png"/>
+  <material name="arbol1_n.png" shader="alphatest"/>
+  <material name="arbol2_n.png" shader="alphatest"/>
+  <material name="arbol3_n.png" shader="alphatest"/>
+  <material name="arbol4_n.png" shader="alphatest"/>
+  <material name="barandillas_n.png" shader="alphatest"/>
+  <material name="bosque_n.png" shader="alphatest"/>
+  <material name="bosque1_n.png" shader="alphatest"/>
+  <material name="bosque2_n.png" shader="alphatest"/>
+  <material name="bosque3_n.png" shader="alphatest"/>
+  <material name="gente_n.png" shader="alphatest"/>
+  <material name="mallazo_n.png" shader="alphatest"/>
+  <material name="matojos_n.png" shader="alphatest"/>
+  <material name="poste_n.png" shader="alphatest"/>
+  <material name="cesped.png" slowdown-time="0.30" max-speed="0.50">
+    <particles base="smoke_brown.xml" condition="skid"/>
+  </material>
+</materials>

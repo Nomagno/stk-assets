@@ -1,0 +1,36 @@
+
+<?xml version="1.0"?>
+<particles emitter="point">
+
+    <spreading angle="46" />
+
+    <velocity  x="-0.005"
+               y="0.005"
+               z="0.000" />
+
+    <materials>
+        <material name="orange-dust.png" shader="alphablend"/>
+    </materials>
+
+    <rate      min="500"
+               max="1000"
+               decay_rate="0" />
+
+    <lifetime  min="0"
+               max="8000" />
+
+    <size      min="0.6"
+               max="0.8" />
+
+    <color     min="255 102 0"
+               max="255 102 0" />
+
+    <fadeout   time="300" />
+
+    <wind      flips="Y"           />
+
+    <!--gravity   strength="-0.01"
+               only-force-time="500" /-->
+
+</particles>
+

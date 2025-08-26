@@ -1,0 +1,4 @@
+Hillside (c) 2011 connor (connorgames.geek@gmail.com)
+licensed under CC BY-SA 3.0
+includes hillside_sky.jpg and canyon_conveyor_belt.png from the canyon track, licensed under the CC BY-SA 3.0
+http://creativecommons.org/licenses/by-sa/3.0/

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <track model="zenith-race_track.spm" x="0" y="0" z="0"/>
+  <sky-box texture="genericskybox_top.jpg genericskybox_bottom.jpg genericskybox_east.jpg genericskybox_west.jpg genericskybox_south.jpg genericskybox_north.jpg" />
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="24.31 3.67 64.31" p2="24.31 3.67 31.01"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="3" p1="86.38 4.08 27.50" p2="110.28 3.37 27.90"
+                same-group="2"/>
+    <check-line kind="activate" other-ids="4" p1="53.11 3.37 11.40" p2="73.21 4.29 20.08"
+                same-group="3"/>
+    <check-line kind="activate" other-ids="5 16 17" p1="31.05 3.52 10.26" p2="55.94 3.52 20.90"
+                same-group="4"/>
+    <check-line kind="activate" other-ids="6" p1="48.05 12.32 -33.85" p2="64.07 12.32 -29.94"
+                same-group="5 16 17"/>
+    <check-line kind="activate" other-ids="7" p1="11.74 12.32 -68.80" p2="11.44 12.32 -52.31"
+                same-group="6"/>
+    <check-line kind="activate" other-ids="8" p1="-30.05 12.32 -50.19" p2="-13.56 12.32 -49.89"
+                same-group="7"/>
+    <check-line kind="activate" other-ids="9 13 14 15" p1="15.59 12.32 -28.66" p2="24.44 12.32 -42.57"
+                same-group="8"/>
+    <check-line kind="activate" other-ids="10" p1="-70.72 12.32 -37.58" p2="-54.23 12.32 -37.51"
+                same-group="9 13 14 15"/>
+    <check-line kind="activate" other-ids="11" p1="8.67 3.87 -105.58" p2="25.16 3.87 -105.51"
+                same-group="10"/>
+    <check-line kind="activate" other-ids="12" p1="29.67 3.87 -28.24" p2="46.16 3.87 -28.17"
+                same-group="11"/>
+    <check-line kind="activate" other-ids="0" p1="-65.20 3.87 29.09" p2="-48.71 3.87 29.17"
+                same-group="12"/>
+    <check-line kind="activate" other-ids="10" p1="-70.72 14.81 -37.58" p2="-54.23 14.81 -37.51"
+                same-group="9 13 14 15"/>
+    <check-line kind="activate" other-ids="10" p1="-70.72 17.31 -37.58" p2="-54.23 17.31 -37.51"
+                same-group="9 13 14 15"/>
+    <check-line kind="activate" other-ids="10" p1="-70.72 19.80 -37.58" p2="-54.23 19.80 -37.51"
+                same-group="9 13 14 15"/>
+    <check-line kind="activate" other-ids="6" p1="48.05 14.59 -33.85" p2="64.07 14.59 -29.94"
+                same-group="5 16 17"/>
+    <check-line kind="activate" other-ids="6" p1="48.05 16.73 -33.85" p2="64.07 16.73 -29.94"
+                same-group="5 16 17"/>
+  </checks>
+  <big-nitro id="Empty" x="8.81" y="5.48" z="49.60" />
+  <big-nitro id="Empty.001" x="-26.84" y="5.48" z="13.35" />
+  <big-nitro id="Empty.002" x="-60.67" y="5.48" z="-92.70" />
+  <small-nitro id="Empty.003" x="-27.35" y="5.24" z="10.28" />
+  <small-nitro id="Empty.004" x="-27.35" y="5.24" z="7.18" />
+  <small-nitro id="Empty.005" x="18.02" y="5.37" z="-94.86" h="88.29" />
+  <small-nitro id="Empty.006" x="21.12" y="5.37" z="-94.96" h="88.29" />
+  <small-nitro id="Empty.007" x="15.15" y="5.37" z="-94.86" h="88.29" />
+  <big-nitro id="Empty.008" x="-27.20" y="14.50" z="-6.70" />
+  <banana id="Empty.009" x="-26.54" y="14.37" z="-3.73" />
+  <banana id="Empty.0129" x="86.38" y="4.08" z=" 27.50" />
+  <banana id="Empty.2029" x="73.21" y="4.29" z=" 20.08" />
+  <banana id="Empty.010" x="-26.54" y="14.37" z="-1.20" />
+  <item id="Empty.011" x="8.85" y="5.46" z="47.49" />
+  <item id="Empty.012" x="8.85" y="5.46" z="45.05" />
+  <item id="Empty.013" x="90.41" y="5.46" z="36.94" />
+  <item id="Empty.014" x="95.16" y="5.46" z="39.77" />
+  <banana id="Empty.015" x="92.98" y="5.37" z="38.39" />
+  <banana id="Empty.016" x="84.02" y="5.37" z="6.48" />
+  <banana id="Empty.017" x="-17.89" y="14.37" z="-58.10" />
+  <banana id="Empty.018" x="-59.89" y="14.37" z="-26.01" />
+
+  <tyre-change compound="2" stop-time="12" id="tyrechange.001" x="-14" y="5.46" z="-135.41" />
+  <tyre-change compound="3" stop-time="12" id="tyrechange.002" x="-9" y="5.46" z="-135.41" />
+  <tyre-change compound="4" stop-time="12" id="tyrechange.003" x="-4" y="5.46" z="-135.41" />
+  <tyre-change compound="123" stop-time="5" id="tc3" x="12.007836" y="4.564810" z="-135.765961" h="0.5"/>
+
+  <banana id="Empty.019" x="-27.33" y="5.46" z="-128.41" />
+  <item id="Empty.020" x="-25.35" y="5.44" z="-126.16" />
+  <item id="Empty.021" x="35.21" y="5.44" z="-53.41" />
+  <small-nitro id="Empty.022" x="37.87" y="5.44" z="-53.41" />
+  <small-nitro id="Empty.023" x="40.14" y="5.44" z="-53.41" />
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+</scene>

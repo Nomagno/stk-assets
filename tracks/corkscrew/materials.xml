@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="ROAD.png" gloss-map="ROADgloss.png"/>
+  <material name="ROAD4.png" gloss-map="ROADgloss.png"/>
+  <material name="ROAD7.png" gloss-map="ROADgloss.png"/>
+  <material name="roadA-pit.png" gloss-map="ROADgloss.png" slowdown-time="5.0" max-speed="0.75"/>
+  <material name="asphalt.png" gloss-map="ROADgloss.png"/>
+  <material name="asphalt2.png" gloss-map="ROADgloss.png"/>
+  <material name="asphalt-h.png" gloss-map="ROADgloss.png"/>
+  <material name="asphalt-he.png" gloss-map="ROADgloss.png"/>
+  <material name="asphalt-hs.png" gloss-map="ROADgloss.png"/>
+  <material name="asphalt-l.png" gloss-map="ROADgloss.png"/>
+  <material name="asphalt-le.png" gloss-map="ROADgloss.png"/>
+  <material name="asphalt-ls.png" gloss-map="ROADgloss.png"/>
+  <material name="turn50.png" ignore="Y"/>
+  <material name="turn100.png" ignore="Y"/>
+  <material name="turn150.png" ignore="Y"/>
+  <material name="back-sign.png" ignore="Y"/>
+  <material name="tr-barrier-arbor-blue.png" shader="alphatest"/>
+  <material name="tr-barrier-arbor-.png" shader="alphatest"/>
+  <material name="corkscrew_arbor.png" shader="alphatest"/>
+  <material name="tr-barrier-arbor-fence_n.png" shader="alphatest"/>
+  <material name="treeS3_n.png" shader="alphatest"/>
+  <material name="tree_n.png" shader="alphatest"/>
+  <material name="tree3_n.png" shader="alphatest"/>
+  <material name="tree7_n.png" shader="alphatest"/>
+  <material name="treeC3_n.png" shader="alphatest"/>
+  <material name="treeC4_n.png" shader="alphatest"/>
+  <material name="treeSC_n.png" shader="alphatest"/>
+  <material name="treeSC2_n.png" shader="alphatest"/>
+  <material name="tr-curb-wb-l.png">
+    <sfx filename="kerb.ogg" min_speed="1.00" max_speed="25.00" min_pitch="0.80" max_pitch="0.85" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="tr-curb-wb-l-o.png">
+    <sfx filename="kerb.ogg" min_speed="1.00" max_speed="25.00" min_pitch="0.80" max_pitch="0.85" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="tr-curb-wb-r.png">
+    <sfx filename="kerb.ogg" min_speed="1.00" max_speed="25.00" min_pitch="0.80" max_pitch="0.85" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="tr-curb-wb-r-o.png">
+    <sfx filename="kerb.ogg" min_speed="1.00" max_speed="25.00" min_pitch="0.80" max_pitch="0.85" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="gravel.png" slowdown-time="0.40" max-speed="0.40">
+    <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke_yellow.xml" condition="skid drive"/>
+  </material>
+  <material name="grasssnd.png" slowdown-time="0.40" max-speed="0.40">
+    <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke_yellow.xml" condition="skid drive"/>
+  </material>
+  <material name="sandgrvl.png" slowdown-time="0.40" max-speed="0.40">
+    <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke_yellow.xml" condition="skid drive"/>
+  </material>
+  <material name="sand-new.png" slowdown-time="0.40" max-speed="0.40">
+    <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke_yellow.xml" condition="skid drive"/>
+  </material>
+  <material name="sandwtr.png" slowdown-time="0.40" max-speed="0.40">
+    <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke_yellow.xml" condition="skid drive"/>
+  </material>
+  <material name="superzipper.png" mirror-axis="U">
+    <particles base="greenzipper_fire.xml" condition="skid drive"/>
+    <zipper duration="15.0" max-speed-increase="15.0" fade-out-time="0.5" speed-gain="5.5" min-speed="-1.0"/>
+  </material>
+  </materials>

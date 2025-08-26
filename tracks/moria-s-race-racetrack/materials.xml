@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+	<material name="track_2_color.png" gloss-map="track_2_gloss.png"/>
+	<material name="track_light_final.png" gloss-map="track_gloss.png" has-gravity="Y"/>
+	<material name="sand.png" reset="Y"/>
+	<material name="palmleaf_managable.png" shader="alphablend"/>
+	<material name="track__shine_blue.png" gloss-map="light.png"/>
+	<material name="track__shine_orange.png" gloss-map="light.png"/>
+	<material name="oceanic_water_normal.png" shader="alphablend" gloss-map="track_gloss.png" has-gravity="Y"/>
+	<material name="water_dark-transp-subsea.png" reset="Y" shader="displace"/>
+	<material name="arrows.png" shader="additive" gloss-map="light.png" ignore="Y" mirror-axis="U"/>
+	<material name="track__shine_yello.png" gloss-map="light.png">
+		<zipper duration="2.0" max-speed-increase="15.0" fade-out-time="2.0" speed-gain="2.0" min-speed="20.0"/>
+	</material>
+</materials>

@@ -1,0 +1,760 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<scene>
+  <lod>
+   <group name="TunnelTunnelLOD">
+    <static-object lod_distance="50" lod_group="TunnelTunnelLOD" model="TunnelTunnelModel.spm" xyz="-30.18 6.90 258.49" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="TunnelTunnelLOD" model="TunnelTunnelLPModel.spm" xyz="-30.18 6.90 258.49" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="BuildingBowYellowLOD">
+    <static-object lod_distance="10" lod_group="BuildingBowYellowLOD" model="BuildingBowYellowModel.spm" xyz="-53.87 -0.00 195.78" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="BuildingBowYellowLOD" model="BuildingBowYellowLPModel.spm" xyz="-53.87 -0.00 195.78" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="TempleBowBlueLOD">
+    <static-object lod_distance="25" lod_group="TempleBowBlueLOD" model="TempleBowBlueModel.spm" xyz="67.35 10.42 180.79" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="TempleBowBlueLOD" model="TempleBowBlueLPModel.spm" xyz="67.35 10.42 180.79" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="Grandstand01LOD">
+    <static-object lod_distance="105" lod_group="Grandstand01LOD" model="Grandstand01Model.spm" xyz="-189.80 3.61 77.20" hpr="-0.0 -156.9 -0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="Grandstand01LOD" model="Grandstand01LPModel.spm" xyz="-189.80 3.61 77.20" hpr="-0.0 -156.9 -0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="BuildingBowBlueLOD">
+    <static-object lod_distance="10" lod_group="BuildingBowBlueLOD" model="BuildingBowBlueModel.spm" xyz="-45.71 -0.00 195.78" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="BuildingBowBlueLOD" model="BuildingBowBlueLPModel.spm" xyz="-45.71 -0.00 195.78" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="Tree4LOD">
+    <static-object lod_distance="9" lod_group="Tree4LOD" model="Tree4.spm" xyz="-162.70 -0.00 30.54" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="Tree4LOD" model="Tree4LP.spm" xyz="-162.70 -0.00 30.54" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="TempleBowYellowLOD">
+    <static-object lod_distance="25" lod_group="TempleBowYellowLOD" model="TempleBowYellowModel.spm" xyz="72.09 10.42 203.45" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="TempleBowYellowLOD" model="TempleBowYellowLPModel.spm" xyz="72.09 10.42 203.45" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="PitGreenLOD">
+    <static-object lod_distance="10" lod_group="PitGreenLOD" model="PitGreenModel.spm" xyz="-165.74 -0.00 -27.82" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="PitGreenLOD" model="PitGreenLPModel.spm" xyz="-165.74 -0.00 -27.82" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="Grandstand03LOD">
+    <static-object lod_distance="105" lod_group="Grandstand03LOD" model="Grandstand03Model.spm" xyz="-189.58 3.43 32.92" hpr="0.0 62.8 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="Grandstand03LOD" model="Grandstand03LPModel.spm" xyz="-189.60 3.48 32.91" hpr="0.0 62.8 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="Tree5LODNew">
+    <static-object lod_distance="250" lod_group="Tree5LODNew" model="Tree5New.spm" xyz="-163.61 0.00 14.51" hpr="0.0 91.2 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="Tree5LODNew" model="Tree5LPNew.spm" xyz="-163.61 0.00 14.51" hpr="0.0 91.2 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="TempleBowGreenLOD">
+    <static-object lod_distance="30" lod_group="TempleBowGreenLOD" model="TempleBowGreenModel.spm" xyz="67.35 14.12 221.14" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="TempleBowGreenLOD" model="TempleBowGreenLPModel.spm" xyz="67.35 14.12 221.14" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="BuildingBowGreenLOD">
+    <static-object lod_distance="10" lod_group="BuildingBowGreenLOD" model="BuildingBowGreenModel.spm" xyz="-37.52 -0.00 195.78" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="BuildingBowGreenLOD" model="BuildingBowGreenLPModel.spm" xyz="-37.52 -0.00 195.78" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="PitYellowLOD">
+    <static-object lod_distance="10" lod_group="PitYellowLOD" model="PitYellowModel.spm" xyz="-165.75 -0.00 -19.62" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="PitYellowLOD" model="PitYellowLPModel.spm" xyz="-165.75 -0.00 -19.62" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="PitRedLOD">
+    <static-object lod_distance="10" lod_group="PitRedLOD" model="PitRedModel.spm" xyz="-165.74 -0.00 -36.02" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="PitRedLOD" model="PitRedLPModel.spm" xyz="-165.74 -0.00 -36.02" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="Grandstand04LOD">
+    <static-object lod_distance="90" lod_group="Grandstand04LOD" model="Grandstand04Model.spm" xyz="-189.54 3.49 7.51" hpr="0.0 -45.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="Grandstand04LOD" model="Grandstand04LPModel.spm" xyz="-189.60 3.48 7.51" hpr="0.0 -45.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="Grandstand02LOD">
+    <static-object lod_distance="105" lod_group="Grandstand02LOD" model="Grandstand02Model.spm" xyz="-183.41 3.47 56.60" hpr="0.0 -45.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="Grandstand02LOD" model="Grandstand02LPModel.spm" xyz="-183.46 3.48 56.64" hpr="0.0 -45.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="BuildingBowRedLOD">
+    <static-object lod_distance="10" lod_group="BuildingBowRedLOD" model="BuildingBowRedModel.spm" xyz="-28.46 -0.00 195.78" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="BuildingBowRedLOD" model="BuildingBowRedLPModel.spm" xyz="-28.46 -0.00 195.78" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="PitBlueLOD">
+    <static-object lod_distance="10" lod_group="PitBlueLOD" model="PitBlueModel.spm" xyz="-165.73 -0.00 -44.22" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="1000" lod_group="PitBlueLOD" model="PitBlueLPModel.spm" xyz="-165.73 -0.00 -44.22" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82" interaction="move" skeletal-animation="false"/>
+   </group>
+   <group name="SmileyBallLOD">
+    <static-object lod_distance="90" lod_group="SmileyBallLOD" model="SmileyBallModel.spm" xyz="-5.66 1.59 160.83" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="SmileyBallLOD" model="SmileyBallLPModel.spm" xyz="-5.66 1.59 160.83" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="Tree3LODNew">
+    <static-object lod_distance="50" lod_group="Tree3LODNew" model="Tree3New.spm" xyz="-164.92 0.00 0.45" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="Tree3LODNew" model="Tree3LPNew.spm" xyz="-164.92 0.00 0.45" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="move" skeletal-animation="false"/>
+   </group>
+  </lod>
+  <track model="toyblockraceway_track.spm" x="0" y="0" z="0">
+    <static-object  lod_instance="true" lod_group="Grandstand01LOD" xyz="-86.84 3.43 100.61" hpr="-0.0 -156.9 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Grandstand01LOD" xyz="98.67 3.43 0.64" hpr="0.0 -69.6 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Grandstand02LOD" xyz="-67.38 3.43 32.31" hpr="0.0 -45.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Grandstand03LOD" xyz="-72.93 3.43 -99.84" hpr="0.0 62.8 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Grandstand04LOD" xyz="104.91 2.61 74.84" hpr="0.0 -45.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowBlueLOD" xyz="67.35 10.42 73.24" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowBlueLOD" xyz="91.13 10.42 73.24" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowYellowLOD" xyz="86.41 10.42 55.20" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowYellowLOD" xyz="86.41 10.42 91.19" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowYellowLOD" xyz="72.09 10.42 91.19" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowGreenLOD" xyz="67.35 14.12 61.11" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowGreenLOD" xyz="67.35 14.12 85.35" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowGreenLOD" xyz="91.09 14.12 85.35" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowGreenLOD" xyz="91.09 14.12 61.11" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowYellowLOD" xyz="-7.91 -0.00 55.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowYellowLOD" xyz="-20.51 -0.00 38.10" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowBlueLOD" xyz="-24.63 -0.00 38.10" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowRedLOD" xyz="-11.97 -0.00 55.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowBlueLOD" xyz="-16.08 -0.00 55.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowRedLOD" xyz="-28.63 -0.00 38.10" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowRedLOD" xyz="-28.46 -0.00 55.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowGreenLOD" xyz="-24.36 -0.00 55.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowYellowLOD" xyz="57.83 10.42 55.20" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TempleBowYellowLOD" xyz="43.51 10.42 55.20" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowYellowLOD" xyz="-20.25 -0.00 55.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowYellowLOD" xyz="-16.08 3.99 55.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowBlueLOD" xyz="-11.97 3.99 55.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowGreenLOD" xyz="-7.91 3.99 55.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowGreenLOD" xyz="-24.08 3.99 48.53" hpr="-0.0 -90.2 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowBlueLOD" xyz="-24.07 3.99 44.47" hpr="-0.0 -90.2 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowRedLOD" xyz="-24.05 3.99 40.36" hpr="-0.0 -90.2 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowGreenLOD" xyz="-24.02 4.38 35.72" hpr="90.9 -80.1 -90.9" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowYellowLOD" xyz="-24.01 5.22 31.74" hpr="90.9 -80.1 -90.9" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowBlueLOD" xyz="-35.95 -0.00 63.46" hpr="-0.0 -116.5 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowGreenLOD" xyz="-23.83 7.14 15.05" hpr="91.1 -82.3 -91.1" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowRedLOD" xyz="-23.87 6.43 19.37" hpr="91.8 -85.3 -91.8" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowYellowLOD" xyz="-23.88 6.22 23.59" hpr="-85.2 -91.8 85.2" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="BuildingBowGreenLOD" xyz="-23.89 6.00 27.75" hpr="-0.0 -90.2 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="PitBlueLOD" xyz="-102.46 -0.00 -44.22" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82"/>
+    <static-object  lod_instance="true" lod_group="PitRedLOD" xyz="-102.47 -0.00 -36.02" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82"/>
+    <static-object  lod_instance="true" lod_group="PitYellowLOD" xyz="-102.48 -0.00 -19.62" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82"/>
+    <static-object  lod_instance="true" lod_group="PitGreenLOD" xyz="-102.47 -0.00 -27.82" hpr="-0.0 -179.9 -0.0" scale="0.82 0.82 0.82"/>
+    <static-object  lod_instance="true" lod_group="PitRedLOD" xyz="-106.91 -0.00 -3.12" hpr="0.0 0.1 0.0" scale="0.82 0.82 0.82"/>
+    <static-object  lod_instance="true" lod_group="PitBlueLOD" xyz="-106.90 -0.00 -11.32" hpr="0.0 0.1 0.0" scale="0.82 0.82 0.82"/>
+    <static-object  lod_instance="true" lod_group="PitGreenLOD" xyz="-106.91 -0.00 5.08" hpr="0.0 0.1 0.0" scale="0.82 0.82 0.82"/>
+    <static-object  lod_instance="true" lod_group="PitYellowLOD" xyz="-106.92 -0.00 13.27" hpr="0.0 0.1 0.0" scale="0.82 0.82 0.82"/>
+    <static-object  model="TransparentPlane.spm" xyz="64.12 6.19 68.96" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="115.69 0.15 25.94" hpr="4.2 -118.0 -3.3" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="83.55 -0.00 10.83" hpr="0.0 -148.8 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="120.31 -0.00 18.23" hpr="-26.7 -85.6 27.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="99.38 -0.00 -40.49" hpr="-0.0 -87.7 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="99.40 -0.00 -17.96" hpr="0.0 -91.6 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="99.55 -0.00 -29.36" hpr="-0.0 -88.2 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="-105.66 -0.00 -107.58" hpr="0.0 -145.5 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="-128.85 -0.00 46.44" hpr="-0.0 -82.9 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="-82.38 -0.00 -120.78" hpr="0.0 -176.8 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="-47.28 -0.00 -99.28" hpr="-0.0 -23.7 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="-128.71 -0.00 -57.52" hpr="0.0 -125.6 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="-44.64 -0.00 109.18" hpr="0.0 76.1 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="-22.21 -0.00 129.56" hpr="0.0 -61.5 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="6.19 -0.00 132.03" hpr="0.0 -7.7 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree3LODNew" xyz="98.42 -0.00 119.40" hpr="0.0 7.5 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="-23.11 0.00 -90.08" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="-9.13 0.00 -98.44" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="-88.02 0.00 115.12" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="46.48 0.00 40.33" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="92.50 0.00 38.41" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="-132.67 0.00 94.81" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="-100.67 0.00 109.37" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="-75.04 0.00 118.11" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="10.23 0.00 -101.72" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="28.65 0.00 -101.75" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree4LOD" xyz="44.75 -0.00 -100.21" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="-66.85 -0.00 48.40" hpr="0.0 60.6 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="103.52 -0.00 12.35" hpr="0.0 57.3 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="110.01 -0.00 -2.40" hpr="0.0 73.1 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="-134.19 -0.00 76.12" hpr="0.0 91.2 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="24.70 -0.00 -65.42" hpr="0.0 13.8 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="-117.57 -0.00 -80.57" hpr="0.0 58.2 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="-71.25 -0.00 -112.95" hpr="0.0 3.1 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="-30.31 -0.00 -118.30" hpr="0.0 -19.5 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="20.07 -0.00 113.66" hpr="0.0 159.9 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="44.50 -0.00 120.63" hpr="-0.0 -173.4 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="-22.46 -0.00 115.90" hpr="-0.0 145.9 -0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="Tree5LODNew" xyz="-36.99 -0.00 123.14" hpr="-0.0 -159.5 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="TunnelTunnelLOD" xyz="-30.18 6.90 85.45" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  model="Zipper.Ramp.2a.spm" xyz="-24.35 13.16 48.09" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+    <animated-texture name="stkflag_blueBooster_a.png" dy="0.50000" />
+    </static-object>
+    <static-object  model="Zipper.Ramp.2b.spm" xyz="-24.35 13.16 48.09" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+    <animated-texture name="texture_checkboard_bg.png" dy="-1.50000" />
+    </static-object>
+  </track>
+
+  <object id="BlockStartForwardLongLeft" type="animation" xyz="-79.07 -1.85 43.97" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BlockStartForwardLongLeft.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BlockStartForwardLongRight" type="animation" xyz="-91.83 -1.85 43.99" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BlockStartForwardLongRight.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BlockStartReverseLongLeft" type="animation" xyz="-91.82 2.15 43.95" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BlockStartReverseLongLeft.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BlockStartReverseLongRight" type="animation" xyz="-79.07 2.15 43.93" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BlockStartReverseLongRight.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.008" type="animation" xyz="-76.88 0.62 22.95" hpr="0.0 8.9 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.023" type="animation" xyz="-28.86 0.62 -69.34" hpr="-0.3 -177.8 0.1" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.025" type="animation" xyz="-94.37 0.62 61.31" hpr="0.0 16.9 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.029" type="animation" xyz="-59.44 0.62 -44.32" hpr="0.0 -83.4 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.030" type="animation" xyz="-49.02 0.62 -50.79" hpr="0.0 -42.2 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.033" type="animation" xyz="69.84 0.62 7.93" hpr="-0.0 110.0 0.3" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.046" type="animation" xyz="-3.31 0.62 -87.46" hpr="0.0 -66.5 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.047" type="animation" xyz="-14.18 0.62 -81.11" hpr="0.0 -30.7 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.059" type="animation" xyz="31.83 0.62 95.16" hpr="0.0 69.6 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.066" type="animation" xyz="-93.26 0.62 61.40" hpr="0.0 -5.9 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.067" type="animation" xyz="-93.97 0.62 53.89" hpr="0.0 -26.4 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.069" type="animation" xyz="-62.85 0.64 -6.93" hpr="0.0 39.4 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.071" type="animation" xyz="69.75 0.62 7.29" hpr="0.7 96.3 1.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.072" type="animation" xyz="-29.21 0.62 -57.64" hpr="-0.3 -177.8 0.1" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.073" type="animation" xyz="-28.08 0.62 -69.53" hpr="-0.4 -157.9 0.1" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.074" type="animation" xyz="-77.29 0.62 27.28" hpr="0.0 -8.3 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.075" type="animation" xyz="60.21 0.62 10.56" hpr="0.0 62.2 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.085" type="animation" xyz="-91.83 0.62 48.03" hpr="0.0 -5.9 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.086" type="animation" xyz="-54.58 0.62 -46.36" hpr="0.0 -28.2 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.087" type="animation" xyz="-48.04 0.52 -50.45" hpr="0.0 -24.5 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.088" type="animation" xyz="-61.76 0.60 -4.79" hpr="0.0 29.5 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.089" type="animation" xyz="-68.38 0.68 -6.59" hpr="-0.0 -16.3 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.092" type="animation" xyz="2.92 0.62 -91.01" hpr="0.0 -74.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR0.093" type="animation" xyz="-13.58 0.62 -80.84" hpr="0.0 -43.2 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR0.094" type="animation" xyz="2.73 0.62 -92.21" hpr="-0.0 -96.2 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR0.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.004" type="animation" xyz="-77.87 0.62 16.85" hpr="0.0 9.5 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR1.012" type="animation" xyz="-92.06 0.62 48.06" hpr="0.0 -11.9 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR1.026" type="animation" xyz="-28.64 0.58 -62.79" hpr="-0.4 179.6 0.1" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR1.028" type="animation" xyz="-28.19 0.62 -51.37" hpr="-0.0 161.4 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR1.031" type="animation" xyz="-92.19 0.62 54.12" hpr="0.0 -0.8 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.034" type="animation" xyz="-53.67 0.62 -46.60" hpr="0.0 -53.5 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.038" type="animation" xyz="64.16 0.58 10.77" hpr="-0.2 124.2 0.2" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR1.053" type="animation" xyz="-2.76 0.62 -88.60" hpr="0.0 120.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR1.054" type="animation" xyz="-8.76 0.62 -84.68" hpr="0.0 120.5 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.066" type="animation" xyz="37.77 0.62 95.21" hpr="0.0 110.8 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.075" type="animation" xyz="-65.79 0.64 -12.39" hpr="0.0 17.1 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR1.076" type="animation" xyz="-59.13 0.58 1.60" hpr="-0.6 61.3 -0.3" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR1.078" type="animation" xyz="54.49 0.64 8.11" hpr="-0.8 71.9 -0.4" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.079" type="animation" xyz="-29.20 0.62 -51.53" hpr="-0.0 179.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.080" type="animation" xyz="-29.20 0.62 -51.53" hpr="-0.0 179.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.080.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.081" type="animation" xyz="-76.44 0.62 21.15" hpr="0.0 -7.7 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.095" type="animation" xyz="-58.46 0.62 -41.53" hpr="0.0 -49.5 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="BorderBlockR1.096" type="animation" xyz="-67.10 0.66 -12.59" hpr="-0.4 -7.7 -0.1" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.097" type="animation" xyz="-58.49 0.60 0.36" hpr="0.0 35.3 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="BorderBlockR1.100" type="animation" xyz="-10.94 0.62 -86.25" hpr="0.0 146.1 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="BorderBlockR1.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="ChicaneEdge" type="animation" xyz="-39.45 1.18 -49.54" hpr="30.0 -0.0 -90.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="ChicaneEdge.spm" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="ChicaneEdge.001" type="animation" xyz="-41.94 1.18 -39.24" hpr="-150.0 -0.0 -90.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="ChicaneEdge.001.spm" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="ChicaneEdgeR" type="animation" xyz="-39.45 1.18 -49.54" hpr="30.0 -0.0 -90.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="ChicaneEdgeR.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="ChicaneEdge.002" type="animation" xyz="-54.41 1.18 -33.92" hpr="30.0 -0.0 -90.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="ChicaneEdge.spm" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="ChicaneEdgeR.001" type="animation" xyz="-41.94 1.18 -39.24" hpr="-150.0 -0.0 -90.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="ChicaneEdgeR.001.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="ChicaneEdgeR.002" type="animation" xyz="-54.41 1.18 -33.92" hpr="30.0 -0.0 -90.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="ChicaneEdgeR.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Landscape.StartPlane.Forward" type="animation" xyz="-85.40 -0.00 43.96" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Landscape.StartPlane.Forward.spm" driveable="true" skeletal-animation="false" if="isTrackForward">
+    <animated-texture name="texture_checkboard_bw.png" dy="-1.50000" />
+  </object>
+  <object id="Landscape.StartPlane.Reverse" type="animation" xyz="-85.40 -0.00 43.96" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Landscape.StartPlane.Reverse.spm" driveable="true" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="texture_checkboard_bw.png" dy="-1.50000" />
+  </object>
+  <object id="ObstacleF" type="animation" xyz="-6.06 3.62 -6.03" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="ObstacleF.spm" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="ObstacleR" type="animation" xyz="-6.06 3.62 -6.03" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="ObstacleR.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Ramp1ForwArrows" type="animation" xyz="-18.16 4.20 -48.95" hpr="90.0 95.6 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp1ForwArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="Ramp1ForwArrows.001" type="animation" xyz="5.19 4.20 -48.95" hpr="90.0 98.8 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp1ForwArrows.001.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="Ramp1RevArrows.001" type="animation" xyz="-5.71 6.65 -18.19" hpr="90.0 -172.8 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp1RevArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Ramp1RevArrowsL" type="animation" xyz="0.11 1.40 -25.80" hpr="90.0 -135.0 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp1RevArrowsL.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Ramp1RevArrowsR" type="animation" xyz="-12.58 1.90 -26.01" hpr="-90.0 -45.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp1RevArrowsR.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Ramp2ForwArrows" type="animation" xyz="-12.09 1.82 42.70" hpr="90.0 -172.8 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp2ForwArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="Ramp2RevArrows" type="animation" xyz="-6.15 1.82 46.75" hpr="90.0 -82.8 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp2RevArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Start.Forward.Top" type="animation" xyz="-85.50 7.27 43.91" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="Start.Forward.Top.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="Start.Reverse.Top" type="animation" xyz="-85.40 7.27 44.01" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="Start.Reverse.Top.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="StartForwardFlagLeft" type="animation" xyz="-79.07 3.15 44.98" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="StartForwardFlagLeft.spm" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="StartForwardFlagRight" type="animation" xyz="-91.80 3.10 45.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="StartForwardFlagRight.spm" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="StartReverseFlagLeft" type="animation" xyz="-91.83 3.15 42.94" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="StartReverseFlagLeft.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="StartReverseFlagRight" type="animation" xyz="-79.10 3.10 42.91" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="StartReverseFlagRight.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Turn1RevArrows" type="animation" xyz="-39.31 1.18 -87.09" hpr="90.0 156.8 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Turn1RevArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Turn3ForwArrows" type="animation" xyz="-55.13 1.19 2.89" hpr="90.0 159.6 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp2ForwArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="Turn3RevArrows" type="animation" xyz="-59.38 1.18 -2.55" hpr="90.0 -50.5 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp2RevArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Ramp1RevArrows" type="animation" xyz="-17.95 6.65 -18.19" hpr="90.0 -172.8 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp1RevArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Turn4ForwArrows.001" type="animation" xyz="90.45 1.19 -9.25" hpr="90.0 -100.5 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp2ForwArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="Turn4RevArrows.001" type="animation" xyz="55.19 1.18 7.49" hpr="90.0 -10.8 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp2RevArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Turn6RevArrows.001" type="animation" xyz="11.99 1.18 -91.78" hpr="90.0 -167.6 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp2RevArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Turn8ForwArrows" type="animation" xyz="91.57 0.19 73.26" hpr="-90.0 82.8 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp2ForwArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+  </object>
+  <object id="Turn8RevArrows" type="animation" xyz="91.57 1.19 73.26" hpr="90.0 -82.8 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Ramp2ForwArrows.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Zipper.Ramp.1a" type="animation" xyz="50.87 7.37 60.08" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper.Ramp.1a.spm" driveable="true" skeletal-animation="false" if="isEasterEggOrCTF">
+    <animated-texture name="stkflag_blueBooster_a.png" dy="0.50000" />
+  </object>
+  <object id="Zipper.Ramp.1b" type="animation" xyz="50.87 7.37 60.08" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper.Ramp.1b.spm" driveable="true" skeletal-animation="false" if="isEasterEggOrCTF">
+    <animated-texture name="texture_checkboard_bg.png" dy="1.50000" />
+  </object>
+  <object id="Zipper.Ramp.1c.Base" type="animation" xyz="50.87 7.37 60.08" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper.Ramp.1c.Base.spm" driveable="true" skeletal-animation="false" if="isEasterEggOrCTF">
+  </object>
+  <object id="Zipper01.a" type="animation" xyz="-11.44 3.29 -33.55" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper01.a.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+    <animated-texture name="stkflag_blueBooster_a.png" dy="0.50000" />
+  </object>
+  <object id="Zipper01.b" type="animation" xyz="-11.44 3.25 -33.58" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper01.b.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+    <animated-texture name="texture_checkboard_bg.png" dy="-1.50000" />
+  </object>
+  <object id="Zipper02.a" type="animation" xyz="-0.65 3.29 -33.55" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper02.a.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+    <animated-texture name="stkflag_blueBooster_a.png" dy="0.50000" />
+  </object>
+  <object id="Zipper02.b" type="animation" xyz="-0.65 3.25 -33.58" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper02.b.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+    <animated-texture name="texture_checkboard_bg.png" dy="-1.50000" />
+  </object>
+  <object id="Zipper03.a" type="animation" xyz="62.89 0.05 85.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper03.a.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+    <animated-texture name="stkflag_blueBooster_a_mod_red.png" dy="0.50000" />
+  </object>
+  <object id="Zipper03.b" type="animation" xyz="62.89 0.01 85.43" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper03.b.spm" shadow-pass="false" skeletal-animation="false" if="isTrackForward">
+    <animated-texture name="texture_checkboard_bg.png" dy="-1.50000" />
+  </object>
+  <object id="Zipper04.a" type="animation" xyz="-20.15 4.87 80.63" hpr="-0.0 180.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper04.a.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="stkflag_blueBooster_a_mod_red.png" dy="0.50000" />
+  </object>
+  <object id="Zipper04.b" type="animation" xyz="-20.15 4.84 80.63" hpr="-0.0 90.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper04.b.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="texture_checkboard_bg.png" dy="-1.50000" />
+  </object>
+  <object id="Zipper06.a" type="animation" xyz="57.49 0.05 -1.00" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper06.a.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="stkflag_blueBooster_a.png" dy="0.50000" />
+  </object>
+  <object id="Zipper06.b" type="animation" xyz="57.49 0.01 -1.00" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="Zipper06.b.spm" shadow-pass="false" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="texture_checkboard_bg.png" dy="-1.50000" />
+  </object>
+  <sun  xyz="-89.69 188.57 -150.45" ambient="115 115 115"/>
+  <sky-box texture="genericskybox_top.jpg genericskybox_bottom.jpg genericskybox_east.jpg genericskybox_west.jpg genericskybox_south.jpg genericskybox_north.jpg" />
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="-135.46 -53.01" p2="-58.07 -53.01"
+                min-height="-0.30" same-group="1"/>
+    <check-line kind="activate" other-ids="3" p1="-23.05 -61.81" p2="-43.57 -61.81"
+                min-height="-0.30" same-group="2"/>
+    <check-line kind="activate" other-ids="4" p1="-67.16 6.83" p2="-34.07 -26.26"
+                min-height="-0.30" same-group="3"/>
+    <check-line kind="activate" other-ids="5" p1="25.60 12.74" p2="25.60 -11.94"
+                min-height="-0.30" same-group="4"/>
+    <check-line kind="activate" other-ids="6" p1="96.05 8.74" p2="48.55 -33.58"
+                min-height="-0.34" same-group="5"/>
+    <check-line kind="activate" other-ids="7 8" p1="-22.64 -95.76" p2="10.59 -62.81"
+                min-height="-0.30" same-group="6"/>
+    <check-line kind="activate" other-ids="9" p1="62.41 72.96" p2="99.99 63.10"
+                min-height="-0.30" same-group="7 8"/>
+    <check-line kind="activate" other-ids="9" p1="92.99 73.42" p2="65.32 73.42"
+                min-height="6.19" same-group="7 8"/>
+    <check-line kind="activate" other-ids="0" p1="38.67 110.29" p2="38.67 77.54"
+                min-height="-0.30" same-group="9"/>
+  </checks>
+  <banana id="Banana01" x="2.30" y="-0.00" z="-80.34" ctf="false"/>
+  <banana id="Banana02" x="-13.76" y="0.00" z="-61.38" ctf="false"/>
+  <banana id="Banana03" x="-5.62" y="0.00" z="-61.50" ctf="false"/>
+  <banana id="Banana04" x="1.76" y="0.00" z="-61.83" ctf="false"/>
+  <banana id="Banana05" x="8.80" y="-0.00" z="51.40" ctf="false"/>
+  <banana id="Banana06" x="15.05" y="-0.00" z="46.54" ctf="false"/>
+  <banana id="Banana07" x="3.91" y="0.00" z="55.69" ctf="false"/>
+  <banana id="Banana08" x="-22.99" y="0.00" z="85.48" ctf="false"/>
+  <banana id="Banana09" x="36.76" y="0.00" z="89.33" ctf="false"/>
+  <banana id="Banana10" x="36.71" y="0.00" z="82.71" ctf="false"/>
+  <banana id="Banana11" x="23.60" y="0.00" z="85.59" ctf="false"/>
+  <banana id="Banana13" x="-83.31" y="0.00" z="74.61" ctf="false"/>
+  <banana id="Banana15" x="-85.05" y="-0.00" z="-4.40" ctf="false"/>
+  <banana id="Banana16" x="-89.64" y="-0.00" z="-17.31" ctf="false"/>
+  <banana id="Banana17" x="-82.49" y="0.00" z="-28.35" ctf="false"/>
+  <banana id="Banana18" x="-75.64" y="-0.00" z="-64.03" ctf="false"/>
+  <banana id="Banana19" x="-82.94" y="-0.00" z="-71.33" ctf="false"/>
+  <banana id="Banana20" x="-44.59" y="-0.00" z="-79.36" ctf="false"/>
+  <banana id="Banana22" x="40.33" y="-0.00" z="-2.28" ctf="false"/>
+  <banana id="Banana23" x="42.36" y="-0.00" z="2.85" ctf="false"/>
+  <banana id="Banana24" x="82.25" y="3.38" z="-43.43" ctf="false"/>
+  <banana id="Banana25" x="88.93" y="3.44" z="-43.59" ctf="false"/>
+  <banana id="Banana26" x="37.44" y="1.91" z="-85.48" ctf="false"/>
+  <banana id="Banana27" x="49.85" y="6.70" z="-76.86" ctf="false"/>
+  <banana id="Banana30" x="-25.71" y="5.93" z="86.95" ctf="false"/>
+  <banana id="Banana31" x="-12.29" y="4.00" z="46.97" ctf="false"/>
+  <banana id="Banana32" x="-9.78" y="4.00" z="46.97" ctf="false"/>
+  <banana id="Banana33" x="-14.30" y="4.00" z="46.97" ctf="false"/>
+  <banana id="Banana34" x="-24.79" y="0.60" z="38.08" ctf="false"/>
+  <banana id="Banana35" x="-24.79" y="0.60" z="55.60" ctf="false"/>
+  <banana id="Banana36" x="-12.06" y="0.60" z="55.60" ctf="false"/>
+  <banana id="Banana37" x="-36.44" y="0.60" z="47.05" ctf="false"/>
+
+  <banana id="BananaCTF" x="48.32" y="-0.02" z="75.84" ctf="true"/>
+  <banana id="BananaCTF.008" x="-54.67" y="-0.02" z="55.39" ctf="true"/>
+  <banana id="BananaCTF.009" x="-45.18" y="-0.02" z="32.94" ctf="true"/>
+  <banana id="BananaCTF.011" x="-58.53" y="-0.02" z="44.90" ctf="true"/>
+  <banana id="BananaCTF.032" x="83.41" y="6.19" z="69.90" ctf="true"/>
+  <banana id="BananaCTF.033" x="61.89" y="-0.02" z="71.45" ctf="true"/>
+  <banana id="BananaCTF.038" x="84.51" y="6.19" z="55.20" ctf="true"/>
+  <banana id="BananaCTF.039" x="88.47" y="6.19" z="55.20" ctf="true"/>
+  <banana id="BananaCTF.048" x="55.35" y="-0.02" z="38.02" ctf="true"/>
+  <banana id="BananaCTF.049" x="70.35" y="-0.02" z="38.36" ctf="true"/>
+  <banana id="BananaCTF.058" x="62.31" y="-0.02" z="-15.38" ctf="true"/>
+  <banana id="BananaCTF.092" x="-23.06" y="-0.02" z="-82.01" ctf="true"/>
+  <banana id="BananaCTF.099" x="-28.44" y="-0.02" z="-40.74" ctf="true"/>
+  <banana id="BananaCTF.100" x="-35.77" y="-0.02" z="-40.21" ctf="true"/>
+  <banana id="BananaCTF.102" x="-44.84" y="-0.02" z="-48.34" ctf="true"/>
+  <banana id="BananaCTF.104" x="-53.50" y="-0.02" z="-14.34" ctf="true"/>
+  <banana id="BananaCTF.105" x="-88.96" y="-0.02" z="-33.54" ctf="true"/>
+  <banana id="BananaCTF.106" x="-81.50" y="-0.02" z="-30.74" ctf="true"/>
+  <banana id="BananaCTF.107" x="-85.10" y="-0.02" z="-38.61" ctf="true"/>
+  <banana id="BananaCTF.108" x="-104.56" y="-0.02" z="-44.21" ctf="true"/>
+  <banana id="BananaCTF.109" x="-104.83" y="-0.02" z="-27.94" ctf="true"/>
+  <banana id="BananaCTF.110" x="-104.43" y="-0.02" z="-3.28" ctf="true"/>
+  <banana id="BananaCTF.111" x="-8.62" y="-0.02" z="-78.77" ctf="true"/>
+  <banana id="BananaCTF.112" x="8.47" y="-0.02" z="-77.40" ctf="true"/>
+  <banana id="BananaCTF.116" x="43.82" y="-0.02" z="15.12" ctf="true"/>
+  <banana id="BananaCTF.117" x="-21.83" y="-0.02" z="37.05" ctf="true"/>
+  <banana id="BananaCTF.118" x="-15.93" y="-0.02" z="54.53" ctf="true"/>
+  <banana id="BananaCTF.119" x="112.07" y="-0.02" z="67.38" ctf="true"/>
+  <banana id="BananaCTF.122" x="37.82" y="-0.02" z="87.77" ctf="true"/>
+  <banana id="BananaCTF.123" x="37.82" y="-0.02" z="82.84" ctf="true"/>
+  <banana id="BananaCTF.124" x="-90.16" y="-0.02" z="75.24" ctf="true"/>
+  <banana id="BananaCTF.126" x="77.84" y="-0.02" z="-18.77" ctf="true"/>
+  <banana id="BananaCTF.127" x="22.93" y="-0.02" z="-70.14" ctf="true"/>
+  <banana id="BananaCTF.128" x="74.48" y="-0.02" z="-35.95" ctf="true"/>
+  <banana id="BananaCTF.129" x="-95.89" y="-0.02" z="71.91" ctf="true"/>
+  <banana id="BananaCTF.131" x="4.34" y="-0.02" z="57.51" ctf="true"/>
+  <banana id="BananaCTF.132" x="12.41" y="-0.02" z="48.19" ctf="true"/>
+  <banana id="BananaCTF.136" x="-66.91" y="-0.02" z="-53.45" ctf="true"/>
+  <banana id="BananaCTF.137" x="74.00" y="-0.02" z="0.30" ctf="true"/>
+  <banana id="BananaCTF.138" x="13.89" y="-0.02" z="-5.95" ctf="true"/>
+  <banana id="BananaCTF.139" x="-31.43" y="-0.02" z="-5.93" ctf="true"/>
+  <banana id="BananaCTF.140" x="57.86" y="6.19" z="54.94" ctf="true"/>
+  <banana id="BananaCTF.144" x="86.41" y="6.19" z="91.21" ctf="true"/>
+  <banana id="BananaCTF.149" x="-57.90" y="-0.02" z="-74.44" ctf="true"/>
+  <banana id="BananaCTF.150" x="-49.58" y="-0.02" z="-84.36" ctf="true"/>
+  <banana id="BananaCTF.151" x="-24.21" y="-0.02" z="87.77" ctf="true"/>
+  <banana id="BananaCTF.152" x="-32.40" y="-0.02" z="82.96" ctf="true"/>
+  <banana id="BananaCTF.153" x="51.01" y="5.70" z="-81.05" ctf="true"/>
+  <banana id="BananaCTF.154" x="81.58" y="5.63" z="-51.37" ctf="true"/>
+  <banana id="BananaCTF.156" x="81.58" y="4.07" z="-45.28" ctf="true"/>
+  <banana id="BananaCTF.158" x="44.34" y="4.28" z="-81.05" ctf="true"/>
+  <item id="Gift01" x="-16.36" y="6.20" z="10.16" ctf="false"/>
+  <item id="Gift02" x="-10.56" y="6.18" z="10.29" ctf="false"/>
+  <item id="Gift04" x="-1.80" y="6.21" z="10.05" ctf="false"/>
+  <item id="Gift05" x="3.56" y="6.23" z="9.97" ctf="false"/>
+  <item id="Gift06" x="-10.71" y="1.31" z="30.83" ctf="false"/>
+  <item id="Gift07" x="-1.90" y="1.29" z="30.91" ctf="false"/>
+  <item id="Gift08" x="-6.02" y="1.15" z="0.88" ctf="false"/>
+  <item id="Gift09" x="-6.34" y="1.09" z="-14.54" ctf="false"/>
+  <item id="Gift10" x="-5.27" y="0.00" z="-54.89" ctf="false"/>
+  <item id="Gift11" x="79.71" y="0.00" z="73.39" ctf="false"/>
+  <item id="Gift12" x="-16.95" y="0.00" z="85.43" ctf="false"/>
+  <item id="Gift13" x="-88.62" y="0.00" z="9.64" ctf="false"/>
+  <item id="Gift14" x="-85.12" y="0.00" z="9.63" ctf="false"/>
+  <item id="Gift15" x="-81.70" y="0.00" z="9.71" ctf="false"/>
+  <item id="Gift16" x="-47.16" y="0.00" z="-72.96" ctf="false"/>
+  <item id="Gift17" x="-61.16" y="-0.00" z="-84.97" ctf="false"/>
+  <item id="Gift18" x="-31.36" y="1.45" z="-6.45" ctf="false"/>
+  <item id="Gift20" x="75.80" y="-0.00" z="-9.11" ctf="false"/>
+  <item id="Gift21" x="45.97" y="3.89" z="-85.36" ctf="false"/>
+  <item id="Gift22" x="-47.67" y="6.06" z="87.51" ctf="false"/>
+  <item id="Gift24" x="-8.10" y="5.04" z="55.59" ctf="false"/>
+  <item id="Gift25" x="-32.92" y="0.90" z="47.06" ctf="false"/>
+  <item id="Gift26" x="-24.21" y="5.04" z="44.90" ctf="false"/>
+  <item id="Gift28" x="72.14" y="6.85" z="63.14" ctf="false"/>
+  <item id="Gift29" x="85.25" y="7.26" z="73.46" ctf="false"/>
+
+  <tyre-change compound="123" stop-time="5" id="tc1" x="-104.25" y="0.00" z="-44.18" ctf="false"/>
+  <tyre-change compound="123" stop-time="5" id="tc2" x="-104.25" y="0.00" z="-36.02" ctf="false"/>
+  <tyre-change compound="4" stop-time="15" id="tc3" x="-104.25" y="-0.00" z="-27.86" ctf="false"/>
+  <tyre-change compound="4" stop-time="15" id="tc4" x="-104.25" y="0.00" z="-19.69" ctf="false"/>
+  <tyre-change compound="3" stop-time="15" id="tc5" x="-104.25" y="0.00" z="-11.30" ctf="false"/>
+  <tyre-change compound="3" stop-time="15" id="tc6" x="-104.25" y="0.00" z="-3.10" ctf="false"/>
+  <tyre-change compound="2" stop-time="15" id="tc7" x="-104.25" y="-0.00" z="3.96" ctf="false"/>
+  <tyre-change compound="2" stop-time="15" id="tc8" x="-104.25" y="0.00" z="13.78" ctf="false"/>
+
+  <item id="GiftCTF" x="-44.26" y="1.45" z="-6.45" ctf="true"/>
+  <item id="GiftCTF.001" x="-15.64" y="4.83" z="85.50" ctf="true"/>
+  <item id="GiftCTF.002" x="21.61" y="4.83" z="94.25" ctf="true"/>
+  <item id="GiftCTF.003" x="-44.88" y="4.83" z="85.50" ctf="true"/>
+  <item id="GiftCTF.004" x="-66.38" y="4.83" z="75.39" ctf="true"/>
+  <item id="GiftCTF.005" x="-69.19" y="4.83" z="95.92" ctf="true"/>
+  <item id="GiftCTF.006" x="-79.49" y="0.47" z="81.84" ctf="true"/>
+  <item id="GiftCTF.007" x="-98.23" y="0.47" z="57.47" ctf="true"/>
+  <item id="GiftCTF.008" x="-61.78" y="0.47" z="59.93" ctf="true"/>
+  <item id="GiftCTF.009" x="-35.74" y="0.47" z="47.23" ctf="true"/>
+  <item id="GiftCTF.010" x="-2.29" y="0.47" z="66.99" ctf="true"/>
+  <item id="GiftCTF.011" x="-49.08" y="0.47" z="26.55" ctf="true"/>
+  <item id="GiftCTF.012" x="-64.85" y="0.47" z="5.25" ctf="true"/>
+  <item id="GiftCTF.013" x="-88.04" y="0.47" z="-8.37" ctf="true"/>
+  <item id="GiftCTF.014" x="-82.14" y="0.47" z="-14.27" ctf="true"/>
+  <item id="GiftCTF.015" x="-104.40" y="0.47" z="-11.23" ctf="true"/>
+  <item id="GiftCTF.017" x="-104.40" y="0.47" z="13.01" ctf="true"/>
+  <item id="GiftCTF.018" x="-104.70" y="0.47" z="-36.09" ctf="true"/>
+  <item id="GiftCTF.019" x="-101.31" y="0.47" z="-67.50" ctf="true"/>
+  <item id="GiftCTF.020" x="-23.16" y="0.47" z="-87.26" ctf="true"/>
+  <item id="GiftCTF.021" x="-77.72" y="0.47" z="-107.16" ctf="true"/>
+  <item id="GiftCTF.022" x="-66.95" y="0.47" z="-59.69" ctf="true"/>
+  <item id="GiftCTF.023" x="-50.44" y="0.47" z="-56.59" ctf="true"/>
+  <item id="GiftCTF.024" x="-36.58" y="0.47" z="-28.43" ctf="true"/>
+  <item id="GiftCTF.025" x="-5.62" y="0.47" z="-6.16" ctf="true"/>
+  <item id="GiftCTF.026" x="-54.57" y="0.47" z="-79.74" ctf="true"/>
+  <item id="GiftCTF.027" x="-0.60" y="0.47" z="-80.18" ctf="true"/>
+  <item id="GiftCTF.028" x="-13.43" y="0.47" z="-58.21" ctf="true"/>
+  <item id="GiftCTF.029" x="2.20" y="0.47" z="-58.51" ctf="true"/>
+  <item id="GiftCTF.030" x="3.39" y="0.47" z="-22.07" ctf="true"/>
+  <item id="GiftCTF.031" x="-14.35" y="0.47" z="-21.99" ctf="true"/>
+  <item id="GiftCTF.032" x="27.73" y="0.47" z="-62.43" ctf="true"/>
+  <item id="GiftCTF.033" x="53.02" y="0.47" z="-24.34" ctf="true"/>
+  <item id="GiftCTF.034" x="64.79" y="0.47" z="-64.68" ctf="true"/>
+  <item id="GiftCTF.035" x="67.25" y="0.47" z="-42.87" ctf="true"/>
+  <item id="GiftCTF.036" x="37.05" y="0.47" z="-13.49" ctf="true"/>
+  <item id="GiftCTF.037" x="19.74" y="0.47" z="-14.92" ctf="true"/>
+  <item id="GiftCTF.038" x="72.38" y="0.47" z="-12.26" ctf="true"/>
+  <item id="GiftCTF.039" x="63.26" y="0.47" z="24.40" ctf="true"/>
+  <item id="GiftCTF.041" x="-16.18" y="0.47" z="40.68" ctf="true"/>
+  <item id="GiftCTF.042" x="3.73" y="0.47" z="33.31" ctf="true"/>
+  <item id="GiftCTF.043" x="96.86" y="0.47" z="52.84" ctf="true"/>
+  <item id="GiftCTF.044" x="84.33" y="0.47" z="21.02" ctf="true"/>
+  <item id="GiftCTF.045" x="35.92" y="0.47" z="38.22" ctf="true"/>
+  <item id="GiftCTF.046" x="79.66" y="0.47" z="63.41" ctf="true"/>
+  <item id="GiftCTF.047" x="79.54" y="0.47" z="81.35" ctf="true"/>
+  <item id="GiftCTF.048" x="11.71" y="0.47" z="85.28" ctf="true"/>
+  <item id="GiftCTF.049" x="-27.97" y="0.47" z="88.35" ctf="true"/>
+  <item id="GiftCTF.050" x="-28.10" y="0.47" z="83.19" ctf="true"/>
+  <item id="GiftCTF.051" x="34.94" y="0.47" z="99.41" ctf="true"/>
+  <item id="GiftCTF.052" x="82.33" y="0.47" z="112.66" ctf="true"/>
+  <item id="GiftCTF.053" x="112.05" y="0.47" z="79.58" ctf="true"/>
+  <item id="GiftCTF.054" x="100.26" y="0.47" z="86.66" ctf="true"/>
+  <item id="GiftCTF.055" x="-4.14" y="0.47" z="106.30" ctf="true"/>
+  <item id="GiftCTF.056" x="-71.90" y="0.47" z="111.07" ctf="true"/>
+  <item id="GiftCTF.057" x="-118.44" y="0.47" z="76.39" ctf="true"/>
+  <item id="GiftCTF.058" x="-117.90" y="0.47" z="-1.10" ctf="true"/>
+  <item id="GiftCTF.059" x="-122.68" y="0.47" z="-102.84" ctf="true"/>
+  <item id="GiftCTF.060" x="-0.60" y="0.47" z="-110.98" ctf="true"/>
+  <item id="GiftCTF.061" x="68.23" y="0.47" z="-120.53" ctf="true"/>
+  <item id="GiftCTF.062" x="92.12" y="0.47" z="-87.98" ctf="true"/>
+  <item id="GiftCTF.063" x="99.37" y="0.47" z="-35.07" ctf="true"/>
+  <item id="GiftCTF.064" x="123.08" y="0.47" z="-100.19" ctf="true"/>
+  <item id="GiftCTF.065" x="142.37" y="0.47" z="49.15" ctf="true"/>
+  <item id="GiftCTF.066" x="81.22" y="0.47" z="-5.00" ctf="true"/>
+  <item id="GiftCTF.067" x="-5.92" y="5.99" z="-29.11" ctf="true"/>
+  <item id="GiftCTF.068" x="-10.86" y="4.57" z="-6.08" ctf="true"/>
+  <item id="GiftCTF.069" x="-0.80" y="4.57" z="-5.91" ctf="true"/>
+  <item id="GiftCTF.070" x="-16.75" y="6.08" z="6.80" ctf="true"/>
+  <item id="GiftCTF.071" x="4.58" y="6.08" z="6.71" ctf="true"/>
+  <item id="GiftCTF.072" x="68.82" y="14.08" z="-89.27" drop="false" ctf="true"/>
+  <item id="GiftCTF.073" x="81.84" y="13.51" z="-66.54" drop="false" ctf="true"/>
+  <item id="GiftCTF.074" x="50.65" y="10.40" z="-65.70" ctf="true"/>
+  <item id="GiftCTF.075" x="137.09" y="4.59" z="-45.87" drop="false" ctf="true"/>
+  <item id="GiftCTF.076" x="44.27" y="6.19" z="-137.00" ctf="true"/>
+  <item id="GiftCTF.077" x="-136.90" y="6.52" z="-24.59" drop="false" ctf="true"/>
+  <item id="GiftCTF.078" x="-112.60" y="1.18" z="129.12" ctf="true"/>
+  <item id="GiftCTF.079" x="78.93" y="6.08" z="136.81" ctf="true"/>
+  <item id="GiftCTF.080" x="84.36" y="7.17" z="81.74" ctf="true"/>
+  <item id="GiftCTF.081" x="74.24" y="7.17" z="61.42" ctf="true"/>
+  <item id="GiftCTF.082" x="43.59" y="7.17" z="55.05" ctf="true"/>
+  <item id="GiftCTF.083" x="25.05" y="1.24" z="68.11" ctf="true"/>
+  <item id="GiftCTF.084" x="-9.66" y="4.55" z="55.22" ctf="true"/>
+  <item id="GiftCTF.085" x="-19.41" y="4.55" z="55.22" ctf="true"/>
+  <item id="GiftCTF.087" x="-40.28" y="14.61" z="86.04" ctf="true"/>
+  <item id="GiftCTF.088" x="-12.35" y="12.73" z="59.71" ctf="true"/>
+  <item id="GiftCTF.089" x="-24.18" y="23.41" z="20.65" ctf="true"/>
+  <small-nitro id="Nitro01" x="6.15" y="-0.00" z="-76.74" ctf="false"/>
+  <small-nitro id="Nitro02" x="-1.70" y="-0.00" z="-84.59" ctf="false"/>
+  <small-nitro id="Nitro03" x="-5.94" y="2.75" z="13.97" ctf="false"/>
+  <small-nitro id="Nitro04" x="-30.39" y="0.00" z="85.26" ctf="false"/>
+  <small-nitro id="Nitro05" x="-85.33" y="0.00" z="-49.13" ctf="false"/>
+  <small-nitro id="Nitro05.001" x="-90.55" y="0.00" z="-49.13" ctf="false"/>
+  <small-nitro id="Nitro05.002" x="-80.21" y="0.00" z="-49.13" ctf="false"/>
+  <small-nitro id="Nitro07" x="70.31" y="-0.00" z="-14.38" ctf="false"/>
+  <small-nitro id="Nitro08" x="81.75" y="-0.00" z="-3.15" ctf="false"/>
+  <small-nitro id="Nitro09" x="85.57" y="-0.00" z="72.36" ctf="false"/>
+  <small-nitro id="Nitro10" x="-40.01" y="5.93" z="82.30" ctf="false"/>
+  <small-nitro id="Nitro11" x="-94.85" y="-0.00" z="0.92" ctf="false"/>
+  <small-nitro id="Nitro12" x="-94.96" y="-0.00" z="-15.48" ctf="false"/>
+  <small-nitro id="Nitro13" x="-95.09" y="-0.00" z="-32.15" ctf="false"/>
+  <small-nitro id="Nitro14" x="-87.22" y="0.00" z="87.09" ctf="false"/>
+  <small-nitro id="Nitro15" x="-13.93" y="5.91" z="86.10" ctf="false"/>
+  <small-nitro id="Nitro16" x="-8.68" y="5.91" z="86.10" ctf="false"/>
+  <small-nitro id="Nitro17" x="-5.97" y="1.09" z="-6.23" ctf="false"/>
+  <small-nitro id="Nitro18" x="-0.85" y="1.09" z="-6.23" ctf="false"/>
+  <small-nitro id="Nitro19" x="-11.21" y="1.09" z="-6.23" ctf="false"/>
+  <big-nitro id="NitroBig01" x="79.95" y="17.31" z="-82.16" r="-0.00" drop="false" ctf="false"/>
+  <big-nitro id="NitroBig02" x="-24.17" y="7.05" z="23.92" ctf="false"/>
+  <big-nitro id="NitroBig03" x="-15.88" y="5.12" z="55.91" ctf="false"/>
+  <big-nitro id="NitroBig04" x="78.68" y="8.15" z="73.17" ctf="false"/>
+
+  <big-nitro id="NitroBigCTF" x="-128.72" y="-0.00" z="75.55" ctf="true"/>
+  <big-nitro id="NitroBigCTF.001" x="69.37" y="7.70" z="73.00" ctf="true"/>
+  <big-nitro id="NitroBigCTF.002" x="-5.91" y="4.56" z="-6.32" ctf="true"/>
+  <big-nitro id="NitroBigCTF.003" x="80.18" y="17.03" z="-81.84" drop="false" ctf="true"/>
+  <big-nitro id="NitroBigCTF.004" x="-38.16" y="0.70" z="-21.27" ctf="true"/>
+  <big-nitro id="NitroBigCTF.005" x="-104.35" y="-0.00" z="4.96" ctf="true"/>
+  <big-nitro id="NitroBigCTF.006" x="-18.12" y="14.47" z="85.66" ctf="true"/>
+  <big-nitro id="NitroBigCTF.007" x="142.37" y="-0.00" z="59.75" ctf="true"/>
+  <big-nitro id="NitroBigCTF.008" x="-46.58" y="-0.00" z="-143.14" ctf="true"/>
+  <big-nitro id="NitroBigCTF.009" x="63.46" y="10.58" z="-52.57" ctf="true"/>
+  <big-nitro id="NitroBigCTF.010" x="-24.13" y="24.48" z="11.69" drop="false" ctf="true"/>
+  <big-nitro id="NitroBigCTF.011" x="-75.68" y="3.76" z="65.41" ctf="true"/>
+  <big-nitro id="NitroBigCTF.012" x="28.76" y="-0.05" z="8.19" ctf="true"/>
+  <big-nitro id="NitroBigCTF.013" x="11.95" y="1.24" z="-93.42" ctf="true"/>
+  <big-nitro id="NitroBigCTF.014" x="12.12" y="4.00" z="96.89" ctf="true"/>
+  <big-nitro id="NitroBigCTF.015" x="-23.73" y="6.48" z="23.71" ctf="true"/>
+  <big-nitro id="NitroBigCTF.016" x="-23.73" y="4.39" z="44.07" ctf="true"/>
+  <big-nitro id="NitroBigCTF.019" x="-24.13" y="18.87" z="37.27" drop="false" ctf="true"/>
+  <small-nitro id="NitroSmallCTF" x="20.63" y="0.01" z="-48.16" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.001" x="44.70" y="0.01" z="-13.39" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.002" x="48.71" y="0.00" z="-54.89" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.003" x="73.10" y="0.00" z="-64.34" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.004" x="64.61" y="0.00" z="-73.25" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.005" x="98.86" y="0.00" z="-71.37" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.006" x="75.07" y="0.00" z="-96.67" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.007" x="-4.27" y="-0.00" z="-93.89" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.008" x="-57.21" y="0.02" z="-95.53" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.009" x="-117.82" y="0.00" z="-37.37" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.010" x="-95.00" y="0.00" z="-36.13" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.011" x="-95.17" y="0.00" z="-20.03" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.012" x="-95.00" y="0.00" z="-2.69" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.014" x="-73.84" y="0.00" z="-5.70" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.015" x="-50.41" y="0.00" z="8.63" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.016" x="-32.36" y="0.00" z="70.42" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.017" x="-16.08" y="0.00" z="70.23" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.018" x="-74.83" y="0.00" z="28.80" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.019" x="-107.91" y="0.00" z="66.84" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.020" x="-108.27" y="-0.00" z="84.36" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.021" x="32.13" y="0.00" z="67.84" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.022" x="-33.36" y="-0.00" z="52.97" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.023" x="-33.61" y="-0.00" z="39.58" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.024" x="20.70" y="-0.00" z="38.59" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.025" x="63.22" y="-0.00" z="45.78" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.026" x="107.15" y="-0.00" z="4.41" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.027" x="99.64" y="-0.00" z="-24.34" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.028" x="98.90" y="-0.00" z="-127.70" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.029" x="-99.48" y="0.00" z="-122.42" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.030" x="-50.00" y="0.00" z="1.16" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.031" x="73.99" y="0.00" z="14.75" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.032" x="129.62" y="0.00" z="131.52" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.033" x="-41.09" y="0.00" z="101.27" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.034" x="79.09" y="0.00" z="98.53" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.035" x="10.23" y="0.00" z="-49.09" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.036" x="-22.50" y="0.00" z="-49.39" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.037" x="84.84" y="0.00" z="-21.82" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.038" x="9.64" y="0.00" z="-6.78" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.039" x="-73.38" y="0.00" z="-83.42" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.040" x="-12.44" y="2.22" z="22.31" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.041" x="1.78" y="2.22" z="22.31" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.042" x="-5.81" y="2.22" z="-39.23" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.044" x="137.11" y="8.73" z="-77.55" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.045" x="-13.11" y="1.21" z="-131.44" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.046" x="-140.60" y="4.78" z="27.63" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.047" x="-27.70" y="4.83" z="92.46" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.048" x="-27.70" y="4.83" z="77.50" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.049" x="19.31" y="4.83" z="76.57" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.050" x="73.85" y="7.15" z="84.69" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.052" x="51.80" y="7.15" z="63.80" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.053" x="16.81" y="4.13" z="140.35" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.054" x="71.13" y="0.00" z="72.78" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.055" x="25.11" y="0.01" z="-32.64" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.056" x="-44.51" y="0.00" z="-68.34" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.057" x="-7.52" y="12.58" z="52.02" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.058" x="-29.79" y="6.58" z="27.29" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.059" x="-7.52" y="12.58" z="65.97" ctf="true"/>
+  <small-nitro id="NitroSmallCTF.060" x="-29.79" y="6.88" z="21.12" ctf="true"/>
+  <light xyz="-61.76 1.27 -50.05" id="Lamp.001" distance="1.00" energy="1.50" color="255 0 0">
+  </light>
+  <light xyz="-62.58 1.27 -52.35" id="Lamp.002" distance="1.00" energy="1.50" color="255 0 0">
+  </light>
+  <light xyz="-70.58 1.21 -49.38" id="Lamp.003" distance="1.00" energy="1.50" color="255 255 255">
+  </light>
+  <light xyz="-69.79 1.21 -47.20" id="Lamp.004" distance="1.00" energy="1.50" color="255 255 255">
+  </light>
+  <lightshaft xyz="-89.69 1.89 -155.39" id="Sun" opacity="0.03" color="255 125 0"/>
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+  <ctf-start x="34.76" y="0.50" z="-42.78" h="-0.00"/>
+  <ctf-start x="-39.51" y="4.83" z="90.29" h="-270.00"/>
+  <ctf-start x="42.47" y="0.50" z="-36.70" h="-90.00"/>
+  <ctf-start x="-16.70" y="4.83" z="78.76" h="-270.00"/>
+  <ctf-start x="79.34" y="10.69" z="-82.33" h="-135.00"/>
+  <ctf-start x="1.19" y="3.54" z="82.96" h="-270.00"/>
+  <ctf-start x="71.55" y="0.50" z="-70.22" h="-45.00"/>
+  <ctf-start x="-49.25" y="0.50" z="66.73" h="90.00"/>
+  <ctf-start x="61.16" y="0.50" z="-61.28" h="-45.00"/>
+  <ctf-start x="-5.93" y="0.50" z="70.41" h="135.00"/>
+  <ctf-start x="28.67" y="0.50" z="-22.80" h="-0.00"/>
+  <ctf-start x="59.23" y="0.50" z="-26.62" h="-45.00"/>
+  <ctf-start x="26.56" y="0.50" z="85.51" h="-270.00"/>
+  <ctf-start x="20.28" y="0.50" z="-59.15" h="-135.00"/>
+  <ctf-start x="-108.04" y="0.50" z="75.93" h="90.00"/>
+  <ctf-start x="42.85" y="0.50" z="-23.83" h="-69.30"/>
+  <ctf-start x="-74.21" y="0.50" z="85.97" h="-269.96"/>
+  <ctf-start x="22.99" y="0.50" z="-39.29" h="17.33"/>
+  <ctf-start x="-19.97" y="0.00" z="85.46" h="-269.96"/>
+  <ctf-start x="33.90" y="0.50" z="-70.53" h="-126.44"/>
+  <ctf-start x="-11.74" y="0.50" z="105.83" h="-269.96"/>
+  <ctf-start x="24.20" y="0.50" z="-85.99" h="-88.60"/>
+  <ctf-start x="-105.90" y="0.50" z="22.59" h="-233.27"/>
+  <ctf-start x="96.07" y="0.50" z="-49.77" h="-0.00"/>
+  <ctf-start x="-117.12" y="0.50" z="-19.56" h="-269.81"/>
+  <ctf-start x="36.04" y="0.50" z="-96.57" h="-90.00"/>
+  <ctf-start x="-85.80" y="0.50" z="58.04" h="-179.69"/>
+  <ctf-start x="108.12" y="0.50" z="-102.22" h="-45.00"/>
+  <ctf-start x="-73.29" y="0.50" z="47.64" h="-179.69"/>
+  <ctf-start x="60.45" y="0.50" z="-96.32" h="-90.36"/>
+  <ctf-start x="-48.91" y="0.50" z="87.78" h="-270.07"/>
+  <red-flag x="-30.48" y="4.84" z="85.61" h="-0.00"/>
+  <blue-flag x="39.43" y="0.02" z="-40.11" h="-0.00"/>
+</scene>

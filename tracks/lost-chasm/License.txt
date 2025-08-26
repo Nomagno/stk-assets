@@ -1,0 +1,197 @@
+textures:
+
+from stk-texture-folder:
+
+	city_rock.jpg
+	city_checker.png
+	city_ground.jpg
+		by Thomas Oppl (horace) toppl@fh-sbg.ac.at (c) 2008, CC-BY-SA 3.0
+
+	
+	cracked-earth-texture.jpg
+
+		by Samuncle (Jean-Manuel Clémençon)
+    		based on public domain images from http://www.publicdomainpictures.net/ and burningwell, CC-BY-SA 3.0
+
+
+	hacienda_ground.jpg
+
+		based on pictures from BurningWell,
+    		modified by jean-manuel clemençon (SamUncle),
+    		released under public domain
+
+
+	HortonRockWall.jpg
+	HortonRockWall2.jpg
+		
+		by Marianne Gagnon, made from public domain images from BurningWell, 
+		http://www.publicdomainpictures.net/, Wikimedia commons
+  		and released under CC-BY-SA 3
+
+
+	wood_planks1.jpg
+
+		from burningwell.org (public domain) modified by Varivar
+
+
+	bush2.png
+
+		from the http://www.titusgames.de GLEST jungle set, GPL
+
+
+	city_fern.png
+
+		(c) http://www.yofrankie.org, CC-BY-SA 3.0
+
+
+	Tizeta_grey1.png
+
+		Based on pictures from from burningwell (released under public domain)
+
+
+	vegetation_1.png
+
+		by Dim, released under CC-BY-SA 3.0
+    		from http://opengameart.org/content/dims-arboretum-0
+
+
+
+from lighthouse2-track:
+
+	sea.png
+	light.png
+	light-1.png
+	
+	(light.png and light-1.png slightly modified by Matthew Trescott)
+	
+from mansion-light-track
+    
+    halo.png
+
+
+from subsea-track:
+
+	bronze-subsea.jpg
+
+		based on grass.jpg, GPL
+
+	woodBridge-subsea.jpg
+
+		by Jean Manuel Clémençon (SamUncle), CC0
+
+	Rubis-subsea.png
+
+		by Rudy Phelippeau (STKRudy85), GPL
+
+
+
+from overworld:
+
+	hut_roof.jpg
+
+		from the http://www.titusgames.de GLEST jungle set(???), GPL
+
+
+	metal_rusted.jpg
+
+		from mines-track, could be CC-BY-SA 3.0(???)
+
+
+
+from mansion-track:
+
+	plants.png
+	SKY0006.png
+
+		by Jean-Manuel Clémoeçon
+		Released under CC-BY-SA 3.0
+
+		
+
+
+
+from zengarden-track:
+
+	roadRoundBrick.jpg
+
+		by Sean Greene (Iconoclast)
+    		released under public domain
+
+	shintoB.jpg
+
+		from http://opengameart.org/content/dims-arboretum-0
+		by gladius, CC-BY-SA 3.0
+
+
+from scotland-track:
+
+	Mossy_wall.png
+
+		by Marianne Gagnon, made from public domain images from BurningWell
+		and released under CC-BY-SA 3
+
+
+
+from skyline-track:
+
+	siderail.png
+
+		(track is from Robert Howie, CC-BY-SA 3, so texture could also be CC-BY-SA 3(?))
+
+
+
+
+others:
+
+	color_library1.jpg
+
+		from http://www.blendswap.com/blends/view/68144, by bluezald, CC-BY/CC-BY-SA 3
+
+	danger-explosion-sign.png
+
+		from http://openclipart.org/detail/96985/hazard-warning-rock_mountain_new.jpgsign:-explosion-by-klaasvangend, made by Klaas van Gend
+        (Public Domain)
+		
+	statue.png
+
+		from http://www.blendswap.com/blends/view/38409, by GiovanniLucca, CC-BY/CC-BY-SA 3
+
+	
+	rock_mountain_new.jpg
+		made by rubberduck from canyon.jpg(CC-BY-SA 3.0, by Samuncle) and rock_mountain.jpg(CC0)
+			CC-BY-SA 3.0
+			(Modified by MTres19, CC-BY-SA 3.0)
+
+
+
+
+used models:
+
+different models from http://www.blendswap.com/blends/view/68144, by bluezald, CC-BY/CC-BY-SA 3
+
+
+statue from http://www.blendswap.com/blends/view/38409, by GiovanniLucca, CC-BY/CC-BY-SA 3
+
+opened box > original model from fort-magma
+    by Jean-Manuel Clemençon CC-BY-SA 3.0
+
+lightbeams from xr-track
+    Jean-Manuel Clemençon CC-BY-SA 3.0 / GPL (Dual license)
+
+tower from http://opengameart.org/content/medieval-tower, from Savino, CC0
+
+jungle_bush1 (from jungle-track)
+    Marianne Gagnon, GPL
+
+zengarden_bush3 (from zengarden-track)
+    MiniBjorn, CC-BY-SA 3.0
+
+jungle_plant1 (from jungle-track)
+    Marianne Gagnon, GPL
+
+LostChasm_track
+    by rubberduck (CC-BY 3.0) modified and ported by MTres19 (CC-BY 4.0)
+
+La_Terrible_Maldicion_De_Tutankamon.ogg
+	by The Dead Rocks, CC-BY-SA 3.0
+

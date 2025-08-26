@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<!-- For sky particles, the size of the box is ignored -->
+<particles emitter="box" randomize-initial-y="true">
+
+    <spreading angle="111"           />
+    
+    <velocity  x="-0.005"
+               y="-0.01"
+               z="-0.005"             />
+    
+    <material  file="stktex_fireCloud_a.png" clampu="Y" clampv="Y" />
+    
+    <!-- Amount of particles emitted per second -->
+    <rate      min="48"
+               max="48"           />
+    
+    <!-- Minimal and maximal lifetime of a particle, in milliseconds. -->
+    <lifetime  min="8500"
+               max="9500"          />
+    
+    <!-- Size of the particles -->
+    <size      min="1.60"
+               max="3.10"          />
+    
+    <color     min="255 255 255"
+               max="255 255 255"   />
+
+    <wind      flips="Y"           />
+
+</particles>

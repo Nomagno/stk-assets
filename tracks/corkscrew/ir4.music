@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<music title = "In Race 4"
+        composer = "Ford Off-Road"
+        gain = "1.5"
+        file = "ir4.ogg"
+		loop-start="23.200"
+        fast = "false"/>

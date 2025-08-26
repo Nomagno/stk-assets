@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="c_colours_C.png" slowdown-time="0.25" max-speed="0.70"/>
+  <material name="c_colours_C2.png" slowdown-time="0.25" max-speed="0.40"/>
+  <material name="stkcrowd_lowPoly_b.png" shader="alphatest"/>
+  <material name="tree01_n.png" shader="alphatest"/>
+  <material name="tree02_n.png" shader="alphatest"/>
+  <material name="tree03_n.png" shader="alphatest"/>
+  <material name="tree04_n.png" shader="alphatest"/>
+  <material name="start grid.png"/>
+  <material name="spa-barrier-albanco_L.png" shader="alphatest"/>
+  <material name="spa-barrier-grille.png" shader="alphatest"/>
+  <material name="spa-barrier-pidgin.png" shader="alphatest"/>
+  <material name="spa-barrier-reles.png" shader="alphatest"/>
+  <material name="frz-sand.png" slowdown-time="0.50" max-speed="0.40"/>
+  <material name="0_main_track_s.png"/>
+  <material name="frz-grass.png" slowdown-time="0.50" max-speed="0.60"/>
+  <material name="ausf.png" slowdown-time="0.50" max-speed="0.40"/>
+</materials>

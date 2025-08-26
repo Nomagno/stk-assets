@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <track model="1_racetrack-rb-1_F_track.spm" x="0" y="0" z="0"/>
+  <sky-box texture="w_sky_6.jpg w_sky_6.jpg w_sky_1.jpg w_sky_3.jpg w_sky_4.jpg w_sky_2.jpg" />
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="-155.07 15.90 163.38" p2="-134.21 15.90 176.06"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="3" p1="60.01 15.01 121.49" p2="79.60 15.01 137.53"
+                same-group="2"/>
+    <check-line kind="activate" other-ids="4" p1="-98.04 9.58 70.95" p2="-65.59 9.58 78.18"
+                same-group="3"/>
+    <check-line kind="activate" other-ids="0" p1="106.05 12.54 15.84" p2="110.76 12.54 30.56"
+                same-group="4"/>
+  </checks>
+  <big-nitro id="空體.045" x="-215.33" y="100.00" z="245.21" h="-8.11" />
+  <big-nitro id="空體.044" x="-211.43" y="100.00" z="244.03" h="-8.11" />
+  <big-nitro id="空體.043" x="-207.09" y="100.00" z="242.62" h="-8.11" />
+  <banana id="空體.059" x="171.14" y="100.00" z="-68.88" />
+
+
+  <tyre-change compound="123" stop-time="5" id="tc0" x="66.997437" y="7.297308" z="-60.870914"/>
+  <tyre-change compound="123" stop-time="5" id="tc1" x="55.642040" y="7.297308" z="-60.874115"/>
+  <tyre-change compound="123" stop-time="5" id="tc2" x="44.540592" y="7.297308" z="-60.860844"/>
+  <tyre-change compound="4" stop-time="8" id="tc3" x="33.276005" y="7.297308" z="-60.951698"/>
+  <tyre-change compound="3" stop-time="8" id="tc4" x="21.974035" y="7.297308" z="-60.903866"/>
+  <tyre-change compound="2" stop-time="8" id="tc5" x="10.706374" y="7.297308" z="-60.874931"/>
+
+
+  <big-nitro id="空體.014" x="-84.30" y="100.00" z="101.40" />
+  <item id="空體.015" x="-74.02" y="100.00" z="46.55" />
+  <item id="空體.016" x="-70.68" y="100.00" z="47.28" />
+  <item id="空體.017" x="-67.46" y="100.00" z="48.11" />
+  <big-nitro id="空體.018" x="99.83" y="-400.00" z="27.38" />
+  <big-nitro id="空體.019" x="99.00" y="-400.00" z="24.32" />
+  <big-nitro id="空體.020" x="98.15" y="-400.00" z="21.14" />
+  <item id="空體.022" x="-62.68" y="100.00" z="-57.70" h="-115.98" />
+  <item id="空體.021" x="-65.99" y="100.00" z="-62.12" h="-115.98" />
+  <item id="空體.025" x="-102.33" y="100.00" z="7.28" />
+  <item id="空體.028" x="-96.20" y="100.00" z="9.08" />
+  <item id="空體.026" x="-99.22" y="100.00" z="8.23" />
+  <item id="空體.035" x="-43.27" y="100.00" z="167.31" h="46.04" />
+  <item id="空體.033" x="-41.79" y="100.00" z="170.21" h="46.04" />
+  <item id="空體.030" x="-40.31" y="100.00" z="172.97" h="46.04" />
+  <big-nitro id="空體.041" x="78.41" y="100.00" z="117.01" h="-135.66" />
+  <item id="空體.023" x="-64.36" y="100.00" z="-59.83" h="-115.98" />
+  <item id="空體.048" x="127.23" y="100.00" z="-73.53" h="-157.82" />
+  <item id="空體.047" x="127.33" y="100.00" z="-76.70" h="-157.82" />
+  <item id="空體.046" x="127.38" y="100.00" z="-70.28" h="-157.82" />
+  <banana id="空體.049" x="-41.80" y="100.00" z="21.13" />
+  <banana id="空體.050" x="-84.23" y="100.00" z="101.66" />
+  <banana id="空體.051" x="79.35" y="100.00" z="115.91" />
+  <big-nitro id="空體.052" x="-86.12" y="100.00" z="-65.49" />
+  <item id="空體.053" x="-86.42" y="100.00" z="-67.99" h="-115.98" />
+  <big-nitro id="空體.055" x="-86.44" y="100.00" z="-72.12" h="11.77" />
+  <item id="空體.054" x="-86.22" y="100.00" z="-74.62" h="-104.22" />
+  <small-nitro id="nitro small" x="-77.94" y="100.00" z="99.97" />
+  <item id="空體.057" x="103.22" y="100.00" z="27.65" h="11.69" />
+  <item id="空體.056" x="101.51" y="100.00" z="20.95" h="11.69" />
+  <item id="空體.058" x="102.34" y="100.00" z="24.33" h="11.69" />
+  <small-nitro id="nitro small.002" x="-81.13" y="100.00" z="100.83" />
+  <small-nitro id="nitro small.003" x="103.36" y="100.00" z="27.45" />
+  <small-nitro id="nitro small.004" x="102.48" y="100.00" z="24.03" />
+  <small-nitro id="nitro small.005" x="101.74" y="100.00" z="20.52" />
+  <small-nitro id="nitro small.006" x="75.39" y="100.00" z="116.61" />
+  <small-nitro id="nitro small.001" x="72.00" y="100.00" z="117.03" />
+  <small-nitro id="nitro small.007" x="-40.32" y="100.00" z="172.83" />
+  <small-nitro id="nitro small.008" x="-41.79" y="100.00" z="170.09" />
+  <small-nitro id="nitro small.009" x="-43.29" y="100.00" z="167.15" />
+  <small-nitro id="nitro small.010" x="-119.82" y="100.00" z="86.07" />
+  <small-nitro id="nitro small.011" x="-113.12" y="100.00" z="87.15" />
+  <small-nitro id="nitro small.012" x="-116.47" y="100.00" z="86.59" />
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+</scene>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<scene>
+  <track model="inuksuk--alpine-_track.spm" x="0" y="0" z="0"/>
+  <sun  fog="true" fog-color="150 150 150" fog-max="0.699999988079071" fog-start="70.00" fog-end="300.00" xyz="4.08 375.58 -312.71" sun-specular="255 204 50" sun-diffuse="100 100 150" ambient="75 90 145"/>
+  <weather particles="snowplus.xml"/>
+  <sky-box texture="snowsky_t.jpg snowsky_b.jpg snowsky_e.jpg snowsky_w.jpg snowsky_s.jpg snowsky_n.jpg" />
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="591.63 344.18" p2="611.63 344.18"
+                min-height="37.73" same-group="1"/>
+    <check-line kind="activate" other-ids="3" p1="112.42 240.32" p2="112.58 220.32"
+                min-height="25.62" same-group="2"/>
+    <check-line kind="activate" other-ids="0" p1="181.92 82.45" p2="182.08 62.45"
+                min-height="-0.09" same-group="3"/>
+  </checks>
+
+  <tyre-change compound="2" stop-time="10" id="tc0" x="303.682770" y="0.292736" z="7.767930" h="179.871871"/>
+  <tyre-change compound="3" stop-time="10" id="tc1" x="303.687653" y="0.292736" z="5.092164" h="179.871871"/>
+  <tyre-change compound="4" stop-time="10" id="tc2" x="303.692200" y="0.292736" z="2.475078" h="179.871871"/>
+  <tyre-change compound="123" stop-time="5" id="tc3" x="351.225128" y="0.292736" z="1.210119" h="0.5"/>
+
+  <item id="Empty" x="470.08" y="100.08" z="17.39" h="-90.00" />
+  <small-nitro id="Empty.001" x="470.08" y="100.08" z="14.39" h="-90.00" />
+  <item id="Empty.002" x="470.08" y="100.08" z="11.39" h="-90.00" />
+  <item id="Empty.003" x="499.80" y="100.08" z="154.72" h="-120.90" />
+  <small-nitro id="Empty.004" x="501.34" y="100.08" z="157.30" h="-120.90" />
+  <item id="Empty.005" x="502.88" y="100.08" z="159.87" h="-120.90" />
+  <item id="Empty.006" x="453.33" y="100.08" z="319.38" h="-90.17" />
+  <item id="Empty.007" x="453.32" y="100.08" z="316.38" h="-90.17" />
+  <small-nitro id="Empty.008" x="453.32" y="100.08" z="313.38" h="-90.17" />
+  <small-nitro id="Empty.009" x="549.09" y="100.08" z="369.50" h="-90.17" />
+  <item id="Empty.010" x="549.10" y="100.08" z="372.50" h="-90.17" />
+  <item id="Empty.011" x="549.10" y="100.08" z="375.50" h="-90.17" />
+  <item id="Empty.012" x="436.71" y="100.08" z="475.50" h="-180.17" />
+  <item id="Empty.013" x="433.71" y="100.08" z="475.51" h="-180.17" />
+  <item id="Empty.014" x="430.71" y="100.08" z="475.52" h="-180.17" />
+  <big-nitro id="Empty.015" x="328.33" y="100.08" z="529.34" h="-270.17" />
+  <big-nitro id="Empty.016" x="328.32" y="100.08" z="526.34" h="-270.17" />
+  <big-nitro id="Empty.017" x="328.31" y="100.08" z="523.34" h="-270.17" />
+  <item id="Empty.018" x="269.72" y="100.08" z="373.05" h="-270.17" />
+  <item id="Empty.019" x="269.73" y="100.08" z="376.05" h="-270.17" />
+  <item id="Empty.020" x="269.74" y="100.08" z="379.05" h="-270.17" />
+  <item id="Empty.021" x="8.61" y="100.08" z="282.70" h="-345.51" />
+  <item id="Empty.022" x="5.70" y="100.08" z="281.95" h="-345.51" />
+  <item id="Empty.023" x="2.80" y="100.08" z="281.20" h="-345.51" />
+  <small-nitro id="Empty.024" x="279.50" y="100.08" z="158.47" h="-359.95" />
+  <item id="Empty.025" x="282.50" y="100.08" z="158.47" h="-359.95" />
+  <item id="Empty.026" x="285.50" y="100.08" z="158.47" h="-359.95" />
+  <small-nitro id="Empty.027" x="470.08" y="100.08" z="14.39" h="-90.00" />
+  <small-nitro id="Empty.028" x="501.34" y="100.08" z="157.30" h="-120.90" />
+  <small-nitro id="Empty.029" x="453.32" y="100.08" z="313.38" h="-90.17" />
+  <small-nitro id="Empty.030" x="549.09" y="100.08" z="369.50" h="-90.17" />
+  <big-nitro id="Empty.031" x="328.31" y="100.08" z="523.34" h="-270.17" />
+  <big-nitro id="Empty.032" x="328.32" y="100.08" z="526.34" h="-270.17" />
+  <big-nitro id="Empty.033" x="328.33" y="100.08" z="529.34" h="-270.17" />
+  <small-nitro id="Empty.034" x="279.50" y="100.08" z="158.47" h="-359.95" />
+  <big-nitro id="Empty.035" x="238.66" y="100.00" z="2.66" />
+
+
+  <big-nitro id="Empty.038" x="258.66" y="100.00" z="2.66" />
+
+
+  <big-nitro id="Empty.041" x="308.66" y="100.00" z="2.66" />
+
+
+  <big-nitro id="Empty.044" x="328.66" y="100.00" z="2.66" />
+
+
+
+
+  <big-nitro id="Empty.049" x="328.66" y="100.00" z="7.81" />
+
+
+  <big-nitro id="Empty.052" x="308.66" y="100.00" z="7.81" />
+
+
+  <big-nitro id="Empty.055" x="258.66" y="100.00" z="7.81" />
+
+
+  <big-nitro id="Empty.058" x="238.66" y="100.00" z="7.81" />
+  <default-start karts-per-row     ="1"
+                 forwards-distance ="2.00"
+                 sidewards-distance="5.00"
+                 upwards-distance  ="1.10"/>
+</scene>

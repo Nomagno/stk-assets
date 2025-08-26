@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="stk_generic_grid_b.png" shader="alphatest"/>
+  <material name="grass2.jpg" slowdown-time="0.40" max-speed="0.3"/>
+  <material name="stk_generic_runway_a.png" has-gravity="Y"/>
+  <material name="racetrack_curbs.png">
+    <sfx filename="kerb.ogg" min_speed="1.0" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="sand.png" slowdown-time="0.30" max-speed="0.2">
+    <sfx filename="sand.ogg" min_speed="1.0" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>
+  </material>
+</materials>

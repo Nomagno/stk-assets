@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="stk_generic_grassB.png" slowdown-time="1.50" max-speed="0.35"/>
+  <material name="rt2_grass.png" shader="alphatest" ignore="Y"/>
+<material name="road.png" gloss-map="road_gloss.png">
+    <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="RT2Zipper.png" shader="alphatest" mirror-axis="V">
+    <zipper duration="3.5" max-speed-increase="15.0" fade-out-time="3.0" speed-gain="4.5" min-speed="-1.0"/>
+  </material>
+  <material name="RT2SpeedCapZipper.png" shader="alphatest" mirror-axis="V">
+    <zipper duration="5.25" max-speed-increase="7.5" fade-out-time="6.0" speed-gain="0.0" min-speed="-1.0"/>
+  </material>
+  <material name="concrete_plain.png">
+    <sfx filename="kerb.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.80" max_pitch="0.85" positional="true" rolloff="0.10"/>
+    <particles base="smoke.xml" condition="skid"/>
+  </material>
+</materials>

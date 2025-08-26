@@ -1,0 +1,11 @@
+Released under CC BY 4.0
+
+RT2 Sunset Speedway by skindoormimiz and CrystalTheEevee
+
+skybox - All skyboxes are under GPL 2 or CC BY-SA 3.0, from Xonotic. Distant Sunset and Polluted Earth by Cuinn Herrick.
+link - https://opengameart.org/content/xonotic-skyboxes
+
+rt2_ad.png, rt2_grass.png, emissives, las_dunas_flag.png (based off las dunas stadium), asphalt_blend_prop.png and chicane_caution.png by Crystal
+
+V2: added egg hunt, removed alphablend to racetrack_red.png, changed animated texture to stkflag_yellowCheckBoard_a.png and asphalt_blend_prop.png
+V3: complete remake

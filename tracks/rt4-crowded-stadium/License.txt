@@ -1,0 +1,12 @@
+* Name: RT4 Crowded Stadium
+* Released under CC-BY 4.0
+* Author: kimden
+* 
+* Music - bfc.ogg - "Boss Fight Circuit" by Komiku, from https://loyaltyfreakmusic.com/music/incredible-kart-game/ , released under CC0
+* stkflag_stellacoffee_a.png is taken from STK Media Repo for the reason of not loading by default like other textures did
+* 
+* All other files are made or generated with Blender by kimden and are released under CC-BY 4.0 except for the following files:
+* - box.ogg which is released under CC0.
+* 
+* v1: fixed some flipped normals, incorrectly formed faces and texturing for metal things compared to v0
+* 

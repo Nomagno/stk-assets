@@ -1,0 +1,14 @@
+released under CC-BY 4.0
+
+Music under CC0
+link: https://opengameart.org/content/sky-trance
+
+All textures present in the folder are under CC0 license
+
+V2:
+- added a new checkline at the end
+- changed invisible walls
+- added more details around the alternative paths
+- road texture that slowdowns now has a below water property
+- added a fence around the tight hairpins
+- added end cameras

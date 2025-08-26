@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<scene>
+  <track model="litspore-moor_track.spm" x="0" y="0" z="0">
+    <animated-texture name="mushLight.png" dy="0.20000" />
+    <animated-texture name="potVio.png" dx="0.04000"  dy="0.03000" />
+  </track>
+  <sun  fog="true" fog-color="90 50 89" fog-max="0.4000000059604645" fog-start="25.00" fog-end="450.00" xyz="8.40 100.00 30.23" sun-specular="151 78 130" sun-diffuse="94 49 76" ambient="67 67 67"/>
+  <weather particles="light.xml"/>
+  <sky-box texture="moorT.jpg stk_generic_grassC.png moorE.jpg moorW.jpg moorS.jpg moorN.jpg" sh-texture="moorI.jpg moorI.jpg moorI.jpg moorI.jpg moorI.jpg moorI.jpg"/>
+  <camera far="1300.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1 2 3 4 5" />
+    <check-line kind="activate" other-ids="6 7 8 9 10" p1="6.95 125.35" p2="19.53 146.40"
+                min-height="3.99" same-group="1 2 3 4 5"/>
+    <check-line kind="activate" other-ids="6 7 8 9 10" p1="6.95 125.35" p2="19.53 146.40"
+                min-height="7.99" same-group="1 2 3 4 5"/>
+    <check-line kind="activate" other-ids="6 7 8 9 10" p1="6.95 125.35" p2="19.53 146.40"
+                min-height="11.99" same-group="1 2 3 4 5"/>
+    <check-line kind="activate" other-ids="6 7 8 9 10" p1="6.95 125.35" p2="19.53 146.40"
+                min-height="15.99" same-group="1 2 3 4 5"/>
+    <check-line kind="activate" other-ids="6 7 8 9 10" p1="6.95 125.35" p2="19.53 146.40"
+                min-height="19.99" same-group="1 2 3 4 5"/>
+    <check-line kind="activate" other-ids="11 12 13 14 15" p1="179.12 130.87" p2="199.23 163.08"
+                min-height="2.86" same-group="6 7 8 9 10"/>
+    <check-line kind="activate" other-ids="11 12 13 14 15" p1="179.12 130.87" p2="199.23 163.08"
+                min-height="6.86" same-group="6 7 8 9 10"/>
+    <check-line kind="activate" other-ids="11 12 13 14 15" p1="179.12 130.87" p2="199.23 163.08"
+                min-height="10.86" same-group="6 7 8 9 10"/>
+    <check-line kind="activate" other-ids="11 12 13 14 15" p1="179.12 130.87" p2="199.23 163.08"
+                min-height="14.86" same-group="6 7 8 9 10"/>
+    <check-line kind="activate" other-ids="11 12 13 14 15" p1="179.12 130.87" p2="199.23 163.08"
+                min-height="18.86" same-group="6 7 8 9 10"/>
+    <check-line kind="activate" other-ids="16 17 18 19 20" p1="102.03 -36.89" p2="127.24 -36.34"
+                min-height="-0.17" same-group="11 12 13 14 15"/>
+    <check-line kind="activate" other-ids="16 17 18 19 20" p1="102.03 -36.89" p2="127.24 -36.34"
+                min-height="3.83" same-group="11 12 13 14 15"/>
+    <check-line kind="activate" other-ids="16 17 18 19 20" p1="102.03 -36.89" p2="127.24 -36.34"
+                min-height="7.83" same-group="11 12 13 14 15"/>
+    <check-line kind="activate" other-ids="16 17 18 19 20" p1="102.03 -36.89" p2="127.24 -36.34"
+                min-height="11.83" same-group="11 12 13 14 15"/>
+    <check-line kind="activate" other-ids="16 17 18 19 20" p1="102.03 -36.89" p2="127.24 -36.34"
+                min-height="15.83" same-group="11 12 13 14 15"/>
+    <check-line kind="activate" other-ids="21 22 23 24 25" p1="185.94 -39.07" p2="209.91 -33.20"
+                min-height="7.90" same-group="16 17 18 19 20"/>
+    <check-line kind="activate" other-ids="21 22 23 24 25" p1="185.94 -39.07" p2="209.91 -33.20"
+                min-height="11.90" same-group="16 17 18 19 20"/>
+    <check-line kind="activate" other-ids="21 22 23 24 25" p1="185.94 -39.07" p2="209.91 -33.20"
+                min-height="15.90" same-group="16 17 18 19 20"/>
+    <check-line kind="activate" other-ids="21 22 23 24 25" p1="185.94 -39.07" p2="209.91 -33.20"
+                min-height="19.90" same-group="16 17 18 19 20"/>
+    <check-line kind="activate" other-ids="21 22 23 24 25" p1="185.94 -39.07" p2="209.91 -33.20"
+                min-height="23.90" same-group="16 17 18 19 20"/>
+    <check-line kind="activate" other-ids="26 27 28 29 30" p1="30.62 -87.35" p2="30.32 -56.23"
+                min-height="38.52" same-group="21 22 23 24 25"/>
+    <check-line kind="activate" other-ids="26 27 28 29 30" p1="30.62 -87.35" p2="30.32 -56.23"
+                min-height="42.52" same-group="21 22 23 24 25"/>
+    <check-line kind="activate" other-ids="26 27 28 29 30" p1="30.62 -87.35" p2="30.32 -56.23"
+                min-height="46.52" same-group="21 22 23 24 25"/>
+    <check-line kind="activate" other-ids="26 27 28 29 30" p1="30.62 -87.35" p2="30.32 -56.23"
+                min-height="50.52" same-group="21 22 23 24 25"/>
+    <check-line kind="activate" other-ids="26 27 28 29 30" p1="30.62 -87.35" p2="30.32 -56.23"
+                min-height="54.52" same-group="21 22 23 24 25"/>
+    <check-line kind="activate" other-ids="31 32 33 34" p1="-71.78 -105.75" p2="-111.46 -116.54"
+                min-height="7.06" same-group="26 27 28 29 30"/>
+    <check-line kind="activate" other-ids="31 32 33 34" p1="-71.78 -105.75" p2="-111.46 -116.54"
+                min-height="11.06" same-group="26 27 28 29 30"/>
+    <check-line kind="activate" other-ids="31 32 33 34" p1="-71.78 -105.75" p2="-111.46 -116.54"
+                min-height="15.06" same-group="26 27 28 29 30"/>
+    <check-line kind="activate" other-ids="31 32 33 34" p1="-71.78 -105.75" p2="-111.46 -116.54"
+                min-height="19.06" same-group="26 27 28 29 30"/>
+    <check-line kind="activate" other-ids="31 32 33 34" p1="-71.78 -105.75" p2="-111.46 -116.54"
+                min-height="23.06" same-group="26 27 28 29 30"/>
+    <check-line kind="activate" other-ids="0" p1="7.18 -137.09" p2="-7.38 -98.64"
+                min-height="5.82" same-group="31 32 33 34"/>
+    <check-line kind="activate" other-ids="0" p1="7.18 -137.09" p2="-7.38 -98.64"
+                min-height="9.82" same-group="31 32 33 34"/>
+    <check-line kind="activate" other-ids="0" p1="7.18 -137.09" p2="-7.38 -98.64"
+                min-height="13.82" same-group="31 32 33 34"/>
+    <check-line kind="activate" other-ids="0" p1="7.18 -137.09" p2="-7.38 -98.64"
+                min-height="17.82" same-group="31 32 33 34"/>
+  </checks>
+  <end-cameras>
+    <camera type="static_follow_kart" xyz="21.102030 5.206107 21.491373"      distance="40.0"/> <!-- Camera -->
+    <camera type="static_follow_kart" xyz="-8.974043 13.793973 125.631462"    distance="27.0"/> <!-- Camera.001 -->
+    <camera type="static_follow_kart" xyz="80.404678 16.314621 88.774345"     distance="60.0"/> <!-- Camera.002 -->
+    <camera type="static_follow_kart" xyz="184.920105 13.416145 141.438080"   distance="60.0"/> <!-- Camera.003 -->
+    <camera type="static_follow_kart" xyz="207.771057 6.205412 59.054390"     distance="40.0"/> <!-- Camera.004 -->
+    <camera type="static_follow_kart" xyz="204.291077 3.033449 -24.465157"    distance="18.0"/> <!-- Camera.005 -->
+    <camera type="static_follow_kart" xyz="146.407394 17.325245 -36.181091"   distance="36.0"/> <!-- Camera.006 -->
+    <camera type="static_follow_kart" xyz="30.364271 51.076454 -75.431602"    distance="50.0"/> <!-- Camera.007 -->
+    <camera type="static_follow_kart" xyz="-79.547447 15.206576 -134.730484"  distance="50.0"/> <!-- Camera.008 -->
+    <camera type="static_follow_kart" xyz="38.515793 9.510952 -94.039742"     distance="40.0"/> <!-- Camera.009 -->
+  </end-cameras>
+  <item id="Empty" x="7.28" y="1.44" z="35.17" />
+  <item id="Empty.001" x="11.26" y="1.44" z="36.48" />
+  <item id="Empty.002" x="14.88" y="1.44" z="37.66" />
+  <big-nitro id="Empty.003" x="-35.81" y="8.10" z="48.25" />
+  <big-nitro id="Empty.004" x="-33.00" y="8.10" z="50.10" />
+  <big-nitro id="Empty.005" x="-29.84" y="8.10" z="52.01" />
+  <big-nitro id="Empty.006" x="-26.90" y="8.10" z="53.84" />
+  <big-nitro id="Empty.007" x="-34.38" y="12.54" z="104.71" h="-33.66" />
+  <big-nitro id="Empty.008" x="-37.84" y="12.54" z="104.82" h="-33.66" />
+  <big-nitro id="Empty.009" x="-41.53" y="12.54" z="104.99" h="-33.66" />
+  <big-nitro id="Empty.010" x="-44.89" y="12.54" z="105.00" h="-33.66" />
+  <big-nitro id="Empty.011" x="-45.39" y="12.54" z="80.10" h="-28.89" />
+  <big-nitro id="Empty.012" x="-42.04" y="12.54" z="80.36" h="-28.89" />
+  <big-nitro id="Empty.013" x="-38.35" y="12.54" z="80.51" h="-28.89" />
+  <big-nitro id="Empty.014" x="-34.89" y="12.54" z="80.68" h="-28.89" />
+  <item id="Empty.015" x="35.35" y="5.84" z="100.52" />
+  <item id="Empty.016" x="37.55" y="5.84" z="102.38" />
+  <item id="Empty.017" x="39.87" y="5.84" z="104.47" />
+  <item id="Empty.018" x="41.90" y="5.84" z="106.39" />
+  <small-nitro id="Empty.019" x="86.33" y="5.49" z="67.32" />
+  <small-nitro id="Empty.020" x="86.33" y="5.49" z="70.43" />
+  <small-nitro id="Empty.021" x="86.37" y="5.49" z="73.68" />
+  <small-nitro id="Empty.022" x="86.28" y="5.49" z="76.69" />
+
+  <banana id="Empty.024" x="188.43" y="1.61" z="114.79" />
+  <banana id="Empty.025" x="199.24" y="0.82" z="101.46" />
+  <banana id="Empty.026" x="184.89" y="-0.25" z="86.78" />
+  <banana id="Empty.027" x="192.99" y="-0.57" z="79.52" />
+  <small-nitro id="Empty.028" x="172.90" y="-1.30" z="56.19" />
+  <small-nitro id="Empty.029" x="170.54" y="-1.30" z="50.54" />
+  <small-nitro id="Empty.030" x="170.82" y="-1.30" z="43.00" />
+  <small-nitro id="Empty.031" x="174.97" y="-1.30" z="36.74" />
+  <small-nitro id="Empty.032" x="184.95" y="-1.30" z="33.68" />
+  <item id="Empty.033" x="197.55" y="1.29" z="-12.45" />
+  <item id="Empty.034" x="198.85" y="1.29" z="-17.14" />
+  <item id="Empty.035" x="200.21" y="1.29" z="-21.94" />
+  <banana id="Empty.036" x="159.59" y="7.25" z="-37.77" />
+  <banana id="Empty.037" x="156.96" y="7.25" z="-43.19" />
+  <item id="Empty.038" x="121.24" y="19.30" z="-63.58" />
+  <item id="Empty.039" x="121.90" y="19.30" z="-66.55" />
+  <item id="Empty.040" x="122.79" y="19.30" z="-69.52" />
+  <small-nitro id="Empty.041" x="-27.87" y="13.76" z="-81.87" />
+  <small-nitro id="Empty.042" x="-31.70" y="13.76" z="-78.33" />
+  <small-nitro id="Empty.043" x="-28.29" y="13.76" z="-75.15" />
+  <small-nitro id="Empty.044" x="-31.79" y="13.76" z="-73.03" />
+  <small-nitro id="Empty.045" x="-28.54" y="13.76" z="-69.73" />
+  <item id="Empty.046" x="-25.30" y="7.87" z="-118.55" />
+  <item id="Empty.047" x="-24.35" y="7.87" z="-122.20" />
+  <item id="Empty.048" x="-23.26" y="7.87" z="-125.73" />
+  <item id="Empty.049" x="-22.20" y="7.87" z="-129.38" />
+  <banana id="Empty.050" x="32.62" y="4.02" z="-95.52" />
+  <banana id="Empty.051" x="28.85" y="2.49" z="-70.48" />
+  <banana id="Empty.052" x="-10.51" y="9.41" z="108.89" />
+  <banana id="Empty.053" x="-4.10" y="9.41" z="108.52" />
+  <tyre-change compound="4" stop-time="10" id="tyre.024" x="84.48" y="8.09" z="119.89" h="0.5" />
+  <tyre-change compound="3" stop-time="10" id="tyre.023" x="84.48" y="8.09" z="122.89" h="0.5" />
+  <tyre-change compound="2" stop-time="10" id="tyre.025" x="84.48" y="8.09" z="125.89" h="0.5" />
+  <tyre-change compound="123" stop-time="5" id="tc0" x="103.839592" y="6.558689" z="117.971756" h="0.5"/>
+
+
+  <light xyz="18.91 4.33 58.00" id="Lamp" distance="25.00" energy="4.00" color="255 201 82">
+  </light>
+  <light xyz="20.49 12.99 104.89" id="Lamp.001" distance="25.00" energy="4.00" color="255 201 82">
+  </light>
+  <light xyz="156.09 7.72 117.44" id="Lamp.002" distance="25.00" energy="4.00" color="255 201 82">
+  </light>
+  <light xyz="195.07 6.08 -4.85" id="Lamp.003" distance="25.00" energy="4.00" color="255 201 82">
+  </light>
+  <light xyz="16.65 10.14 -90.82" id="Lamp.004" distance="25.00" energy="4.00" color="255 201 82">
+  </light>
+  <light xyz="43.03 10.14 -58.25" id="Lamp.005" distance="25.00" energy="4.00" color="255 201 82">
+  </light>
+  <lightshaft xyz="36.21 100.00 264.24" id="Sun.001" opacity="0.10" color="200 200 200"/>
+  <default-start karts-per-row     ="4"
+                 forwards-distance ="0.70"
+                 sidewards-distance="3.00"
+                 upwards-distance  ="1.10"/>
+  <library name="gfx_fireworkTube_a" id="gfx_fireworkTube_a_main_proxy" xyz="98.14 20.56 -57.74" hpr="0.0 -0.0 -7.6" scale="2.00 2.00 2.00">
+  </library>
+  <library name="gfx_fireworkTube_a" id="gfx_fireworkTube_a_main_proxy.001" xyz="101.83 20.56 -83.87" hpr="0.0 -0.0 -7.6" scale="2.00 2.00 2.00">
+  </library>
+  <library name="gfx_fireworkTube_a" id="gfx_fireworkTube_a_main_proxy.002" xyz="84.68 23.77 -85.22" hpr="0.0 -0.0 -7.6" scale="2.00 2.00 2.00">
+  </library>
+  <library name="gfx_fireworkTube_a" id="gfx_fireworkTube_a_main_proxy.003" xyz="80.99 24.84 -59.09" hpr="0.0 -0.0 -7.6" scale="2.00 2.00 2.00">
+  </library>
+  <library name="gfx_fireworkTube_a" id="gfx_fireworkTube_a_main_proxy.004" xyz="61.75 30.03 -60.20" hpr="0.0 -0.0 -7.6" scale="2.00 2.00 2.00">
+  </library>
+  <library name="gfx_fireworkTube_a" id="gfx_fireworkTube_a_main_proxy.005" xyz="65.43 28.96 -86.33" hpr="0.0 -0.0 -7.6" scale="2.00 2.00 2.00">
+  </library>
+  <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy" xyz="53.32 2.89 -29.28" hpr="0.0 -0.0 0.0" scale="1.30 1.30 1.30">
+  </library>
+  <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.001" xyz="-25.12 9.32 114.24" hpr="-0.0 170.4 -0.0" scale="1.30 1.30 1.30">
+  </library>
+  <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.002" xyz="193.57 9.20 -50.25" hpr="-0.0 170.4 -0.0" scale="1.30 1.30 1.30">
+  </library>
+  <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.003" xyz="-77.18 9.20 -73.12" hpr="0.0 -0.0 0.0" scale="1.30 1.30 1.30">
+  </library>
+  <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.004" xyz="-6.93 6.43 144.96" hpr="0.0 -0.0 0.0" scale="1.30 1.30 1.30">
+  </library>
+  <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.005" xyz="-109.84 22.46 -50.03" hpr="0.0 -0.0 0.0" scale="1.95 1.95 1.95">
+  </library>
+  <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.006" xyz="161.43 19.83 -101.54" hpr="-0.0 170.4 -0.0" scale="1.95 1.95 1.95">
+  </library>
+  <library name="stklib_autumnTree_g" id="stklib_autumnTree_g_main_proxy" xyz="3.92 0.34 -36.46" hpr="0.0 -0.0 0.0" scale="1.30 1.30 1.30">
+  </library>
+  <library name="stklib_autumnTree_g" id="stklib_autumnTree_g_main_proxy.001" xyz="33.22 4.27 -110.41" hpr="0.0 -0.0 0.0" scale="1.30 1.30 1.30">
+  </library>
+  <library name="stklib_autumnTree_g" id="stklib_autumnTree_g_main_proxy.002" xyz="209.92 -0.68 1.24" hpr="-0.0 -111.0 -0.0" scale="1.30 1.30 1.30">
+  </library>
+  <library name="stklib_autumnTree_g" id="stklib_autumnTree_g_main_proxy.003" xyz="97.34 23.09 -123.00" hpr="0.0 -0.0 0.0" scale="1.95 1.95 1.95">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy" xyz="-6.82 -6.78 15.27" hpr="0.0 -0.0 0.0" scale="2.00 2.00 2.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.001" xyz="20.02 1.49 66.76" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.002" xyz="28.92 5.34 90.98" hpr="-0.0 -119.7 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.003" xyz="32.68 -3.00 131.87" hpr="-0.0 -119.7 -0.0" scale="2.00 2.00 2.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.004" xyz="111.65 5.24 65.45" hpr="-0.0 170.1 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.005" xyz="172.15 2.13 110.21" hpr="-0.0 170.1 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.006" xyz="206.73 2.59 129.38" hpr="-0.0 129.8 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.007" xyz="215.63 0.41 -23.54" hpr="-0.0 98.9 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.008" xyz="-62.59 6.77 -113.01" hpr="-0.0 98.9 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.009" xyz="-41.95 8.87 -64.54" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.010" xyz="-97.62 21.02 -168.81" hpr="-0.0 98.9 -0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.011" xyz="-42.52 19.49 -18.38" hpr="0.0 -0.0 0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_cocoaTree_a" id="stklib_cocoaTree_a_main_proxy.012" xyz="208.90 14.16 -78.15" hpr="-0.0 98.9 -0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_jungleTree_a" id="stklib_jungleTree_a_main_proxy" xyz="26.74 -1.65 26.93" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_jungleTree_a" id="stklib_jungleTree_a_main_proxy.001" xyz="62.44 6.13 111.67" hpr="0.0 -47.8 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_jungleTree_a" id="stklib_jungleTree_a_main_proxy.002" xyz="140.82 2.29 146.04" hpr="0.0 -47.8 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_jungleTree_a" id="stklib_jungleTree_a_main_proxy.003" xyz="163.28 -1.39 -10.61" hpr="0.0 -47.8 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_jungleTree_a" id="stklib_jungleTree_a_main_proxy.004" xyz="16.82 4.67 -124.17" hpr="0.0 -47.8 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_jungleTree_a" id="stklib_jungleTree_a_main_proxy.005" xyz="146.27 10.05 -72.45" hpr="0.0 -47.8 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_jungleTree_a" id="stklib_jungleTree_a_main_proxy.006" xyz="13.06 17.00 -165.33" hpr="0.0 -47.8 0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_jungleTree_a" id="stklib_jungleTree_a_main_proxy.007" xyz="262.82 15.94 -28.28" hpr="0.0 -47.8 0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_lowAnimGrass_a" id="stklib_lowAnimGrass_a_main_proxy" xyz="-8.05 0.20 20.14" hpr="0.0 -0.0 0.0" scale="2.00 2.00 2.00">
+  </library>
+  <library name="stklib_lowAnimGrass_a" id="stklib_lowAnimGrass_a_main_proxy.001" xyz="-6.70 0.39 23.07" hpr="0.0 -50.0 0.0" scale="2.00 2.00 2.00">
+  </library>
+  <library name="stklib_lowAnimGrass_a" id="stklib_lowAnimGrass_a_main_proxy.002" xyz="-3.60 0.39 23.07" hpr="0.0 -80.0 0.0" scale="2.00 2.00 2.00">
+  </library>
+  <library name="stklib_lowAnimGrass_a" id="stklib_lowAnimGrass_a_main_proxy.003" xyz="-3.60 0.24 29.31" hpr="24.6 -105.1 -23.9" scale="2.00 2.00 2.00">
+  </library>
+  <library name="stklib_mushroom_b" id="stklib_mushroom_b_main_proxy" xyz="7.53 4.58 90.54" hpr="0.0 -0.0 0.0" scale="5.00 5.00 5.00">
+  </library>
+  <library name="stklib_mushroom_b" id="stklib_mushroom_b_main_proxy.001" xyz="75.83 8.19 114.55" hpr="0.0 -0.0 0.0" scale="5.00 5.00 5.00">
+  </library>
+  <library name="stklib_mushroom_b" id="stklib_mushroom_b_main_proxy.002" xyz="165.62 2.33 158.28" hpr="0.0 -0.0 0.0" scale="5.00 5.00 5.00">
+  </library>
+  <library name="stklib_mushroom_b" id="stklib_mushroom_b_main_proxy.003" xyz="206.50 -1.26 18.18" hpr="0.0 -0.0 0.0" scale="5.00 5.00 5.00">
+  </library>
+  <library name="stklib_mushroom_b" id="stklib_mushroom_b_main_proxy.004" xyz="-99.82 6.98 -95.38" hpr="0.0 -0.0 0.0" scale="5.00 5.00 5.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy" xyz="30.32 1.19 -26.29" hpr="0.0 -0.0 0.0" scale="1.00 1.30 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.001" xyz="187.10 -0.56 -5.42" hpr="0.0 -0.0 0.0" scale="1.00 1.30 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.002" xyz="240.62 -0.56 11.79" hpr="0.0 -0.0 0.0" scale="1.00 1.30 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.003" xyz="209.86 0.01 95.45" hpr="0.0 -0.0 0.0" scale="1.00 1.30 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.004" xyz="149.82 3.05 106.39" hpr="0.0 -0.0 0.0" scale="1.00 1.30 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.005" xyz="56.66 4.80 66.13" hpr="0.0 -0.0 0.0" scale="1.00 1.30 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.006" xyz="-23.63 8.26 79.90" hpr="0.0 -0.0 0.0" scale="1.00 1.30 1.00">
+  </library>
+  <library name="stklib_redShell_a" id="stklib_redShell_a_main_proxy" xyz="75.42 -1.44 11.57" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_redShell_a" id="stklib_redShell_a_main_proxy.001" xyz="118.55 -1.44 17.88" hpr="0.0 -49.1 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_redShell_a" id="stklib_redShell_a_main_proxy.002" xyz="137.48 -8.68 44.07" hpr="-0.0 11.7 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_redShell_a" id="stklib_redShell_a_main_proxy.003" xyz="152.78 -8.99 17.45" hpr="0.0 97.1 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_treeStump_a" id="stklib_treeStump_a_main_proxy" xyz="22.51 0.71 -1.71" hpr="0.0 -0.0 0.0" scale="5.00 5.00 5.00">
+  </library>
+  <library name="stklib_treeStump_a" id="stklib_treeStump_a_main_proxy.001" xyz="136.54 4.43 80.19" hpr="0.0 -0.0 0.0" scale="5.00 5.00 5.00">
+  </library>
+  <library name="stklib_treeStump_a" id="stklib_treeStump_a_main_proxy.002" xyz="188.10 2.65 154.87" hpr="-0.0 -111.0 -0.0" scale="5.00 5.00 5.00">
+  </library>
+  <library name="stklib_treeStump_a" id="stklib_treeStump_a_main_proxy.003" xyz="-31.24 6.20 -142.51" hpr="-0.0 -111.0 -0.0" scale="5.00 5.00 5.00">
+  </library>
+  <library name="stklib_waterLily_a" id="stklib_waterLily_a_main_proxy" xyz="77.64 -1.15 32.04" hpr="0.0 -0.0 0.0" scale="2.00 2.00 2.00">
+  </library>
+  <library name="stklib_waterLily_a" id="stklib_waterLily_a_main_proxy.001" xyz="147.72 -1.58 36.08" hpr="0.0 111.0 0.0" scale="2.00 2.00 2.00">
+  </library>
+</scene>

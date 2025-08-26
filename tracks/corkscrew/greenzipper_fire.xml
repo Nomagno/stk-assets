@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<particles emitter="box" box_x="0.75" box_y="0.75" box_z="0.75">
+
+    <spreading angle="35"        />
+    
+    <velocity  x="0.000"
+               y="0.002"
+               z="0.000"         />
+        
+    <materials>
+        <material name="greenzipper-particle.png" shader="additive" ignore="Y"/>
+    </materials>
+    
+    <!-- Amount of particles emitted per second -->
+    <rate      min="900"
+               max="1000"         />
+    
+    <!-- Minimal and maximal lifetime of a particle, in milliseconds. -->
+    <lifetime  min="1000"
+               max="1000"         />
+    
+    <!-- Size of the particles -->
+    <size      min="0.50"
+               max="0.66"        />
+
+    <color     min="255 255 255"
+               max="0 0 0" />
+
+    <!-- How much time in milliseconds before the particle is fully faded out  -->
+    <fadeout   time="2000"        />
+
+</particles>

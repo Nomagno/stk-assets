@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="armcoturn_arbor.png" mirror-axis="U"/>
+  <material name="road.png" gloss-map="ROADgloss.png">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="road2snow.png" gloss-map="ROADgloss.png">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="road2snow-edge.png" gloss-map="ROADgloss.png">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="road-line-edge.png" gloss-map="ROADgloss.png">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="road-lines2.png" gloss-map="ROADgloss.png">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="road-linesbrleft.png" gloss-map="ROADgloss.png">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="road-linesbroken.png" gloss-map="ROADgloss.png">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="road-linesbrright.png" gloss-map="ROADgloss.png">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="road-pit.png" gloss-map="ROADgloss.png" slowdown-time="1.00" max-speed="0.65">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="road-snow.png" gloss-map="ROADgloss.png">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="arbor2_n.png" shader="alphatest"/>
+  <material name="BARS_tree_n.png" shader="alphatest"/>
+  <material name="GRDRA_tree_n.png" shader="alphatest"/>
+  <material name="ppla_tree_n.png" shader="alphatest"/>
+  <material name="pplb_tree_n.png" shader="alphatest"/>
+  <material name="pplc_tree_n.png" shader="alphatest"/>
+  <material name="RAILtree_n.png" shader="alphatest"/>
+  <material name="TOWER_tree_n.png" shader="alphatest"/>
+  <material name="tree1_n.png" shader="alphatest" ignore="Y"/>
+  <material name="tree2_n.png" shader="alphatest" ignore="Y"/>
+  <material name="tree3_n.png" shader="alphatest" ignore="Y"/>
+  <material name="tree6_n.png" shader="alphatest" ignore="Y"/>
+  <material name="tree7_n.png" shader="alphatest" ignore="Y"/>
+  <material name="tree8_n.png" shader="alphatest" ignore="Y"/>
+  <material name="snow.png" slowdown-time="1.00" max-speed="0.65">
+    <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="snow_2.png" slowdown-time="1.00" max-speed="0.65" reset="Y">
+      <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="snow_3.png" slowdown-time="1.00" max-speed="0.65" reset="Y">
+      <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="snow_4.png" slowdown-time="1.00" max-speed="0.65" reset="Y">
+      <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="superzipper.png" mirror-axis="U">
+    <particles base="greenzipper_fire.xml" condition="skid drive"/>
+    <zipper duration="20.0" max-speed-increase="15.0" fade-out-time="0.5" speed-gain="10.5" min-speed="-1.0"/>
+  </material>
+  </materials>

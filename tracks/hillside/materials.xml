@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 8296 -->
+<materials>
+  <material name="canyon_conveyor_belt.png">
+    <zipper/>
+  </material>
+  <material name="city_fern.png" backface-culling="N" compositing="test"/>
+  <material name="grass4.png" compositing="none" friction="500.0"/>
+  <material name="grass2.jpg" anisotropic="Y" backface-culling="Y" clampU="N" clampV="N" compositing="none" disable-z-write="N" friction="1.0" graphical-effect="none" ignore="N" light="Y" max-speed="0.5" reset="N" slowdown-time="1.0" sphere="N" surface="N" below-surface="N" falling-effect="N"/>
+  <material name="logs.png" backface-culling="N"/>
+  <material name="palmtree.png" backface-culling="Y"/>
+  <material name="city_asphalt_1.jpg" friction="32.7999992371" max-speed="1.0" slowdown-time="1.0" backface-culling="N"/>
+  <material name="city_fern.png" ignore="Y" shader="alphatest"/>
+  <material name="water_light.png" shader="alphablend reset="Y" collision-detect="Y" collision-reaction="reset" falling-effect="Y"/>
+</materials>

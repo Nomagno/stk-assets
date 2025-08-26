@@ -1,0 +1,30 @@
+Racetrack from Moria's Race
+
+(c) J.Y.Amihud ( Blender Dumbass ) 2020 - 2023
+
+Under Either: CC-BY-SA 3 or any later version
+Or          : GNU  GPL 2 or any later version
+
+This is a part of the promotional material for the open movie "Moria's Race".
+Trailer: https://odysee.com/@blenderdumbass:f/morias-race-teaser-01:f
+
+Version 2: Made track be Reversable ( needed to adjust a few polygons for it ),
+           Added more trees,
+           Changed the texture of the sand, so it would get dark away from the track,
+           Adjusted the AI trackline in one place ( they were hitting the wall in the same place ).
+           
+Version 3:
+	Players requested more checklines to avoid cheating. I added a few more.
+	
+	On lowest setting the map looked too boring. And even on the highest
+	settings the white part of the road didn't look that good. It was too bright.
+	So I baked a lightmap for the whole road. Now even on the lowest graphics
+	it looks kind of decent.
+	
+	I reduced the brightness of a few texutes, to look a bit more like in the movie.
+	And in a few textures changes the saturation too.
+	
+	In one place I fixed a polygon that was showing through the road.
+	
+Verson 4:
+	Added custom music based on Moria's Race movie soundtrack.

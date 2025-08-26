@@ -1,0 +1,36 @@
+
+<?xml version="1.0"?>
+<particles emitter="point">
+
+    <spreading angle="27" />
+
+    <velocity  x="0.00191341716182545"
+               z="-0.004619397662556433"
+               y="-0.004" />
+
+    <materials>
+        <material name="blue-dust.png" shader="alphablend"/>
+    </materials>
+
+    <rate      min="500"
+               max="1000"
+               decay_rate="0" />
+
+    <lifetime  min="0"
+               max="12000" />
+
+    <size      min="0.6"
+               max="0.8" />
+
+    <color     min="0 0 255"
+               max="0 0 255" />
+
+    <fadeout   time="300" />
+
+    <wind      flips="N"           />
+
+    <!--gravity   strength="-0.01"
+               only-force-time="500" /-->
+
+</particles>
+

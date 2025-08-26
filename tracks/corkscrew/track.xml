@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<track name="Corkscrew TME"
+       version="7"
+       groups="TME"
+       designer="Charalampos Alexopoulos (ported by CrystalDaEevee)"
+       music="ir4.music"
+       screenshot="screenshot.jpg"
+       smooth-normals="false"
+       default-number-of-laps="3"
+       reverse="N"
+       clouds="N"
+       is-during-day="Y"
+       shadows="Y"
+       revision="2"
+>
+</track>

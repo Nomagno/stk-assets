@@ -1,0 +1,26 @@
+1. This track was created and textured by The_Black_Cat_Hollyleaf
+	License in STK: GNU GPL
+	1st version: 2023/12/12
+	2nd version: 2023/12/12: add checklines.
+	South Track 1st version: 2024/01/04
+	3rd version: 2024/07/24: powerups re-arrangement and music and few minor changes etc.
+2. Barrier textures from Ardennen-Spa
+	License: GNU GPL
+3. Start lights and ad post from Maple Overpass
+	Licenses: GNU GPL, CC-BY-SA 3.0
+4. GNU model and two house models from Scotland
+	License: GPL
+5. Music: 口付けアバンチュール
+	License: check https://lit.link/en/Yuukast 
+		> [楽曲の使用につきまして] 幽閉サテライト（及び、姉妹グループ：幽閉カタルシス・少女フラクタル）の同人楽曲使用につきましては、出典・クレジットなどを表記の上、非営利の金銭などが発生しない用途に限り自由です。
+
+ーーーーーーーーーーーーーーーーーー
+❏曲名：口付けアバンチュール
+❏作曲：魔王
+❏作詞：天宮みや
+❏編曲：神奈森ユウ
+❏歌：Marcia
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+

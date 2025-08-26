@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<EasterEggHunt>
+  <easy>
+    <easter-egg x="-52.55" y="1.30" z="27.02" h="41.85" />
+    <easter-egg x="-83.16" y="0.36" z="-57.97" h="41.85" />
+    <easter-egg x="-130.20" y="0.53" z="64.21" h="41.85" />
+    <easter-egg x="-234.96" y="0.04" z="-44.48" h="41.85" />
+    <easter-egg x="-23.71" y="0.02" z="-67.92" h="41.85" />
+    <easter-egg x="-233.07" y="0.39" z="13.12" h="41.85" />
+  </easy>
+  <medium>
+    <easter-egg x="-193.83" y="2.52" z="84.17" h="41.85" />
+    <easter-egg x="-244.31" y="0.36" z="14.34" h="41.85" />
+    <easter-egg x="-85.59" y="0.36" z="-54.36" h="41.85" />
+    <easter-egg x="-40.54" y="1.04" z="3.85" h="41.85" />
+  </medium>
+  <hard>
+    <easter-egg x="-190.24" y="2.99" z="86.44" h="41.85" />
+    <easter-egg x="-97.45" y="0.36" z="-85.45" h="41.85" />
+    <easter-egg x="-40.54" y="1.04" z="3.85" h="41.85" />
+    <easter-egg x="-253.40" y="1.30" z="27.19" h="41.85" />
+  </hard>
+</EasterEggHunt>

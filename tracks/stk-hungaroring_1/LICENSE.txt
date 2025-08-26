@@ -1,0 +1,26 @@
+1. This track "STK Hungaroaring" was created by Cirno de Ice Fairy Racing (STK account: Cirno_del_Nueve) for SuperTuxKart. If you want to port this track into other games, feel free to contact me. (STK account: Cirno_del_Nueve, or direct message me on Discord.)
+	License: release under CC-BY-SA 4.0 (License update: 2025/08/15)
+	1st version: 2025/04/27
+	2nd version: 2025/07/12 Allow reverse
+	3rd version: 2025/08/05 Icon change
+	4th version: 2025/08/15 See "Notice: Changes for the 4th version"
+
+2. Texture relate (use or modify) and their original licenses:
+	A. Ardennen-Spa, license: GNU GPL
+	B. "56" and "7" number plates and the pumpkin icon by kimden on the teams plate.png, license: CC0
+	C. Touhou character stickers by dairi, license: Please check their ※フリー素材に関する利用規約※ on https://www.pixiv.net/en/users/4920496/artworks?p=5
+	D. If any other brand mark appears here I didn't state, it belong to it's owners.
+	E. Except for stuffs stated above (by their own terms), other textures made by Cirno de Ice Fairy Racing are also release under CC-BY-SA 4.0 alone with this track.
+
+3. Music: Touhou rearrangements by ステンBUN, original composed by Zun for 東方妖々夢 〜 Perfect Cherry Blossom (Touhou license: CC-BY-SA 4.0, check Touhou Wiki (https://en.touhouwiki.net/wiki/Touhou_Wiki:Copyrights)).
+	A. Main: 遠野幻想物語 (https://youtu.be/V87Qn80qk98?si=jcNzCdcxOWZ3nOGS)
+	B. Last lap: 人恋し神様 〜 Romantic Fall (https://youtu.be/uXW43Qb1Yg8?si=1Su3iTU85F6jAMaW)
+
+4. Disclaimer: "STK Hungaroaring" is a second creation based on Hungaroaring. When using this track, also the models and textures within, must be within a reasonable range. If there is trouble regarding the derivatives of my work, I cannot take responsibility. 
+
+Notice: Changes for the 4th version:
+	A. Remove library objects.
+	B. Modifications for the track surroundings and objects, and reduce vertices.
+	C. License update.
+	D. Removed tyre eggs, it won't proactive support TME further. 
+	E. Add eggs hunt mode.

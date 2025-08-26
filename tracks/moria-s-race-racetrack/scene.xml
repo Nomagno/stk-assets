@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <track model="moriasraceracetrack_track.spm" x="0" y="0" z="0"/>
+  <sun  xyz="99.79 61.25 74.65" ambient="85 85 85"/>
+  <weather particles="rain.xml" lightning="true"/>
+  <sky-box texture="skybox_black.png skybox_black.png skybox_right.png skybox_black.png skybox_forward.png skybox_black.png" />
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="3" />
+    <check-line kind="activate" other-ids="0" p1="325.19 34.82 234.76" p2="363.92 32.13 262.58"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="1" p1="-77.35 8.17 350.85" p2="-104.31 11.55 390.13"
+                same-group="2"/>
+    <check-line kind="activate" other-ids="2" p1="28.33 -0.76 117.95" p2="15.20 0.28 111.41"
+                same-group="3"/>
+  </checks>
+  <big-nitro id="Nitro_Big" x="114.15" y="0.59" z="9.47" />
+  <big-nitro id="Nitro_Big.001" x="114.11" y="0.59" z="13.19" />
+  <big-nitro id="Nitro_Big.002" x="113.98" y="0.59" z="17.01" />
+  <item id="Gift" x="90.15" y="0.59" z="16.70" />
+  <item id="Gift.001" x="95.02" y="0.59" z="12.78" />
+  <item id="Gift.002" x="90.58" y="0.59" z="8.38" />
+  <banana id="Banana" x="126.44" y="0.37" z="27.54" />
+  <banana id="Banana.001" x="114.25" y="0.37" z="48.38" />
+  <item id="Gift.003" x="94.66" y="3.96" z="43.90" />
+  <item id="Gift.004" x="99.90" y="3.96" z="65.39" />
+  <small-nitro id="Nitro_Small" x="91.95" y="4.43" z="47.22" />
+  <small-nitro id="Nitro_Small.001" x="90.18" y="4.43" z="53.13" />
+  <small-nitro id="Nitro_Small.002" x="91.19" y="4.43" z="58.90" />
+  <small-nitro id="Nitro_Small.003" x="94.52" y="4.43" z="62.97" />
+  <banana id="Banana.002" x="120.66" y="3.73" z="55.14" />
+  <banana id="Banana.003" x="116.40" y="3.73" z="55.57" />
+  <banana id="Banana.004" x="124.44" y="3.73" z="54.23" />
+  <banana id="Banana.005" x="127.12" y="3.73" z="53.18" />
+  <banana id="Banana.006" x="129.70" y="3.73" z="51.79" />
+  <item id="Gift.005" x="137.01" y="0.39" z="100.04" />
+  <item id="Gift.006" x="134.80" y="0.39" z="97.57" />
+  <big-nitro id="Nitro_Big.003" x="99.75" y="-0.69" z="130.19" />
+  <big-nitro id="Nitro_Big.004" x="94.16" y="-0.69" z="131.28" />
+  <big-nitro id="Nitro_Big.005" x="88.40" y="-0.69" z="131.85" />
+  <big-nitro id="Nitro_Big.006" x="81.66" y="-0.69" z="130.89" />
+  <big-nitro id="Nitro_Big.007" x="76.35" y="-0.69" z="128.83" />
+  <big-nitro id="Nitro_Big.008" x="72.00" y="-0.69" z="125.33" />
+  <big-nitro id="Nitro_Big.009" x="67.83" y="-0.69" z="120.94" />
+  <big-nitro id="Nitro_Big.010" x="64.90" y="-0.69" z="114.23" />
+  <big-nitro id="Nitro_Big.011" x="63.77" y="-0.69" z="108.09" />
+  <banana id="Banana.007" x="109.51" y="0.57" z="116.69" />
+  <item id="Gift.007" x="79.24" y="2.28" z="64.30" />
+  <banana id="Banana.008" x="75.36" y="1.04" z="66.22" />
+  <item id="Gift.008" x="75.90" y="2.28" z="59.78" />
+  <item id="Gift.009" x="71.26" y="2.28" z="56.57" />
+  <item id="Gift.010" x="64.00" y="2.28" z="54.90" />
+  <item id="Gift.011" x="81.02" y="2.28" z="70.13" />
+  <item id="Gift.012" x="81.48" y="2.28" z="77.11" />
+  <banana id="Banana.009" x="77.51" y="1.04" z="74.10" />
+  <banana id="Banana.010" x="64.18" y="1.04" z="59.36" />
+  <item id="Gift.013" x="2.76" y="0.61" z="69.23" />
+  <item id="Gift.014" x="5.93" y="0.61" z="99.88" />
+  <item id="Gift.015" x="21.80" y="0.61" z="114.66" />
+  <item id="Gift.016" x="-0.81" y="0.61" z="103.94" />
+  <item id="Gift.017" x="54.22" y="3.97" z="39.76" />
+  <item id="Gift.018" x="73.97" y="5.06" z="37.42" />
+  <item id="Gift.019" x="92.21" y="5.80" z="34.60" />
+  <small-nitro id="Nitro_Small.004" x="4.38" y="0.39" z="59.95" />
+  <small-nitro id="Nitro_Small.005" x="2.04" y="0.39" z="62.77" />
+  <small-nitro id="Nitro_Small.006" x="-10.22" y="0.39" z="58.16" />
+  <small-nitro id="Nitro_Small.007" x="-8.91" y="0.39" z="52.44" />
+  <small-nitro id="Nitro_Small.008" x="-6.02" y="0.39" z="48.51" />
+  <small-nitro id="Nitro_Small.009" x="0.53" y="0.39" z="44.11" />
+  <big-nitro id="Nitro_Big.012" x="2.37" y="0.39" z="14.71" />
+  <big-nitro id="Nitro_Big.013" x="10.74" y="0.39" z="14.47" />
+  <big-nitro id="Nitro_Big.014" x="18.53" y="0.39" z="14.61" />
+  <big-nitro id="Nitro_Big.015" x="16.62" y="0.39" z="11.27" />
+  <big-nitro id="Nitro_Big.016" x="7.87" y="0.39" z="10.98" />
+  <big-nitro id="Nitro_Big.017" x="0.41" y="0.39" z="11.03" />
+  <small-nitro id="Nitro_Small.010" x="246.92" y="2.02" z="8.83" />
+  <small-nitro id="Nitro_Small.011" x="258.61" y="2.06" z="12.51" />
+  <small-nitro id="Nitro_Small.012" x="263.57" y="2.08" z="20.27" />
+  <small-nitro id="Nitro_Small.013" x="263.90" y="2.10" z="27.46" />
+  <item id="Gift.020" x="247.48" y="-1.00" z="56.79" />
+  <item id="Gift.021" x="253.24" y="0.25" z="57.41" />
+  <item id="Gift.022" x="248.72" y="-0.64" z="63.17" />
+  <item id="Gift.023" x="234.83" y="-7.36" z="118.69" />
+  <item id="Gift.024" x="229.57" y="-15.39" z="142.69" />
+  <item id="Gift.025" x="212.15" y="-24.86" z="160.54" />
+  <item id="Gift.026" x="181.32" y="-26.56" z="162.28" />
+  <item id="Gift.027" x="162.98" y="-26.56" z="147.32" />
+  <item id="Gift.028" x="145.62" y="-26.56" z="124.01" />
+  <item id="Gift.029" x="122.14" y="-26.56" z="97.28" />
+  <item id="Gift.030" x="95.07" y="-26.56" z="78.94" />
+  <item id="Gift.031" x="66.79" y="-26.62" z="82.37" />
+  <item id="Gift.032" x="47.37" y="-25.91" z="107.25" />
+  <item id="Gift.033" x="40.25" y="-3.56" z="211.05" />
+  <item id="Gift.034" x="38.96" y="-4.52" z="202.57" />
+  <banana id="Banana.011" x="38.30" y="-3.86" z="207.77" />
+  <banana id="Banana.012" x="41.62" y="-4.65" z="201.84" />
+  <banana id="Banana.013" x="23.73" y="-2.38" z="243.27" />
+  <banana id="Banana.014" x="-2.55" y="-0.72" z="302.30" />
+  <banana id="Banana.015" x="-32.50" y="1.17" z="368.39" />
+  <banana id="Banana.016" x="-84.32" y="8.91" z="373.42" />
+  <banana id="Banana.017" x="-91.88" y="19.73" z="269.14" />
+  <item id="Gift.035" x="10.54" y="-1.55" z="272.75" />
+  <item id="Gift.036" x="-19.90" y="0.36" z="340.07" />
+  <item id="Gift.037" x="-103.24" y="14.17" z="363.29" />
+  <item id="Gift.038" x="-109.75" y="19.73" z="301.02" />
+  <item id="Gift.039" x="-75.89" y="19.73" z="244.21" />
+  <item id="Gift.040" x="-13.13" y="19.73" z="135.56" />
+  <item id="Gift.041" x="-10.42" y="19.73" z="137.41" />
+  <item id="Gift.042" x="19.39" y="38.60" z="83.52" />
+  <item id="Gift.043" x="23.82" y="39.06" z="85.73" />
+  <item id="Gift.044" x="35.29" y="99.44" z="61.54" />
+  <item id="Gift.045" x="38.93" y="99.36" z="63.87" />
+  <item id="Gift.046" x="16.74" y="162.68" z="93.18" />
+  <item id="Gift.047" x="14.93" y="168.43" z="104.56" />
+  <item id="Gift.048" x="2.20" y="173.25" z="119.35" />
+  <item id="Gift.049" x="-32.38" y="153.04" z="175.40" />
+  <item id="Gift.050" x="-29.23" y="153.16" z="177.26" />
+  <item id="Gift.051" x="-33.74" y="56.94" z="188.74" />
+  <item id="Gift.052" x="-36.03" y="56.65" z="187.06" />
+  <banana id="Banana.018" x="7.42" y="19.73" z="128.85" />
+  <banana id="Banana.019" x="4.95" y="19.73" z="126.11" />
+  <banana id="Banana.020" x="13.77" y="19.73" z="122.42" />
+  <item id="Gift.053" x="174.42" y="19.73" z="122.16" />
+  <item id="Gift.054" x="174.63" y="19.73" z="117.94" />
+  <item id="Gift.055" x="228.53" y="33.39" z="122.79" />
+  <item id="Gift.056" x="247.47" y="64.33" z="119.67" />
+  <item id="Gift.057" x="241.55" y="105.45" z="125.65" />
+  <item id="Gift.058" x="219.06" y="127.40" z="122.54" />
+  <item id="Gift.059" x="177.15" y="132.45" z="127.82" />
+  <item id="Gift.060" x="138.37" y="100.30" z="124.26" />
+  <item id="Gift.061" x="141.99" y="47.34" z="131.17" />
+  <item id="Gift.062" x="173.75" y="22.45" z="126.86" />
+  <item id="Gift.063" x="200.75" y="20.21" z="131.80" />
+  <item id="Gift.064" x="306.07" y="23.78" z="129.11" />
+  <item id="Gift.065" x="334.48" y="25.81" z="142.04" />
+  <item id="Gift.066" x="355.90" y="27.82" z="164.89" />
+  <item id="Gift.067" x="366.47" y="30.23" z="199.16" />
+  <item id="Gift.068" x="356.90" y="33.02" z="239.43" />
+  <item id="Gift.069" x="336.48" y="35.03" z="262.00" />
+  <item id="Gift.070" x="309.49" y="36.97" z="273.99" />
+  <item id="Gift.071" x="268.50" y="39.63" z="272.85" />
+  <item id="Gift.072" x="233.51" y="42.25" z="252.28" />
+  <item id="Gift.073" x="212.52" y="45.02" z="217.58" />
+  <item id="Gift.074" x="205.24" y="45.77" z="175.60" />
+  <item id="Gift.075" x="208.95" y="45.77" z="174.88" />
+  <banana id="Banana.021" x="305.18" y="24.06" z="134.47" />
+  <banana id="Banana.022" x="344.02" y="27.18" z="157.03" />
+  <banana id="Banana.023" x="361.30" y="30.45" z="198.87" />
+  <banana id="Banana.024" x="344.17" y="34.28" z="249.14" />
+  <banana id="Banana.025" x="308.35" y="37.17" z="270.12" />
+  <banana id="Banana.026" x="252.58" y="41.09" z="260.99" />
+  <banana id="Banana.027" x="216.80" y="45.03" z="216.32" />
+  <banana id="Banana.028" x="204.21" y="45.77" z="150.93" />
+  <banana id="Banana.029" x="178.05" y="189.56" z="12.74" />
+  <banana id="Banana.030" x="178.26" y="185.90" z="13.82" />
+  <item id="Gift.076" x="177.56" y="208.11" z="7.36" />
+  <item id="Gift.077" x="172.59" y="207.33" z="7.38" />
+  <item id="Gift.078" x="182.33" y="206.62" z="6.23" />
+  <big-nitro id="Nitro_Big.018" x="176.18" y="210.86" z="6.42" />
+  <big-nitro id="Nitro_Big.019" x="179.15" y="211.07" z="5.89" />
+  <big-nitro id="Nitro_Big.020" x="168.42" y="188.36" z="14.86" />
+  <big-nitro id="Nitro_Big.021" x="168.43" y="194.58" z="12.04" />
+  <big-nitro id="Nitro_Big.022" x="187.61" y="187.92" z="11.28" />
+  <big-nitro id="Nitro_Big.023" x="187.01" y="196.46" z="10.03" />
+  <big-nitro id="Nitro_Big.024" x="176.87" y="56.06" z="46.28" />
+  <big-nitro id="Nitro_Big.025" x="180.60" y="55.71" z="45.96" />
+  <item id="Gift.079" x="194.98" y="36.10" z="157.68" />
+  <item id="Gift.080" x="169.15" y="36.10" z="196.01" />
+  <item id="Gift.081" x="133.29" y="36.10" z="192.98" />
+  <small-nitro id="Nitro_Small.014" x="189.60" y="36.10" z="177.17" />
+  <small-nitro id="Nitro_Small.015" x="180.28" y="36.10" z="188.10" />
+  <small-nitro id="Nitro_Small.016" x="155.45" y="36.10" z="198.90" />
+  <small-nitro id="Nitro_Small.017" x="142.22" y="36.10" z="197.09" />
+  <item id="Gift.082" x="94.00" y="36.10" z="166.53" />
+  <item id="Gift.083" x="91.78" y="36.10" z="169.23" />
+  <item id="Gift.084" x="-12.84" y="24.66" z="108.22" />
+  <item id="Gift.085" x="-14.44" y="24.23" z="111.65" />
+  <item id="Gift.086" x="-80.78" y="19.50" z="56.71" />
+  <item id="Gift.087" x="-74.24" y="16.04" z="37.69" />
+  <item id="Gift.088" x="-70.14" y="12.47" z="6.11" />
+  <banana id="Banana.031" x="120.21" y="36.10" z="181.14" />
+  <banana id="Banana.032" x="98.23" y="36.10" z="174.35" />
+  <banana id="Banana.033" x="66.56" y="35.89" z="151.79" />
+  <banana id="Banana.034" x="48.77" y="33.96" z="147.49" />
+  <banana id="Banana.035" x="31.12" y="31.04" z="133.71" />
+  <banana id="Banana.036" x="2.48" y="26.97" z="121.82" />
+  <banana id="Banana.037" x="-33.35" y="21.28" z="97.53" />
+  <banana id="Banana.038" x="-54.73" y="20.10" z="90.07" />
+  <item id="Gift.089" x="10.03" y="4.99" z="-71.45" />
+  <item id="Gift.090" x="-1.62" y="4.99" z="-72.31" />
+  <item id="Gift.091" x="-2.82" y="4.99" z="-54.66" />
+  <item id="Gift.092" x="31.28" y="4.99" z="-68.02" />
+  <item id="Gift.093" x="38.65" y="4.99" z="-58.77" />
+  <item id="Gift.094" x="22.37" y="4.99" z="-59.80" />
+  <item id="Gift.095" x="-4.19" y="4.99" z="-93.56" />
+  <item id="Gift.096" x="55.45" y="4.99" z="-85.33" />
+  <item id="Gift.097" x="62.64" y="4.99" z="-74.88" />
+  <item id="Gift.098" x="39.51" y="4.99" z="-104.87" />
+  <item id="Gift.099" x="43.11" y="4.99" z="-124.92" />
+  <item id="Gift.100" x="21.69" y="4.99" z="-104.70" />
+  <item id="Gift.101" x="12.95" y="4.99" z="-112.58" />
+  <item id="Gift.102" x="30.94" y="4.99" z="-117.03" />
+  <big-nitro id="Nitro_Big.026" x="-43.54" y="5.25" z="-89.42" />
+  <big-nitro id="Nitro_Big.027" x="-65.25" y="5.25" z="-82.76" />
+  <big-nitro id="Nitro_Big.028" x="-83.27" y="5.25" z="-79.80" />
+  <big-nitro id="Nitro_Big.029" x="-102.76" y="5.25" z="-76.10" />
+  <big-nitro id="Nitro_Big.030" x="-118.55" y="5.25" z="-62.77" />
+  <big-nitro id="Nitro_Big.031" x="-129.66" y="5.25" z="-50.19" />
+  <big-nitro id="Nitro_Big.032" x="-146.44" y="5.25" z="-35.87" />
+  <big-nitro id="Nitro_Big.033" x="-154.58" y="5.25" z="-15.89" />
+  <big-nitro id="Nitro_Big.034" x="-163.22" y="5.25" z="4.60" />
+  <big-nitro id="Nitro_Big.035" x="-165.19" y="5.25" z="18.91" />
+  <big-nitro id="Nitro_Big.036" x="-157.74" y="6.86" z="37.32" />
+
+  <tyre-change id="TC0" compound="2" stop-time="17" x="31.97" y="5.03" z="-104.76" h="0.5"/>
+  <tyre-change id="TC1" compound="3" stop-time="17" x="34.25" y="5.03" z="-109.61" h="0.5"/>
+  <tyre-change id="TC2" compound="4" stop-time="17" x="36.57" y="5.03" z="-114.06" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tc0" x="22.738356" y="5.030716" z="-116.147934" h="0.5"/>
+
+
+  <light xyz="2.82 1.87 73.47" id="Point.006" distance="3.11" energy="0.50" color="55 174 255">
+  </light>
+  <light xyz="3.91 1.87 91.32" id="Point.001" distance="3.11" energy="0.50" color="55 174 255">
+  </light>
+  <light xyz="4.81 1.87 99.85" id="Point.002" distance="3.11" energy="0.50" color="55 174 255">
+  </light>
+  <light xyz="19.29 1.87 108.78" id="Point.003" distance="3.11" energy="0.50" color="55 174 255">
+  </light>
+  <light xyz="21.17 1.87 114.93" id="Point.004" distance="3.11" energy="0.50" color="255 20 4">
+  </light>
+  <light xyz="15.42 1.87 115.82" id="Point.005" distance="3.11" energy="0.50" color="55 174 255">
+  </light>
+  <light xyz="-0.55 1.87 105.31" id="Point.007" distance="3.11" energy="0.50" color="255 20 4">
+  </light>
+  <light xyz="6.79 1.87 110.07" id="Point.008" distance="3.11" energy="0.50" color="55 174 255">
+  </light>
+  <light xyz="12.34 1.87 104.81" id="Point.009" distance="3.11" energy="0.50" color="55 174 255">
+  </light>
+  <light xyz="3.91 1.87 82.69" id="Point.010" distance="3.11" energy="0.50" color="55 174 255">
+  </light>
+  <light xyz="232.43 -6.74 136.75" id="Point.011" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="210.52 -18.49 162.39" id="Point.012" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="181.44 -19.35 162.53" id="Point.013" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="162.10 -19.35 147.64" id="Point.014" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="145.20 -19.35 124.00" id="Point.015" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="122.14 -19.35 96.50" id="Point.016" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="93.78 -19.35 80.31" id="Point.017" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="67.99 -19.35 82.75" id="Point.018" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="46.46 -19.35 108.00" id="Point.019" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="39.53 -14.35 140.67" id="Point.020" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <light xyz="40.04 -1.22 191.03" id="Point.021" distance="12.80" energy="10.00" color="255 20 4">
+  </light>
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+</scene>

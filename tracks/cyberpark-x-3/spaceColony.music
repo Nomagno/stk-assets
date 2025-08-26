@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<music title = "Space Colony"
+        composer = "Hidenori Shoji, Haruyoshi Tomita, Ryuji Iuchi"
+        gain = "1.0"
+        file = "spaceColony.ogg"
+		loop-start = "19.665"/>

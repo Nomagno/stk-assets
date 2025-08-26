@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<graph>
+  <!-- First define all nodes of the graph, and what quads they represent -->
+  <node-list from-quad="0" to-quad="402"/>  <!-- map each quad to a node  -->
+  <!-- Define the main loop -->
+  <edge-loop from="0" to="166"/>
+  <!-- Shortcut DriveLine.Obstacle.Bypass -->
+  <edge from="43" to="167"/>
+  <edge-line from="167" to="187"/>
+  <edge from="187" to="61"/>
+  <!-- Shortcut DriveLine.alt.Ramp.forward.right -->
+  <edge from="100" to="188"/>
+  <edge-line from="188" to="198"/>
+  <edge from="198" to="113"/>
+  <!-- Shortcut DriveLine.alt.Ramp.reverse2 -->
+  <edge from="100" to="199"/>
+  <edge-line from="199" to="224"/>
+  <edge from="224" to="119"/>
+  <!-- Shortcut DriveLine.alt.Ramp.reverseRescue1 -->
+  <edge from="100" to="225"/>
+  <edge-line from="225" to="250"/>
+  <edge from="250" to="391"/>
+  <!-- Shortcut DriveLine.alt.Ramp.reverse -->
+  <edge from="95" to="251"/>
+  <edge-line from="251" to="278"/>
+  <edge from="278" to="221"/>
+  <!-- Shortcut Driveline.alt.tunnel.reverse.off -->
+  <edge from="155" to="279"/>
+  <edge-line from="279" to="285"/>
+  <edge from="285" to="162"/>
+  <!-- Shortcut Driveline.alt.tunnel2 -->
+  <edge from="143" to="286"/>
+  <edge-line from="286" to="314"/>
+  <edge from="314" to="284"/>
+  <!-- Shortcut Driveline.alt.tunnel.reverse -->
+  <edge from="147" to="315"/>
+  <edge-line from="315" to="342"/>
+  <edge from="342" to="161"/>
+  <!-- Shortcut Driveline.alt.Temple -->
+  <edge from="123" to="343"/>
+  <edge-line from="343" to="385"/>
+  <edge from="385" to="145"/>
+  <!-- Shortcut DriveLine.alt.Ramp.forwardRescue -->
+  <edge from="110" to="386"/>
+  <edge-line from="386" to="394"/>
+  <edge from="394" to="223"/>
+  <!-- Shortcut Driveline.alt.OwRescue -->
+  <edge from="120" to="395"/>
+  <edge-line from="395" to="402"/>
+  <edge from="402" to="122"/>
+</graph>

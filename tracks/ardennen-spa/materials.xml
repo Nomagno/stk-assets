@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="spa-asphalt.png" gloss-map="ROADgloss.png">
+      <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="spa-asphalt-l.png" gloss-map="ROADgloss.png">
+      <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="spa-asph-start (copia).png" gloss-map="ROADgloss.png">
+      <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="spa-asph-start.png" gloss-map="ROADgloss.png">
+      <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="spa-concrete_green.png" gloss-map="ROADgloss.png">
+      <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="spa-concrete_red.png" gloss-map="ROADgloss.png">
+      <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="spa-Road-Pit.png" gloss-map="ROADgloss.png" slowdown-time="1.50" max-speed="0.50">
+    <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="spa-Road-PitE.png" gloss-map="ROADgloss.png">
+      <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="spa-Road-Pit-L.png" gloss-map="ROADgloss.png">
+      <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="218.png" shader="alphatest"/>
+  <material name="hk-fence_arbor.png" ignore="Y" shader="alphatest"/>
+  <material name="pc-tree7_n.png" shader="alphatest" ignore="Y"/>
+  <material name="pc-treeg1_n.png" shader="alphatest" ignore="Y"/>
+  <material name="poutre3_arbor_n.png" shader="alphatest"/>
+  <material name="spa-barrier-albanco_L.png" shader="alphatest"/>
+  <material name="spa-barrier-albanco_R.png" shader="alphatest"/>
+  <material name="spa-barrier-animated_L.png" shader="alphatest"/>
+  <material name="spa-barrier-animated_R.png" shader="alphatest"/>
+  <material name="spa-barrier-bsd_L.png" shader="alphatest"/>
+  <material name="spa-barrier-bsd_R.png" shader="alphatest"/>
+  <material name="spa-barrier-emigrated_L.png" shader="alphatest"/>
+  <material name="spa-barrier-emigrated_R.png" shader="alphatest"/>
+  <material name="spa-barrier-grille.png" shader="alphatest"/>
+  <material name="spa-barrier-reles.png" shader="alphatest"/>
+  <material name="spa-barrier-reles_L.png" shader="alphatest"/>
+  <material name="spa-barrier-reles_R.png" shader="alphatest"/>
+  <material name="tree01_n.png" shader="alphatest" ignore="Y"/>
+  <material name="tree02_n.png" shader="alphatest" ignore="Y"/>
+  <material name="tree03_n.png" shader="alphatest" ignore="Y"/>
+  <material name="tree04_n.png" shader="alphatest" ignore="Y"/>
+  <material name="tree05_n.png" shader="alphatest" ignore="Y"/>
+  <material name="spa-curb-r.png">
+    <sfx filename="kerb.ogg" min_speed="1.00" max_speed="25.00" min_pitch="0.80" max_pitch="0.85" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="spa-curb-l.png">
+    <sfx filename="kerb.ogg" min_speed="1.00" max_speed="25.00" min_pitch="0.80" max_pitch="0.85" positional="true" rolloff="0.10"/>
+  </material>    
+  <material name="spa-grass.png" slowdown-time="0.50" max-speed="0.70">
+    <particles base="smoke_brown.xml" condition="skid"/>
+  </material>
+  <material name="spa-sand.png" slowdown-time="0.40" max-speed="0.40">
+    <sfx filename="sand.ogg" min_speed="1.00" max_speed="25.00" min_pitch="1.00" max_pitch="1.40" positional="true" rolloff="0.10"/>
+    <particles base="smoke_yellow.xml" condition="skid drive"/>
+  </material>
+  <material name="superzipper.png" mirror-axis="U">
+    <particles base="greenzipper_fire.xml" condition="skid drive"/>
+    <zipper duration="12.5.0" max-speed-increase="25.0" fade-out-time="3.0" speed-gain="3.5" min-speed="-1.0"/>
+  </material>
+</materials>

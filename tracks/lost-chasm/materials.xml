@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="bush2.png" shader="alphatest"/>
+  <material name="city_fern.png" shader="alphatest"/>
+  <material name="danger-explosion-sign.png" shader="alphatest"/>
+  <material name="invwall.png" shader="alphatest" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light-1.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="light.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="plants.png" shader="alphatest" disable-z-write="Y"/>
+  <material name="reset.png" shader="alphatest" reset="Y" disable-z-write="Y"/>
+  <material name="Rubis-subsea.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="sea.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="vegetation_1.png" shader="alphatest"/>
+</materials>

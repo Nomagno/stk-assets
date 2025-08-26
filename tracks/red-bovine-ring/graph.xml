@@ -1,0 +1,11 @@
+<?xml version="1.0"?> encoding="utf-8"?>
+<graph>
+  <!-- First define all nodes of the graph, and what quads they represent -->
+  <node-list from-quad="0" to-quad="368"/>  <!-- map each quad to a node  -->
+  <!-- Define the main loop -->
+  <edge-loop from="0" to="315"/>
+  <!-- Shortcut driveline pit -->
+  <edge from="272" to="316"/>
+  <edge-line from="316" to="368"/>
+  <edge from="368" to="311"/>
+</graph>

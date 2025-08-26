@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <track model="1-racetrack-Hungaroring-update-0812_track.spm" x="0" y="0" z="0"/>
+  <sun  xyz="-396.07 382.21 -143.72" sun-specular="220 220 220" sun-diffuse="210 210 210" ambient="125 120 120"/>
+  <sky-box texture="blue_sky_top.jpg yellow_dirt.jpg blue_sky_east.jpg blue_sky_west.jpg blue_sky_south.jpg blue_sky_north.jpg" />
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1 15 29" />
+    <check-line kind="activate" other-ids="2 16 30" p1="-171.51 -15.00 -138.39" p2="-123.63 -15.00 -131.68"
+                same-group="1 15 29"/>
+    <check-line kind="activate" other-ids="3 17 31" p1="-16.99 -21.24 -85.84" p2="7.08 -17.86 -102.51"
+                same-group="2 16 30"/>
+    <check-line kind="activate" other-ids="4 18 32" p1="-71.57 -24.70 -57.00" p2="-32.49 -24.64 -43.62"
+                same-group="3 17 31"/>
+    <check-line kind="activate" other-ids="5 19 33" p1="-83.68 -22.00 45.52" p2="-59.43 -22.01 48.32"
+                same-group="4 18 32"/>
+    <check-line kind="activate" other-ids="6 20 34" p1="-90.99 -22.00 76.42" p2="-56.70 -22.00 76.42"
+                same-group="5 19 33"/>
+    <check-line kind="activate" other-ids="7 21 35" p1="-110.47 -23.15 120.00" p2="-127.39 -20.28 108.80"
+                same-group="6 20 34"/>
+    <check-line kind="activate" other-ids="8 22 36" p1="-8.01 -17.94 133.74" p2="-48.61 -19.28 133.74"
+                same-group="7 21 35"/>
+    <check-line kind="activate" other-ids="9 23 37" p1="-8.31 -18.98 118.01" p2="-48.69 -19.00 118.01"
+                same-group="8 22 36"/>
+    <check-line kind="activate" other-ids="10 24 38" p1="6.50 -18.80 98.20" p2="10.91 -18.91 72.57"
+                same-group="9 23 37"/>
+    <check-line kind="activate" other-ids="11 25 39" p1="47.68 -15.23 127.09" p2="44.81 -17.21 104.59"
+                same-group="10 24 38"/>
+    <check-line kind="activate" other-ids="12 26 40" p1="94.98 -15.00 62.39" p2="81.63 -14.99 42.06"
+                same-group="11 25 39"/>
+    <check-line kind="activate" other-ids="13 27 41" p1="139.65 -15.06 56.09" p2="117.46 -15.16 32.85"
+                same-group="12 26 40"/>
+    <check-line kind="activate" other-ids="14 28 42" p1="126.88 -16.42 -91.36" p2="112.73 -17.74 -66.19"
+                same-group="13 27 41"/>
+    <check-line kind="activate" other-ids="0" p1="43.81 -15.17 -87.25" p2="63.04 -15.00 -89.64"
+                same-group="14 28 42"/>
+    <check-line kind="activate" other-ids="2 16 30" p1="-171.51 -12.00 -138.39" p2="-123.63 -12.00 -131.68"
+                same-group="1 15 29"/>
+    <check-line kind="activate" other-ids="3 17 31" p1="-16.99 -18.24 -85.84" p2="7.08 -14.86 -102.51"
+                same-group="2 16 30"/>
+    <check-line kind="activate" other-ids="4 18 32" p1="-71.57 -21.70 -57.00" p2="-32.49 -21.64 -43.62"
+                same-group="3 17 31"/>
+    <check-line kind="activate" other-ids="5 19 33" p1="-83.68 -19.00 45.52" p2="-59.43 -19.01 48.32"
+                same-group="4 18 32"/>
+    <check-line kind="activate" other-ids="6 20 34" p1="-90.99 -19.00 76.42" p2="-56.70 -19.00 76.42"
+                same-group="5 19 33"/>
+    <check-line kind="activate" other-ids="7 21 35" p1="-110.47 -20.15 120.00" p2="-127.39 -17.28 108.80"
+                same-group="6 20 34"/>
+    <check-line kind="activate" other-ids="8 22 36" p1="-8.01 -14.94 133.74" p2="-48.61 -16.28 133.74"
+                same-group="7 21 35"/>
+    <check-line kind="activate" other-ids="9 23 37" p1="-8.31 -15.98 118.01" p2="-48.69 -16.00 118.01"
+                same-group="8 22 36"/>
+    <check-line kind="activate" other-ids="10 24 38" p1="6.50 -15.80 98.20" p2="10.91 -15.91 72.57"
+                same-group="9 23 37"/>
+    <check-line kind="activate" other-ids="11 25 39" p1="47.68 -12.23 127.09" p2="44.81 -14.21 104.59"
+                same-group="10 24 38"/>
+    <check-line kind="activate" other-ids="12 26 40" p1="94.98 -12.00 62.39" p2="81.63 -11.99 42.06"
+                same-group="11 25 39"/>
+    <check-line kind="activate" other-ids="13 27 41" p1="139.65 -12.06 56.09" p2="117.46 -12.16 32.85"
+                same-group="12 26 40"/>
+    <check-line kind="activate" other-ids="14 28 42" p1="126.88 -13.42 -91.36" p2="112.73 -14.74 -66.19"
+                same-group="13 27 41"/>
+    <check-line kind="activate" other-ids="0" p1="43.81 -12.17 -87.25" p2="63.04 -12.00 -89.64"
+                same-group="14 28 42"/>
+    <check-line kind="activate" other-ids="2 16 30" p1="-171.51 -18.00 -138.39" p2="-123.63 -18.00 -131.68"
+                same-group="1 15 29"/>
+    <check-line kind="activate" other-ids="3 17 31" p1="-16.99 -24.24 -85.84" p2="7.08 -20.86 -102.51"
+                same-group="2 16 30"/>
+    <check-line kind="activate" other-ids="4 18 32" p1="-71.57 -27.70 -57.00" p2="-32.49 -27.64 -43.62"
+                same-group="3 17 31"/>
+    <check-line kind="activate" other-ids="5 19 33" p1="-83.68 -25.00 45.52" p2="-59.43 -25.01 48.32"
+                same-group="4 18 32"/>
+    <check-line kind="activate" other-ids="6 20 34" p1="-90.99 -25.00 76.42" p2="-56.70 -25.00 76.42"
+                same-group="5 19 33"/>
+    <check-line kind="activate" other-ids="7 21 35" p1="-110.47 -26.15 120.00" p2="-127.39 -23.28 108.80"
+                same-group="6 20 34"/>
+    <check-line kind="activate" other-ids="8 22 36" p1="-8.01 -20.94 133.74" p2="-48.61 -22.28 133.74"
+                same-group="7 21 35"/>
+    <check-line kind="activate" other-ids="9 23 37" p1="-8.31 -21.98 118.01" p2="-48.69 -22.00 118.01"
+                same-group="8 22 36"/>
+    <check-line kind="activate" other-ids="10 24 38" p1="6.50 -21.80 98.20" p2="10.91 -21.91 72.57"
+                same-group="9 23 37"/>
+    <check-line kind="activate" other-ids="11 25 39" p1="47.68 -18.23 127.09" p2="44.81 -20.21 104.59"
+                same-group="10 24 38"/>
+    <check-line kind="activate" other-ids="12 26 40" p1="94.98 -18.00 62.39" p2="81.63 -17.99 42.06"
+                same-group="11 25 39"/>
+    <check-line kind="activate" other-ids="13 27 41" p1="139.65 -18.06 56.09" p2="117.46 -18.16 32.85"
+                same-group="12 26 40"/>
+    <check-line kind="activate" other-ids="14 28 42" p1="126.88 -19.42 -91.36" p2="112.73 -20.74 -66.19"
+                same-group="13 27 41"/>
+    <check-line kind="activate" other-ids="0" p1="43.81 -18.17 -87.25" p2="63.04 -18.00 -89.64"
+                same-group="14 28 42"/>
+  </checks>
+  <small-nitro id="Empty" x="-74.81" y="-17.35" z="-99.17" />
+  <small-nitro id="Empty.001" x="-74.81" y="-17.36" z="-94.59" />
+  <small-nitro id="Empty.002" x="-74.74" y="-17.35" z="-103.63" />
+  <small-nitro id="Empty.003" x="-53.25" y="-24.45" z="-35.42" />
+  <small-nitro id="Empty.004" x="-48.86" y="-24.45" z="-34.43" />
+  <small-nitro id="Empty.005" x="-57.65" y="-24.45" z="-36.40" />
+  <small-nitro id="Empty.006" x="-73.71" y="-22.00" z="62.16" />
+  <small-nitro id="Empty.007" x="-78.25" y="-22.00" z="62.18" />
+  <small-nitro id="Empty.008" x="-69.25" y="-22.00" z="62.22" />
+  <small-nitro id="Empty.009" x="-96.75" y="-22.00" z="99.64" />
+  <small-nitro id="Empty.010" x="-94.26" y="-22.18" z="103.34" />
+  <small-nitro id="Empty.011" x="-99.32" y="-21.82" z="95.87" />
+  <small-nitro id="Empty.012" x="71.25" y="-15.06" z="74.64" />
+  <small-nitro id="Empty.013" x="74.91" y="-15.06" z="76.16" />
+  <small-nitro id="Empty.014" x="67.57" y="-15.06" z="73.03" />
+  <small-nitro id="Empty.015" x="130.09" y="-19.14" z="-47.50" />
+  <small-nitro id="Empty.016" x="134.15" y="-19.13" z="-47.92" />
+  <small-nitro id="Empty.017" x="125.99" y="-19.16" z="-47.02" />
+  <small-nitro id="Empty.018" x="122.79" y="-15.00" z="-122.42" />
+  <small-nitro id="Empty.019" x="118.30" y="-15.00" z="-122.32" />
+  <small-nitro id="Empty.020" x="127.26" y="-15.00" z="-122.38" />
+  <small-nitro id="Empty.061" x="-2.34" y="-19.00" z="85.40" />
+  <small-nitro id="Empty.062" x="-0.61" y="-19.00" z="88.52" h="-180.00" />
+  <big-nitro id="EmptyA" x="15.25" y="-17.97" z="-91.65" />
+  <big-nitro id="EmptyB" x="15.25" y="-17.97" z="-89.31" />
+
+  <tyre-change compound="2" stop-time="12" id="Soft" x="11.65" y="-14.80" z="-120.80" />
+  <tyre-change compound="2" stop-time="12" id="Soft.001" x="15.90" y="-14.80" z="-120.80" />
+  <tyre-change compound="2" stop-time="12" id="Soft.002" x="35.65" y="-14.80" z="-120.80" />
+  <tyre-change compound="2" stop-time="12" id="Soft.003" x="39.90" y="-14.80" z="-120.80" />
+  <tyre-change compound="3" stop-time="10" id="Medium.001" x="19.65" y="-14.80" z="-120.80" />
+  <tyre-change compound="3" stop-time="10" id="Medium.002" x="23.90" y="-14.80" z="-120.80" />
+  <tyre-change compound="3" stop-time="10" id="Medium.003" x="43.65" y="-14.80" z="-120.80" />
+  <tyre-change compound="3" stop-time="10" id="Medium" x="47.90" y="-14.80" z="-120.80" />
+  <tyre-change compound="4" stop-time="8" id="Hard.001" x="27.65" y="-14.80" z="-120.80" />
+  <tyre-change compound="4" stop-time="8" id="Hard.002" x="31.90" y="-14.80" z="-120.80" />
+  <tyre-change compound="4" stop-time="8" id="Hard.003" x="51.65" y="-14.80" z="-120.80" />
+  <tyre-change compound="4" stop-time="8" id="Hard" x="55.90" y="-14.80" z="-120.80" />
+
+  <tyre-change compound="123" stop-time="7" id="fuel1" x="3.65" y="-14.80" z="-120.80"/>
+  <tyre-change compound="123" stop-time="7" id="fuel2" x="7.90" y="-14.80" z="-120.80"/>
+
+  <item id="Empty.021" x="-74.76" y="-17.36" z="-96.86" />
+  <item id="Empty.022" x="-74.76" y="-17.35" z="-101.33" />
+  <item id="Empty.023" x="-50.98" y="-24.45" z="-34.91" />
+  <item id="Empty.024" x="-55.46" y="-24.45" z="-35.91" />
+  <item id="Empty.025" x="-75.99" y="-22.00" z="62.19" />
+  <item id="Empty.026" x="-71.47" y="-22.00" z="62.20" />
+  <item id="Empty.027" x="-95.48" y="-22.09" z="101.53" />
+  <item id="Empty.029" x="113.15" y="-15.00" z="52.64" />
+  <item id="Empty.028" x="-98.05" y="-21.91" z="97.74" />
+  <item id="Empty.030" x="113.21" y="-15.00" z="48.65" />
+  <item id="Empty.031" x="113.19" y="-15.00" z="44.58" />
+  <item id="Empty.032" x="125.98" y="-19.16" z="-47.03" />
+  <item id="Empty.033" x="130.08" y="-19.14" z="-47.51" />
+  <item id="Empty.034" x="134.14" y="-19.13" z="-47.93" />
+  <item id="Empty.036" x="125.05" y="-15.00" z="-122.40" />
+  <item id="Empty.035" x="120.57" y="-15.00" z="-122.33" />
+  <item id="Empty.058" x="0.73" y="-19.00" z="91.04" />
+  <item id="Empty.060" x="-3.62" y="-19.00" z="82.88" />
+  <default-start karts-per-row     ="1"
+                 forwards-distance ="3.00"
+                 sidewards-distance="10.00"
+                 upwards-distance  ="1.10"/>
+</scene>

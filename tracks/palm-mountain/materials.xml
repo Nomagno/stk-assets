@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="stk_generic_grassC.png" falling-effect="Y" water-splash="Y"/>
+  <material name="stk_generic_bordePinkA.png" slowdown-time="0.20" max-speed="0.90"/>
+  <material name="stk_generic_bedRock_a.png" slowdown-time="0.50" max-speed="0.50"/>
+  <material name="transparent_invisible_wall_5314523.png" shader="alphatest" reset="Y" collision-detect="Y" collision-reaction="reset"/>
+  <material name="jungleWater.png" shader="alphablend" reset="Y" surface="Y" collision-detect="Y" collision-reaction="reset"/>
+  <material name="simpletrack-arrow.png" shader="alphatest" gloss-map="simpletrack-arrow-gloss.png" normal-map="simpletrack-arrow-nm.png">
+    <zipper duration="5.0" max-speed-increase="17.5" fade-out-time="4.0" speed-gain="5.0" min-speed="-1.0"/>
+  </material>
+</materials>

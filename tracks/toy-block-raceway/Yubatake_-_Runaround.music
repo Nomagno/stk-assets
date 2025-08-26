@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<music title = "Runaround" 
+	   composer = "Yubatake - https://opengameart.org/content/runaround" 
+	   gain = "1.8" 
+	   file = "Yubatake_-_Runaround_(loopable).ogg" 
+	   loop-start = "18.874" 
+	   fast = "true" 
+	   fast-filename = "Yubatake_-_Runaround_(fast_loopable).ogg" 
+	   fast-loop-start = "8.563"/>

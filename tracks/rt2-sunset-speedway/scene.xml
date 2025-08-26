@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<scene>
+  <track model="rt2-sunset-speedway-wip_track.spm" x="0" y="0" z="0"/>
+  <sun  xyz="0.00 150.00 -143.49" sun-specular="255 72 23" sun-diffuse="195 55 18" ambient="117 70 50"/>
+  <sky-box texture="heaven_up.jpg heaven_dn.jpg heaven_rt.jpg heaven_lf.jpg heaven_ft.jpg heaven_bk.jpg" sh-texture="heaven_up.jpg heaven_dn.jpg heaven_rt.jpg heaven_lf.jpg heaven_ft.jpg heaven_bk.jpg"/>
+  <camera far="2000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1 2 3 4" />
+    <check-line kind="activate" other-ids="5 6 7 8" p1="105.23 -85.07" p2="105.23 -37.80"
+                min-height="-0.16" same-group="1 2 3 4"/>
+    <check-line kind="activate" other-ids="5 6 7 8" p1="105.23 -85.07" p2="105.23 -37.80"
+                min-height="3.84" same-group="1 2 3 4"/>
+    <check-line kind="activate" other-ids="5 6 7 8" p1="105.23 -85.07" p2="105.23 -37.80"
+                min-height="7.84" same-group="1 2 3 4"/>
+    <check-line kind="activate" other-ids="5 6 7 8" p1="105.23 -85.07" p2="105.23 -37.80"
+                min-height="11.84" same-group="1 2 3 4"/>
+    <check-line kind="activate" other-ids="9 10 11 12" p1="54.71 -14.08" p2="28.78 25.45"
+                min-height="-0.40" same-group="5 6 7 8"/>
+    <check-line kind="activate" other-ids="9 10 11 12" p1="54.71 -14.08" p2="28.78 25.45"
+                min-height="3.60" same-group="5 6 7 8"/>
+    <check-line kind="activate" other-ids="9 10 11 12" p1="54.71 -14.08" p2="28.78 25.45"
+                min-height="7.60" same-group="5 6 7 8"/>
+    <check-line kind="activate" other-ids="9 10 11 12" p1="54.71 -14.08" p2="28.78 25.45"
+                min-height="11.60" same-group="5 6 7 8"/>
+    <check-line kind="activate" other-ids="13 14 15 16" p1="-49.50 5.31" p2="-96.26 -1.58"
+                min-height="-5.57" same-group="9 10 11 12"/>
+    <check-line kind="activate" other-ids="13 14 15 16" p1="-49.50 5.31" p2="-96.26 -1.58"
+                min-height="-1.57" same-group="9 10 11 12"/>
+    <check-line kind="activate" other-ids="13 14 15 16" p1="-49.50 5.31" p2="-96.26 -1.58"
+                min-height="2.43" same-group="9 10 11 12"/>
+    <check-line kind="activate" other-ids="13 14 15 16" p1="-49.50 5.31" p2="-96.26 -1.58"
+                min-height="6.43" same-group="9 10 11 12"/>
+    <check-line kind="activate" other-ids="17 18" p1="21.39 23.77" p2="24.86 70.91"
+                min-height="-10.04" same-group="13 14 15 16"/>
+    <check-line kind="activate" other-ids="17 18" p1="21.39 23.77" p2="24.86 70.91"
+                min-height="-6.04" same-group="13 14 15 16"/>
+    <check-line kind="activate" other-ids="17 18" p1="21.39 23.77" p2="24.86 70.91"
+                min-height="-2.04" same-group="13 14 15 16"/>
+    <check-line kind="activate" other-ids="17 18" p1="21.39 23.77" p2="24.86 70.91"
+                min-height="1.96" same-group="13 14 15 16"/>
+    <check-line kind="activate" other-ids="19 20 21 22" p1="22.80 -67.71" p2="22.56 -20.44"
+                min-height="-9.95" same-group="17 18"/>
+    <check-line kind="activate" other-ids="19 20 21 22" p1="22.80 -67.71" p2="22.56 -20.44"
+                min-height="-5.95" same-group="17 18"/>
+    <check-line kind="activate" other-ids="23 24 25 26" p1="-193.57 -13.20" p2="-146.30 -12.88"
+                min-height="-0.31" same-group="19 20 21 22"/>
+    <check-line kind="activate" other-ids="23 24 25 26" p1="-193.57 -13.20" p2="-146.30 -12.88"
+                min-height="3.69" same-group="19 20 21 22"/>
+    <check-line kind="activate" other-ids="23 24 25 26" p1="-193.57 -13.20" p2="-146.30 -12.88"
+                min-height="7.69" same-group="19 20 21 22"/>
+    <check-line kind="activate" other-ids="23 24 25 26" p1="-193.57 -13.20" p2="-146.30 -12.88"
+                min-height="11.69" same-group="19 20 21 22"/>
+    <check-line kind="activate" other-ids="0" p1="-83.11 -40.98" p2="-83.26 -88.25"
+                min-height="-0.23" same-group="23 24 25 26"/>
+    <check-line kind="activate" other-ids="0" p1="-83.11 -40.98" p2="-83.26 -88.25"
+                min-height="3.77" same-group="23 24 25 26"/>
+    <check-line kind="activate" other-ids="0" p1="-83.11 -40.98" p2="-83.26 -88.25"
+                min-height="7.77" same-group="23 24 25 26"/>
+    <check-line kind="activate" other-ids="0" p1="-83.11 -40.98" p2="-83.26 -88.25"
+                min-height="11.77" same-group="23 24 25 26"/>
+  </checks>
+  <end-cameras>
+    <camera type="static_follow_kart" xyz="18.766796 7.973860 -51.476513" distance="35.0"/> <!-- Camera -->
+    <camera type="static_follow_kart" xyz="117.656189 8.615366 -69.295654" distance="50.0"/> <!-- Camera.001 -->
+    <camera type="static_follow_kart" xyz="159.483551 8.615366 -15.906269" distance="50.0"/> <!-- Camera.002 -->
+    <camera type="static_follow_kart" xyz="115.738258 8.615366 40.734093" distance="50.0"/> <!-- Camera.003 -->
+    <camera type="static_follow_kart" xyz="10.782188 10.108570 13.638126" distance="35.0"/> <!-- Camera.004 -->
+    <camera type="static_follow_kart" xyz="-43.847797 10.108570 -33.592411" distance="35.0"/> <!-- Camera.005 -->
+    <camera type="static_follow_kart" xyz="24.292961 -4.140781 57.486519" distance="25.0"/> <!-- Camera.007 -->
+    <camera type="static_follow_kart" xyz="67.058914 -4.140781 -0.133244" distance="50.0"/> <!-- Camera.008 -->
+    <camera type="static_follow_kart" xyz="31.541660 -4.140781 -42.123268" distance="35.0"/> <!-- Camera.011 -->
+    <camera type="static_follow_kart" xyz="-85.788521 10.108570 -2.646959" distance="35.0"/> <!-- Camera.006 -->
+    <camera type="static_follow_kart" xyz="-178.525085 20.669758 -36.104527" distance="50.0"/> <!-- Camera.009 -->
+    <camera type="static_follow_kart" xyz="-89.669434 20.669758 -72.856339" distance="50.0"/> <!-- Camera.010 -->
+  </end-cameras>
+  <item id="Empty" x="86.19" y="1.82" z="-55.81" />
+  <item id="Empty.001" x="86.19" y="1.82" z="-64.08" />
+  <small-nitro id="Empty.002" x="86.12" y="1.10" z="-59.95" />
+  <small-nitro id="Empty.003" x="86.76" y="0.75" z="24.83" />
+  <small-nitro id="Empty.004" x="86.76" y="0.75" z="34.71" />
+  <small-nitro id="Empty.005" x="86.76" y="0.75" z="31.43" />
+  <small-nitro id="Empty.006" x="86.76" y="0.75" z="28.06" />
+  <item id="Empty.007" x="10.04" y="0.90" z="29.53" />
+  <item id="Empty.008" x="15.88" y="0.90" z="30.10" />
+  <item id="Empty.009" x="13.51" y="0.90" z="35.69" />
+  <item id="Empty.010" x="8.24" y="0.90" z="36.40" />
+  <item id="Empty.011" x="3.94" y="0.90" z="32.35" />
+  <item id="Empty.012" x="21.08" y="0.90" z="27.54" />
+  <item id="Empty.013" x="-1.07" y="0.90" z="28.95" />
+  <small-nitro id="Empty.014" x="-79.72" y="-3.95" z="2.97" />
+  <item id="Empty.015" x="-74.76" y="-5.00" z="3.48" />
+  <item id="Empty.016" x="-70.39" y="-5.00" z="3.61" />
+  <item id="Empty.017" x="-48.23" y="-5.00" z="-18.96" h="78.59" />
+  <item id="Empty.018" x="-48.97" y="-5.00" z="-23.27" h="78.59" />
+  <small-nitro id="Empty.019" x="-49.45" y="-3.95" z="-28.23" h="78.59" />
+  <banana id="Empty.020" x="-45.93" y="-3.92" z="36.39" />
+  <banana id="Empty.021" x="-45.93" y="-3.92" z="32.00" />
+  <banana id="Empty.022" x="-17.63" y="-3.92" z="43.84" />
+  <banana id="Empty.023" x="-17.63" y="-3.92" z="48.22" />
+  <small-nitro id="Empty.024" x="67.81" y="-9.48" z="20.95" />
+  <small-nitro id="Empty.025" x="64.04" y="-10.07" z="19.66" />
+  <small-nitro id="Empty.026" x="60.69" y="-10.61" z="18.09" />
+  <item id="Empty.027" x="-24.17" y="-5.72" z="-47.45" />
+  <item id="Empty.028" x="-24.17" y="-5.72" z="-38.01" />
+  <item id="Empty.029" x="-24.17" y="-5.72" z="-42.63" />
+  <item id="Empty.030" x="-163.86" y="-0.00" z="-13.43" />
+  <small-nitro id="Empty.031" x="-163.86" y="-0.00" z="-13.43" />
+  <item id="Empty.032" x="-168.32" y="-0.00" z="-13.56" />
+  <small-nitro id="Empty.033" x="-168.32" y="-0.00" z="-13.56" />
+  <big-nitro id="Empty.034" x="-172.35" y="-0.00" z="-13.65" />
+  <banana id="Empty.035" x="-99.09" y="-3.03" z="-12.89" />
+  <banana id="Empty.036" x="-133.21" y="0.00" z="13.13" />
+  <banana id="Empty.037" x="-80.00" y="-0.00" z="-60.12" />
+  <item id="Empty.038" x="-79.87" y="-0.00" z="-55.72" />
+  <small-nitro id="Empty.039" x="-80.23" y="-0.00" z="-64.36" />
+  <banana id="Empty.040" x="10.71" y="0.39" z="15.59" />
+  <banana id="Empty.041" x="10.48" y="0.38" z="17.96" />
+
+  <tyre-change compound="4" stop-time="15" id="tc0" x="-47" y="0.3" z="-51.2"/>
+  <tyre-change compound="3" stop-time="15" id="tc1" x="-12" y="0.3" z="-51.2"/>
+  <tyre-change compound="2" stop-time="15" id="tc2" x="21" y="0.3" z="-51.2"/>
+  <tyre-change compound="123" stop-time="5" id="tc3" x="-74.170914" y="0.291697" z="-51.359768" h="0.5"/>
+
+  <light xyz="77.23 14.72 -71.51" id="Point" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="28.72 14.72 -71.51" id="Point.001" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-11.20 14.72 -71.51" id="Point.002" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-51.49 14.72 -71.51" id="Point.003" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-104.88 14.72 -71.51" id="Point.004" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-145.04 14.72 -13.16" id="Point.005" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-156.24 14.72 17.35" id="Point.006" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-122.27 14.36 42.62" id="Point.007" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-94.64 12.28 68.19" id="Point.008" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-61.18 9.62 3.32" id="Point.009" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-46.78 9.62 -11.08" id="Point.010" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-26.58 9.62 -0.57" id="Point.011" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="-46.15 9.62 20.68" id="Point.012" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="29.37 16.67 25.83" id="Point.013" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="107.03 13.84 20.79" id="Point.014" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="126.69 13.84 9.97" id="Point.015" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="135.79 13.84 -8.45" id="Point.016" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="132.69 13.84 -28.65" id="Point.017" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="119.17 13.84 -46.52" id="Point.018" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="22.59 5.42 -21.43" id="Point.019" distance="50.00" energy="15.00" color="124 226 255">
+  </light>
+  <light xyz="31.54 -3.20 46.97" id="Point.020" distance="25.00" energy="7.00" color="255 221 166">
+  </light>
+  <light xyz="65.91 -3.35 -10.03" id="Point.021" distance="25.00" energy="7.00" color="255 221 166">
+  </light>
+  <light xyz="52.68 -3.29 34.54" id="Point.022" distance="25.00" energy="7.00" color="255 221 166">
+  </light>
+  <light xyz="65.25 -3.40 14.02" id="Point.023" distance="25.00" energy="7.00" color="255 221 166">
+  </light>
+  <light xyz="53.41 -3.34 -30.34" id="Point.024" distance="25.00" energy="7.00" color="255 221 166">
+  </light>
+  <light xyz="31.52 -3.37 -41.28" id="Point.025" distance="25.00" energy="7.00" color="255 221 166">
+  </light>
+  <lightshaft xyz="0.00 195.00 -727.48" id="godrays" opacity="0.70" color="255 67 9"/>
+  <default-start karts-per-row     ="2"
+                 forwards-distance ="1.50"
+                 sidewards-distance="5.50"
+                 upwards-distance  ="1.10"/>
+  <library name="stklib_blueRadioTower_a" id="stklib_blueRadioTower_a_main_proxy" xyz="232.49 0.00 -6.63" hpr="0.0 -0.0 0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_greenRadioTower_a" id="stklib_greenRadioTower_a_main_proxy" xyz="-226.30 0.00 -4.64" hpr="0.0 -0.0 0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy" xyz="-136.22 1.32 -85.36" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.001" xyz="-144.65 0.73 -58.71" hpr="0.0 -67.8 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.002" xyz="-168.97 0.86 -59.64" hpr="-0.0 69.3 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.003" xyz="-44.98 -4.18 70.30" hpr="-0.0 15.4 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.004" xyz="-31.39 -4.38 90.49" hpr="-0.0 -121.7 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.005" xyz="-4.89 -6.51 81.60" hpr="0.0 -53.9 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.006" xyz="117.92 0.69 -82.83" hpr="-0.0 -167.8 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.007" xyz="99.69 0.79 -90.25" hpr="-0.0 124.3 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.008" xyz="131.76 1.61 -91.36" hpr="-0.0 -98.6 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.009" xyz="176.29 2.20 -35.74" hpr="-0.0 20.6 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.010" xyz="160.62 1.78 -63.74" hpr="0.0 -5.6 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.011" xyz="172.47 1.83 -3.62" hpr="0.0 -28.4 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.012" xyz="190.33 2.44 8.01" hpr="-0.0 35.6 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_skyBeam_a" id="stklib_skyBeam_a_main_proxy" xyz="-38.17 -0.07 132.40" hpr="0.0 -0.0 0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_skyBeam_a" id="stklib_skyBeam_a_main_proxy.001" xyz="-69.21 -0.07 129.72" hpr="0.0 -0.0 -15.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_skyBeam_a" id="stklib_skyBeam_a_main_proxy.002" xyz="-8.76 -0.07 128.57" hpr="-0.0 -0.0 15.0" scale="1.50 1.50 1.50">
+  </library>
+</scene>

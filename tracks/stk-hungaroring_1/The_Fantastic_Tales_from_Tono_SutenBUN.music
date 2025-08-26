@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<music title    = "The Fantastic Tales from Tono" 
+       composer = "SutenBUN (rearrange, original composed by Zun)" 
+       file     = "The_Fantastic_Tales_from_Tono.ogg"
+	   fast = "true"
+       fast-filename = "A_God_That_Misses_People_Romantic_Fall.ogg"
+	   loop-start = "0.0"
+       fast-loop-start = "0.0"
+       gain     = "1.2"/>

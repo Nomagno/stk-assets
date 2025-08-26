@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 16407 -->
+<scene>
+  <track model="lost_chasm.spm" x="0" y="0" z="0"/>
+  <object id="KnockbackBarrel1" type="animation" xyz="-77.07 14.23 -42.32" hpr="-90.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="explode" shape="cylinderZ" model="KnockbackBarrel.b3d" explode="y" skeletal-animation="false">
+  </object>
+  <object id="KnockbackBarrel2" type="animation" xyz="-80.07 14.55 -39.80" hpr="-90.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="explode" shape="cylinderZ" model="KnockbackBarrel.b3d" explode="y" skeletal-animation="false">
+  </object>
+  <object id="KnockbackBarrel3" type="animation" xyz="-77.13 14.75 -39.78" hpr="-96.2 81.6 -90.0" scale="1.00 1.00 1.00" interaction="explode" shape="cylinderX" model="KnockbackBarrel.b3d" explode="y" skeletal-animation="false">
+  </object>
+  <object id="LightBeam1" type="animation" xyz="65.19 99.68 -104.00" hpr="0.0 70.0 90.0" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+
+
+  <object id="LightBeam10" type="animation" xyz="151.94 99.68 -97.17" hpr="-22.2 35.7 36.3" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam11" type="animation" xyz="-69.35 99.68 100.36" hpr="64.6 -147.4 -36.8" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam12" type="animation" xyz="214.52 99.68 -40.26" hpr="-18.5 7.9 22.3" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam13" type="animation" xyz="206.21 99.68 42.03" hpr="-24.7 -7.8 22.0" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam14" type="animation" xyz="-141.64 99.68 2.38" hpr="20.0 -0.0 180.0" scale="1.70 1.70 1.77" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam15" type="animation" xyz="215.25 99.68 2.40" hpr="-0.0 -0.0 20.0" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam16" type="animation" xyz="-125.84 99.68 42.69" hpr="18.3 7.3 159.3" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam17" type="animation" xyz="-133.06 99.68 -40.44" hpr="18.6 6.6 159.9" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam18" type="animation" xyz="-98.38 99.68 71.44" hpr="1.5 -21.4 134.5" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam19" type="animation" xyz="185.74 99.68 77.75" hpr="-41.0 -14.0 44.3" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam2" type="animation" xyz="64.67 99.68 103.91" hpr="-0.0 -110.0 -90.0" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam20" type="animation" xyz="189.83 99.68 -76.90" hpr="-21.6 20.7 21.4" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam21" type="animation" xyz="-108.00 99.68 -77.20" hpr="23.1 20.3 164.0" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam22" type="animation" xyz="16.43 99.68 -103.35" hpr="-70.0 110.0 -90.0" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam3" type="animation" xyz="16.55 99.68 103.18" hpr="-0.0 -110.0 -90.0" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam4" type="animation" xyz="-26.79 99.68 105.22" hpr="50.7 -58.4 53.7" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam5" type="animation" xyz="109.40 99.68 -105.64" hpr="-28.1 54.0 40.8" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam6" type="animation" xyz="-27.36 99.68 -102.92" hpr="126.3 64.9 67.8" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam7" type="animation" xyz="107.49 99.68 101.88" hpr="-95.9 -53.0 40.1" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam8" type="animation" xyz="150.00 99.68 98.20" hpr="-64.0 -32.1 36.8" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <object id="LightBeam9" type="animation" xyz="-67.82 99.68 -92.36" hpr="21.3 146.3 -36.6" scale="1.70 1.70 1.70" interaction="ghost" model="LightBeam.b3d" skeletal-animation="false">
+  </object>
+  <sun  fog="true" fog-color="232 255 200" fog-max="1.0" fog-start="125.00" fog-end="300.00" xyz="30.00 212.61 10.00" sun-specular="54 54 46" sun-diffuse="54 54 44" ambient="54 56 48"/>
+  <sky-box texture="SKY0006.png SKY0006.png SKY0006.png SKY0006.png SKY0006.png SKY0006.png" />
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="114.16 -33.06" p2="118.65 -18.77"
+                min-height="38.42" same-group="1"/>
+    <check-line kind="activate" other-ids="3" p1="89.91 90.26" p2="83.93 82.24"
+                min-height="27.26" same-group="2"/>
+    <check-line kind="activate" other-ids="4" p1="40.57 -0.93" p2="38.93 11.39"
+                min-height="23.11" same-group="3"/>
+    <check-line kind="activate" other-ids="5" p1="-56.46 -2.08" p2="-56.51 10.99"
+                min-height="15.59" same-group="4"/>
+    <check-line kind="activate" other-ids="0" p1="-37.85 56.48" p2="-37.76 69.82"
+                min-height="37.10" same-group="5"/>
+  </checks>
+
+  <tyre-change compound="2" stop-time="10" id="tc0" x="4.641047" y="14.342340" z="-28.135859" h="0.5"/>
+  <tyre-change compound="3" stop-time="10" id="tc0" x="0.671180" y="14.524325" z="-29.061832" h="0.5"/>
+  <tyre-change compound="4" stop-time="10" id="tc0" x="-4.539237" y="14.725840" z="-30.086853" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tc0" x="12.560246" y="14.273984" z="-38.993748" h="0.5"/>
+
+  <banana id="Banana1" x="155.67" y="46.71" z="-47.39" />
+  <banana id="Banana2" x="114.02" y="38.23" z="-24.47" />
+  <banana id="Banana3" x="-77.63" y="17.28" z="-2.12" />
+  <banana id="Banana4" x="-1.54" y="34.64" z="2.31" />
+  <item id="ItemBox1A" x="123.97" y="43.71" z="-57.50" />
+  <item id="ItemBox1B" x="123.97" y="43.71" z="-60.81" />
+  <item id="ItemBox1C" x="123.93" y="43.71" z="-64.14" />
+  <item id="ItemBox2" x="53.03" y="31.79" z="82.93" />
+  <item id="ItemBox3A" x="33.95" y="24.75" z="2.96" />
+  <item id="ItemBox3B" x="33.87" y="24.75" z="7.33" />
+  <item id="ItemBox4A" x="-45.81" y="16.59" z="-34.91" />
+  <item id="ItemBox4B" x="-48.66" y="16.59" z="-32.35" />
+  <item id="ItemBox5A" x="33.97" y="13.81" z="7.90" />
+  <small-nitro id="ItemBox5B" x="33.92" y="13.81" z="5.21" />
+  <item id="ItemBox5C" x="33.92" y="13.81" z="2.41" />
+  <item id="ItemBox6A" x="-31.85" y="38.16" z="60.00" />
+  <item id="ItemBox6B" x="-31.85" y="38.43" z="65.27" />
+  <big-nitro id="KnockbackBarrelsNitro" x="-80.27" y="15.82" z="-42.82" />
+  <small-nitro id="SmallNitro1A" x="119.01" y="39.01" z="-30.57" />
+  <small-nitro id="SmallNitro1B" x="115.60" y="38.28" z="-29.45" />
+  <small-nitro id="SmallNitro1C" x="113.04" y="38.32" z="-19.78" />
+  <small-nitro id="SmallNitro1D" x="109.77" y="38.23" z="-17.93" />
+  <small-nitro id="SmallNitro2A" x="69.59" y="30.27" z="89.73" />
+  <small-nitro id="SmallNitro2B" x="73.30" y="30.18" z="92.55" />
+  <small-nitro id="SmallNitro3" x="91.05" y="27.20" z="78.92" />
+  <small-nitro id="SmallNitro4" x="82.65" y="24.41" z="36.57" />
+  <small-nitro id="SmallNitro5A" x="-73.34" y="17.28" z="7.23" />
+  <small-nitro id="SmallNitro5B" x="-79.64" y="17.28" z="5.48" />
+  <small-nitro id="SmallNitro5C" x="-84.05" y="17.28" z="1.40" />
+  <small-nitro id="SmallNitro5D" x="-86.52" y="17.28" z="-4.46" />
+  <object type="billboard" id="TrackLampHalo1" texture="halo.png" xyz="51.29 42.75 61.57" 
+             width="6.000" height="6.000" >
+  </object>
+  <object type="billboard" id="TrackLampHalo2" texture="halo.png" xyz="71.69 39.82 88.34" 
+             width="6.000" height="6.000" >
+  </object>
+  <object type="billboard" id="TrackLampHalo3" texture="halo.png" xyz="93.87 42.65 62.31" 
+             width="6.000" height="6.000" >
+  </object>
+  <object type="billboard" id="TrackLampHalo4" texture="halo.png" xyz="-88.16 23.23 -44.45" 
+             width="6.000" height="6.000" >
+  </object>
+  <object type="billboard" id="TrackLampHalo5" texture="halo.png" xyz="-31.19 20.26 -13.27" 
+             width="6.000" height="6.000" >
+  </object>
+  <object type="billboard" id="TrackLampHalo6" texture="halo.png" xyz="-16.73 21.89 -12.27" 
+             width="6.000" height="6.000" >
+  </object>
+  <object type="billboard" id="TrackLampHalo7" texture="halo.png" xyz="61.15 21.98 -22.29" 
+             width="6.000" height="6.000" >
+  </object>
+  <light xyz="51.39 41.66 61.50" id="TrackLamp1" distance="120.00" energy="1.30" color="255 253 67">
+  </light>
+  <light xyz="71.66 41.51 88.32" id="TrackLamp2" distance="120.00" energy="1.30" color="255 253 67">
+  </light>
+  <light xyz="94.13 41.66 62.28" id="TrackLamp3" distance="120.00" energy="1.30" color="255 253 67">
+  </light>
+  <light xyz="-87.98 21.94 -44.44" id="TrackLamp4" distance="120.00" energy="1.30" color="255 253 67">
+  </light>
+  <light xyz="-31.14 18.90 -13.46" id="TrackLamp5" distance="120.00" energy="1.30" color="255 253 67">
+  </light>
+  <light xyz="-16.66 20.62 -12.25" id="TrackLamp6" distance="120.00" energy="1.30" color="255 253 67">
+  </light>
+  <light xyz="61.10 20.88 -22.36" id="TrackLamp7" distance="120.00" energy="1.30" color="255 253 67">
+  </light>
+  <default-start karts-per-row     ="2"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+</scene>

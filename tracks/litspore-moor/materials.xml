@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="moorZipper.png" shader="alphatest" gloss-map="emissive.png" mirror-axis="V" has-gravity="Y">
+  </material>
+  <material name="mushLight.png" gloss-map="mushLightM.png"/>
+  <material name="potVio.png" surface="Y" shader="displace"/>
+  <material name="roadVio.jpg" gloss-map="roadVioM.jpg" normal-map="roadVioN.jpg" has-gravity="Y"/>
+  <material name="stk_generic_brownRock_a.png" max-speed="0.25"/>
+  <material name="stk_generic_grassC.png" slowdown-time="1.60" max-speed="0.40"/>
+  <material name="transparence.png" shader="alphatest" falling-effect="Y"/>
+  <material name="wetVio.jpg" gloss-map="roadVioM.jpg" normal-map="roadVioN.jpg" below-surface="Y" has-gravity="Y" water-splash="Y" slowdown-time="0.80" max-speed="0.80"/>
+</materials>
