@@ -1,0 +1,9 @@
+Released under CC-BY 4.0
+Name: Night Megapolis
+Released under CC0
+Author: P1ngvin
+Music - Cerclevicieux.ogg - "Vicious Cycle" by DJ Helium, license: CC-BY-SA 4.0
+skyscraper8_tileable.jpg, from "City Lights" (Add-On track) by Wolfs, licensed under CC BY 2.0
+sky-top.png, sky-side.png from Candela City track 
+the rest of the textures were taken from stk
+v1: first release

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="skyscraper8_tileable.jpg" shader="unlit"/>
+  <material name="mp_bump.png">
+    <zipper duration="3.5" max-speed-increase="15.0" fade-out-time="3.0" speed-gain="4.5" min-speed="-1.0"/>
+  </material>
+  <material name="oasis-water.png" reset="Y"/>
+  <material name="stk_generic_rock_a.png" gloss-map="stk_generic_rock_a_gloss.png" normal-map="stk_generic_rock_a_Normal.png"/>
+  <material name="stk_generic_brickA.png" gloss-map="stk_generic_brickA_gloss.png" normal-map="stk_generic_brickA_Normal.png"/>
+  <material name="bridge_fence.png" shader="alphatest"/>
+</materials>

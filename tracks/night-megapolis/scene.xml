@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <track model="nightmegapolis_track.spm" x="0" y="0" z="0"/>
+  <sun  fog="true" fog-color="1 6 10" fog-max="0.5" fog-start="5.00" fog-end="150.00" xyz="42.10 113.25 306.36" sun-diffuse="24 53 150" ambient="50 50 50"/>
+  <sky-box texture="sky-top.png sky-side.png sky-side.png sky-side.png sky-side.png sky-side.png" />
+  <camera far="1000.0"/>
+
+  <object id="Ramp.N" type="animation" xyz="-19.5 16.5 44.1" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="rampNormal.spm" skeletal-animation="false" if="isTrackNotReverse">
+  </object>
+  <object id="Ramp.R" type="animation" xyz="-20.5 16.2 -12.1" hpr="0.0 -1.3 1.3" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="rampRev.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="18.78 20.25 46.83" p2="11.31 20.25 62.64"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="3" p1="75.82 20.09 61.37" p2="90.61 20.09 52.05"
+                same-group="2"/>
+    <check-line kind="activate" other-ids="4" p1="46.63 17.01 116.99" p2="45.39 17.01 134.43"
+                same-group="3"/>
+    <check-line kind="activate" other-ids="5" p1="-12.77 16.06 -1.98" p2="-30.25 16.06 -2.26"
+                same-group="4"/>
+    <check-line kind="activate" other-ids="6" p1="9.40 16.89 -178.80" p2="12.86 16.89 -161.66"
+                same-group="5"/>
+    <check-line kind="activate" other-ids="7" p1="46.12 19.31 -97.65" p2="54.11 19.52 -82.10"
+                same-group="6"/>
+    <check-line kind="activate" other-ids="0" p1="5.81 20.25 -44.72" p2="-11.66 20.29 -45.10"
+                same-group="7"/>
+  </checks>
+
+  <item id="Empty" x="19.43" y="20.25" z="61.46" />
+  <item id="Empty.001" x="20.34" y="20.25" z="58.88" />
+  <item id="Empty.002" x="21.31" y="20.25" z="56.56" />
+  <item id="Empty.003" x="22.43" y="20.25" z="54.19" />
+  <item id="Empty.004" x="23.48" y="20.25" z="51.84" />
+  <banana id="Empty.005" x="64.11" y="20.25" z="54.23" />
+  <banana id="Empty.006" x="64.88" y="20.25" z="42.96" />
+  <item id="Empty.007" x="86.68" y="19.54" z="72.72" />
+  <item id="Empty.008" x="95.09" y="19.51" z="72.80" />
+  <small-nitro id="Empty.009" x="81.16" y="18.13" z="107.60" />
+  <small-nitro id="Empty.010" x="72.04" y="18.09" z="102.43" />
+  <big-nitro id="Empty.011" x="78.52" y="18.55" z="92.19" />
+  <big-nitro id="Empty.012" x="87.70" y="18.55" z="97.75" />
+  <item id="Empty.013" x="43.30" y="16.97" z="130.50" />
+  <item id="Empty.014" x="43.60" y="16.97" z="127.72" />
+  <item id="Empty.015" x="44.30" y="16.98" z="125.02" />
+  <item id="Empty.016" x="45.09" y="16.98" z="122.47" />
+  <item id="Empty.017" x="45.80" y="16.99" z="120.27" />
+  <banana id="Empty.018" x="-15.02" y="16.43" z="45.38" />
+  <banana id="Empty.019" x="-24.24" y="16.43" z="46.50" />
+  <item id="Empty.020" x="-25.56" y="15.98" z="-9.73" />
+  <item id="Empty.021" x="-17.60" y="15.98" z="-9.65" />
+  <banana id="Empty.022" x="-17.60" y="16.00" z="-7.47" />
+  <banana id="Empty.023" x="-25.63" y="16.00" z="-7.17" />
+  <item id="Empty.024" x="-30.82" y="16.70" z="-103.18" />
+  <item id="Empty.025" x="-28.26" y="16.70" z="-102.82" />
+  <item id="Empty.026" x="-25.53" y="16.70" z="-102.21" />
+  <item id="Empty.027" x="-23.09" y="16.69" z="-101.30" />
+  <item id="Empty.028" x="-20.96" y="16.69" z="-100.45" />
+  <banana id="Empty.029" x="61.66" y="18.19" z="-114.36" />
+  <banana id="Empty.030" x="72.25" y="18.23" z="-111.86" />
+  <big-nitro id="Empty.031" x="61.37" y="18.25" z="-113.12" />
+  <big-nitro id="Empty.032" x="71.93" y="18.28" z="-110.42" />
+  <item id="Empty.033" x="2.95" y="20.25" z="-41.04" />
+  <item id="Empty.034" x="-8.41" y="20.25" z="-41.33" />
+  <banana id="Empty.035" x="-8.11" y="20.25" z="-43.78" />
+  <banana id="Empty.036" x="2.78" y="20.25" z="-43.06" />
+  <lightshaft xyz="42.10 113.25 306.36" id="Sun.001" opacity="0.70" color="50 50 50"/>
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+</scene>
