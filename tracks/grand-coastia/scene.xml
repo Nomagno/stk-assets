@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <track model="grand-coastia--not-complete--_track.spm" x="0" y="0" z="0">
+    <static-object  model="HouseStandardPink.spm" xyz="11.78 6.58 -171.36" hpr="-0.3 -90.0 0.0" scale="9.76 4.09 5.53"/>
+    <static-object  model="HouseStandardBrown.spm" xyz="-1.88 8.49 -170.92" hpr="-0.3 -90.0 0.0" scale="10.21 7.76 6.41"/>
+    <static-object  model="lightWindows.spm" xyz="487.26 23.51 -73.40" hpr="0.0 -0.0 0.0" scale="0.69 0.69 0.69"/>
+    <static-object  model="HouseStandardPink.spm" xyz="-75.31 6.58 -194.33" hpr="-0.3 142.4 -0.0" scale="9.76 4.09 5.53"/>
+    <static-object  model="HouseStandardPink.spm" xyz="187.34 7.39 -135.79" hpr="-0.3 12.8 0.0" scale="9.76 4.09 5.53"/>
+    <static-object  model="HouseStandardPink.spm" xyz="-27.40 6.58 -222.42" hpr="-0.3 90.0 0.0" scale="9.76 4.18 6.32"/>
+    <static-object  model="HouseStandardPink.spm" xyz="49.85 17.08 -55.38" hpr="-0.3 -0.0 0.0" scale="9.76 4.09 5.53"/>
+    <static-object  model="HouseStandardPink.spm" xyz="-10.26 17.70 -85.16" hpr="0.0 -150.9 -0.0" scale="9.76 4.09 5.53"/>
+    <static-object  model="HouseStandardPink.spm" xyz="-16.17 16.62 -92.73" hpr="2.8 -143.2 0.0" scale="9.76 4.09 5.53"/>
+    <static-object  model="HouseStandardPinkFlatRoof.spm" xyz="40.91 9.73 24.64" hpr="-3.0 -90.0 0.0" scale="9.76 4.09 5.53"/>
+    <static-object  model="HouseStandardBrownFlatRoof.spm" xyz="29.75 10.36 24.64" hpr="-3.0 -90.0 0.0" scale="9.76 4.09 5.53"/>
+    <static-object  model="HouseStandardLimeFlatRoof.spm" xyz="51.93 8.31 24.92" hpr="-2.0 -90.0 0.0" scale="9.76 4.09 5.53"/>
+    <static-object  model="HouseStandardPinkFlatRoof.spm" xyz="73.09 4.55 24.64" hpr="-2.0 -90.0 0.0" scale="9.76 4.09 5.18"/>
+    <static-object  model="HouseStandardBrownFlatRoof.spm" xyz="62.68 6.47 24.64" hpr="-2.0 -90.0 0.0" scale="9.76 4.09 5.18"/>
+    <static-object  model="HouseStandardLimeWide.spm" xyz="186.96 9.29 -183.23" hpr="-0.3 81.4 0.0" scale="7.43 3.83 6.47"/>
+    <static-object  model="HouseStandardLime.spm" xyz="-56.13 8.18 -222.08" hpr="-0.3 90.0 0.0" scale="10.21 7.76 6.41"/>
+    <animated-texture name="stkflag_blueCheckBorard_a.png" dx="0.08000"  dy="0.20000" />
+    <animated-texture name="stkflag_blueCheckBorard_a.png" dx="0.08000"  dy="0.20000" />
+  </track>
+  <object id="Cube.137" type="animation" xyz="113.82 -14.77 13.15" hpr="0.0 -0.0 0.0" scale="-37.29 0.06 -17.67" interaction="static" shape="box" model="TimeTrialCover1.spm" shadow-pass="false" skeletal-animation="false" if="isTimeTrial">
+  </object>
+  <object id="Cube.145" type="animation" xyz="115.55 -14.44 28.78" hpr="0.0 -0.0 0.0" scale="-5.75 -0.27 1.37" interaction="static" shape="box" model="TimeTrialCover2.spm" skeletal-animation="false" if="isTimeTrial">
+  </object>
+  <object id="Plane.048" type="animation" xyz="-23.75 0.96 -192.41" hpr="-0.0 179.5 -0.0" scale="1.01 1.02 1.05" interaction="ghost" model="start_sign.spm" skeletal-animation="false">
+    <curve channel="ScaleX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 1.000" h1="-23.276 1.000" h2="24.276 1.000"/>
+      <p c="61.000 1.321" h1="37.624 1.321" h2="95.014 1.321"/>
+      <p c="148.000 1.000" h1="113.886 1.000" h2="181.114 1.000"/>
+    </curve>
+    <curve channel="ScaleZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 1.000" h1="-43.226 1.000" h2="44.226 1.000"/>
+      <p c="113.000 1.321" h1="68.774 1.321" h2="126.164 1.321"/>
+      <p c="148.000 1.000" h1="133.836 1.000" h2="161.164 1.000"/>
+    </curve>
+    <curve channel="ScaleY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 1.000" h1="-32.841 1.000" h2="33.841 1.000"/>
+      <p c="86.000 1.321" h1="52.559 1.321" h2="109.949 1.321"/>
+      <p c="148.000 1.000" h1="123.451 1.000" h2="171.549 1.000"/>
+    </curve>
+  </object>
+  <object type="movable" id="Cube.174" xyz="110.86 -14.14 25.75" hpr="-0.0 45.0 -0.0" scale="0.60 0.60 0.60"
+          shape="box" mass="200.0" model="FlowerPot1.spm" skeletal-animation="false"/>
+  <object type="movable" id="Cube.004" xyz="113.81 -14.14 25.75" hpr="-0.0 45.0 -0.0" scale="0.60 0.60 0.60"
+          shape="box" mass="200.0" model="FlowerPot1.spm" skeletal-animation="false"/>
+  <object type="movable" id="Cube.070" xyz="117.12 -14.14 25.75" hpr="-0.0 45.0 -0.0" scale="0.60 0.60 0.60"
+          shape="box" mass="200.0" model="FlowerPot1.spm" skeletal-animation="false"/>
+  <object type="movable" id="Cube.110" xyz="131.21 -9.88 -28.72" hpr="-0.0 45.0 -0.0" scale="0.60 0.60 0.60"
+          shape="box" mass="30.0" model="FlowerPot1.spm" skeletal-animation="false"/>
+  <object type="movable" id="Cube.112" xyz="131.21 -9.88 -30.34" hpr="-0.0 45.0 -0.0" scale="0.60 0.60 0.60"
+          shape="box" mass="30.0" model="FlowerPot1.spm" skeletal-animation="false"/>
+  <object type="movable" id="Cube.113" xyz="131.21 -9.88 -31.95" hpr="-0.0 45.0 -0.0" scale="0.60 0.60 0.60"
+          shape="box" mass="30.0" model="FlowerPot1.spm" skeletal-animation="false"/>
+  <object id="Plane.002" type="animation" xyz="-23.94 0.96 -192.81" hpr="0.0 -0.5 -0.0" scale="1.01 1.02 1.05" interaction="ghost" model="start_sign.spm" skeletal-animation="false">
+    <curve channel="ScaleX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 1.000" h1="-23.276 1.000" h2="24.276 1.000"/>
+      <p c="61.000 1.321" h1="37.624 1.321" h2="95.014 1.321"/>
+      <p c="148.000 1.000" h1="113.886 1.000" h2="181.114 1.000"/>
+    </curve>
+    <curve channel="ScaleZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 1.000" h1="-43.226 1.000" h2="44.226 1.000"/>
+      <p c="113.000 1.321" h1="68.774 1.321" h2="126.164 1.321"/>
+      <p c="148.000 1.000" h1="133.836 1.000" h2="161.164 1.000"/>
+    </curve>
+    <curve channel="ScaleY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 1.000" h1="-32.841 1.000" h2="33.841 1.000"/>
+      <p c="86.000 1.321" h1="52.559 1.321" h2="109.949 1.321"/>
+      <p c="148.000 1.000" h1="123.451 1.000" h2="171.549 1.000"/>
+    </curve>
+  </object>
+  <object type="movable" id="Ball" xyz="-1.67 3.97 -6.09" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"
+          shape="sphere" mass="10.0" model="Ball.spm" on-kart-collision="hitBall" restitution=0.8 skeletal-animation="false"/>
+  <sun  xyz="-40.00 100.00 80.00" ambient="120 120 120"/>
+  <sky-box texture="genericskybox_top.jpg genericskybox_bottom.jpg genericskybox_east.jpg genericskybox_west.jpg genericskybox_south.jpg genericskybox_north.jpg" />
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="0" p1="80.00 -7.13 -6.69" p2="80.00 -7.13 7.55"
+                same-group="1"/>
+  </checks>
+  <object type="sfx-emitter" id="BallSound" sound="kerb.ogg" rolloff="0.100" volume="1.0" max_dist="30.0" xyz="31.28 1.25 -4.61" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </object>
+
+  <tyre-change compound="2" stop-time="15" id="tc0" x="-78.279732" y="-3.136277" z="-147.757828" h="0.5"/>
+  <tyre-change compound="3" stop-time="15" id="tc1" x="-76.417938" y="-3.086998" z="-146.105301" h="0.5"/>
+  <tyre-change compound="4" stop-time="15" id="tc2" x="-73.329010" y="-2.988308" z="-143.360062" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-68.930702" y="-2.735318" z="-139.444717" h="0.5"/>
+
+  <item id="Gift.005" x="10.60" y="8.01" z="-81.95" />
+  <small-nitro id="Nitro.001" x="144.87" y="-13.01" z="-1.86" />
+  <small-nitro id="Nitro.002" x="148.29" y="-13.01" z="-1.86" />
+  <small-nitro id="Nitro.003" x="138.35" y="-13.01" z="-1.86" />
+  <small-nitro id="Nitro.004" x="141.77" y="-13.01" z="-1.86" />
+  <item id="Gift.003" x="40.10" y="0.25" z="-2.87" />
+  <item id="Gift.001" x="40.10" y="0.25" z="-0.01" />
+  <item id="Gift.002" x="40.10" y="0.25" z="2.66" />
+  <item id="Gift.004" x="29.17" y="8.01" z="-81.95" />
+  <item id="Gift.006" x="163.01" y="-8.84" z="-102.18" />
+  <item id="Gift.009" x="173.57" y="-6.14" z="-116.37" />
+  <small-nitro id="Nitro.006" x="171.39" y="-11.50" z="-91.30" />
+  <small-nitro id="Nitro.005" x="215.18" y="0.37" z="-152.54" />
+  <small-nitro id="Nitro.007" x="215.18" y="0.37" z="-150.28" />
+  <small-nitro id="Nitro.008" x="215.18" y="0.37" z="-154.74" />
+  <item id="Gift.007" x="284.13" y="0.37" z="-163.67" />
+  <banana id="Banana.001" x="261.44" y="0.37" z="-156.36" />
+  <item id="Gift.008" x="298.71" y="0.37" z="-160.07" />
+  <small-nitro id="Nitro.014" x="307.02" y="16.92" z="-200.50" h="-20.01" />
+  <small-nitro id="Nitro.011" x="307.98" y="16.92" z="-197.91" h="-20.01" />
+  <small-nitro id="Nitro.012" x="306.12" y="16.92" z="-202.95" h="-20.01" />
+  <small-nitro id="Nitro.013" x="305.16" y="16.92" z="-205.52" h="-20.01" />
+  <item id="Gift" x="374.21" y="6.94" z="-229.13" h="-20.01" />
+  <banana id="Banana" x="224.43" y="19.11" z="-218.55" />
+  <banana id="Banana.002" x="220.88" y="19.11" z="-214.55" />
+  <item id="Gift.010" x="262.11" y="16.92" z="-183.67" h="-20.01" />
+  <item id="Gift.011" x="115.36" y="-16.20" z="29.09" drop="false" />
+  <small-nitro id="Nitro.010" x="118.51" y="-16.42" z="29.09" drop="false" />
+  <small-nitro id="Nitro.009" x="112.03" y="-16.42" z="29.09" drop="false" />
+  <small-nitro id="Nitro.015" x="123.88" y="-9.25" z="-30.42" />
+  <small-nitro id="Nitro.016" x="127.29" y="-9.25" z="-30.42" />
+  <lightshaft xyz="103.45 90.20 80.00" id="Sun.001" opacity="0.70" color="255 67 9"/>
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy" xyz="78.97 -7.61 -4.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.001" xyz="82.89 -7.61 -4.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.002" xyz="86.81 -7.61 -4.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.003" xyz="90.73 -7.61 -4.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.004" xyz="94.65 -7.61 -4.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.005" xyz="102.50 -7.61 -4.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.006" xyz="98.57 -7.61 -4.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.007" xyz="107.85 -15.00 26.77" hpr="0.0 -0.0 0.0" scale="0.98 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.008" xyz="111.70 -15.00 26.77" hpr="0.0 -0.0 0.0" scale="0.99 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.009" xyz="115.55 -15.00 26.77" hpr="0.0 -0.0 0.0" scale="0.98 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.010" xyz="119.40 -15.00 26.77" hpr="0.0 -0.0 0.0" scale="0.99 1.00 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.011" xyz="123.26 -15.00 26.77" hpr="0.0 -0.0 0.0" scale="0.98 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy" xyz="204.02 11.78 -256.00" hpr="-0.0 90.7 -0.0" scale="0.82 1.06 0.82">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.001" xyz="181.23 8.18 -209.07" hpr="0.0 -0.0 0.0" scale="0.81 1.07 0.81">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.002" xyz="109.55 7.72 -221.10" hpr="0.0 -0.0 0.0" scale="0.55 0.80 0.55">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.003" xyz="84.24 3.20 -266.40" hpr="0.0 -51.2 0.0" scale="0.55 0.80 0.55">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.004" xyz="252.61 11.61 -279.84" hpr="0.0 37.4 0.0" scale="0.60 0.88 0.60">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.005" xyz="124.82 8.05 -240.65" hpr="0.0 0.5 0.0" scale="0.60 0.88 0.60">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.006" xyz="178.89 10.84 -248.41" hpr="0.0 -78.1 0.0" scale="0.82 1.06 0.82">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.007" xyz="167.81 8.95 -213.00" hpr="0.0 -78.1 0.0" scale="0.58 0.76 0.58">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.009" xyz="120.86 10.91 -271.97" hpr="0.0 54.4 0.0" scale="0.57 0.75 0.57">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.011" xyz="148.12 8.62 -225.65" hpr="0.0 -51.2 0.0" scale="0.55 0.80 0.55">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.008" xyz="277.96 14.63 -222.40" hpr="0.0 -22.1 0.0" scale="0.49 0.71 0.49">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.010" xyz="324.83 15.16 -236.40" hpr="-0.0 -129.7 -0.0" scale="0.40 0.59 0.40">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.012" xyz="418.33 2.31 -276.33" hpr="-0.0 -129.7 -0.0" scale="0.40 0.59 0.40">
+  </library>
+  <library name="stklib_bench_a" id="stklib_bench_a_main_proxy" xyz="95.43 -14.69 26.29" hpr="-0.0 180.0 -0.0" scale="0.80 0.80 0.80">
+  </library>
+  <library name="stklib_kikiPainter_a" id="stklib_kikiPainter_a_main_proxy" xyz="132.89 -14.71 12.31" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_bench_a" id="stklib_bench_a_main_proxy.001" xyz="86.49 -14.69 26.29" hpr="-0.0 180.0 -0.0" scale="0.80 0.80 0.80">
+  </library>
+  <library name="stklib_bench_a" id="stklib_bench_a_main_proxy.002" xyz="145.06 -14.69 26.29" hpr="-0.0 180.0 -0.0" scale="0.80 0.80 0.80">
+  </library>
+  <library name="stklib_wilberPainter_a" id="stklib_wilberPainter_a_main_proxy" xyz="110.48 -10.55 -27.71" hpr="-0.0 90.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_electricalBox_a" id="stklib_electricalBox_a_main_proxy" xyz="117.41 -10.32 -14.49" hpr="0.0 -0.0 0.0" scale="0.54 0.54 0.54">
+  </library>
+  <library name="stklib_bench_a" id="stklib_bench_a_main_proxy.003" xyz="-27.13 -4.26 -203.18" hpr="-0.0 180.0 -0.0" scale="0.80 0.80 0.80">
+  </library>
+  <library name="stklib_bench_a" id="stklib_bench_a_main_proxy.005" xyz="18.71 -4.25 -202.63" hpr="-0.0 180.0 -0.0" scale="0.80 0.80 0.80">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.012" xyz="-25.31 3.35 4.88" hpr="0.0 -61.9 -1.9" scale="1.00 0.84 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.013" xyz="-23.46 3.30 8.44" hpr="0.0 -61.9 -1.9" scale="1.00 0.84 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.014" xyz="-21.06 3.23 11.78" hpr="0.0 -46.4 -1.9" scale="1.00 0.84 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.015" xyz="-18.24 3.16 14.67" hpr="0.0 -46.4 -1.9" scale="1.00 0.84 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.016" xyz="-15.12 3.07 17.25" hpr="0.0 -32.7 -1.9" scale="1.00 0.84 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.017" xyz="-11.67 2.97 19.46" hpr="0.0 -32.7 -1.9" scale="1.00 0.84 1.00">
+  </library>
+  <library name="stklib_silvianFence_a" id="stklib_silvianFence_a_main_proxy.018" xyz="-7.91 2.87 21.12" hpr="0.0 -13.1 -1.9" scale="1.00 0.84 1.00">
+  </library>
+  <library name="stklib_bench_a" id="stklib_bench_a_main_proxy.004" xyz="-36.73 -4.62 -156.37" hpr="0.0 58.4 0.0" scale="0.80 0.80 0.80">
+  </library>
+  <library name="stklib_bench_a" id="stklib_bench_a_main_proxy.006" xyz="-31.34 -4.61 -173.11" hpr="-0.0 90.0 0.0" scale="0.80 0.80 0.80">
+  </library>
+  <library name="stklib_metalPostLamp_a" id="stklib_metalPostLamp_a_main_proxy.002" xyz="19.71 -3.80 -184.43" hpr="-0.0 90.0 0.0" scale="1.10 1.10 1.10">
+  </library>
+  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.001" xyz="19.71 3.05 -184.43" hpr="0.0 -0.0 0.0" scale="1.65 1.65 1.65">
+  </library>
+  <library name="stklib_metalPostLamp_a" id="stklib_metalPostLamp_a_main_proxy.001" xyz="5.11 -3.80 -184.43" hpr="-0.0 90.0 0.0" scale="1.10 1.10 1.10">
+  </library>
+  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.002" xyz="5.11 3.05 -184.43" hpr="0.0 -0.0 0.0" scale="1.65 1.65 1.65">
+  </library>
+  <library name="stklib_metalPostLamp_a" id="stklib_metalPostLamp_a_main_proxy.003" xyz="-9.17 -3.80 -184.43" hpr="-0.0 90.0 0.0" scale="1.10 1.10 1.10">
+  </library>
+  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.003" xyz="-9.17 3.05 -184.43" hpr="0.0 -0.0 0.0" scale="1.65 1.65 1.65">
+  </library>
+  <library name="stklib_metalPostLamp_a" id="stklib_metalPostLamp_a_main_proxy.004" xyz="-23.92 -3.80 -184.43" hpr="-0.0 90.0 0.0" scale="1.10 1.10 1.10">
+  </library>
+  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.004" xyz="-23.92 3.05 -184.43" hpr="0.0 -0.0 0.0" scale="1.65 1.65 1.65">
+  </library>
+  <library name="stklib_metalPostLamp_a" id="stklib_metalPostLamp_a_main_proxy.005" xyz="-23.92 -3.80 -200.58" hpr="-0.0 90.0 0.0" scale="1.10 1.10 1.10">
+  </library>
+  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.005" xyz="-23.92 3.05 -200.58" hpr="0.0 -0.0 0.0" scale="1.65 1.65 1.65">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_lowPineTree_a_main_proxy.013" xyz="19.23 6.64 -69.82" hpr="0.0 -51.2 0.0" scale="0.40 0.58 0.40">
+  </library>
+</scene>

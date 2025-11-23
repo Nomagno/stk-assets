@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="soccer_ball.jpg" normal-map="soccer_ball_n.png"/>
+  <material name="stktex_generic_cobbleStoneA.png" max-speed="0.90"/>
+  <material name="glass.png" gloss-map="glass_gloss.png"/>
+  <material name="stk_generic_grassC.png" max-speed="0.60"/>
+  <material name="xk-concrete1.png" slowdown-time="0.50" max-speed="0.67"/>
+  <material name="transparent.png" shader="alphablend"/>
+  <material name="transparent-reset.png" shader="alphablend" falling-effect="Y" reset="Y" collision-detect="Y" collision-reaction="reset"/>
+  <material name="kiks_painting.png" ignore="Y"/>
+  <material name="lighthousWindows_diff.png" shader="alphablend"/>
+  <material name="goldlimestone.png" slowdown-time="0.50" max-speed="0.66"/>
+  <material name="stk_generic_plaster_a_glossy.png" gloss-map="stk_generic_plaster_a_glossy_gloss.png"/>
+  <material name="island_water.png" surface="Y" shader="displace">
+    <sfx filename="splash.ogg" min_speed="0.00" max_speed="100.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>>
+    <particles base="splash.xml" condition=" skid drive"/>
+  </material>
+  <material name="redFlower_a.png" shader="alphatest"/>
+  <material name="stktex_branches_diff_a.png" shader="alphablend"/>
+  <material name="stktex_generic_concreteA_lime.png" slowdown-time="0.50" max-speed="0.66"/>
+  <material name="stk_generic_sand_a.png" max-speed="0.60"/>
+  <material name="stk_generic_sand_a_bottom.png" water-splash="Y"/>
+  <material name="stkflag_orangeStartingLine_a.png" shader="alphatest"/>
+  <material name="stk_generic_dirtA_MOD.png" slowdown-time="0.50" max-speed="0.66"/>
+  <material name="tunnel_lights.png" gloss-map="tunnel_lights_emission.png"/>
+</materials>
