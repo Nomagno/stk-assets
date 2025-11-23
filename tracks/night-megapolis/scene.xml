@@ -28,6 +28,12 @@
                 same-group="7"/>
   </checks>
 
+
+  <tyre-change compound="2" stop-time="20" id="tc0" x="-28.652857" y="16.364780" z="-22.511042" h="0.5"/>
+  <tyre-change compound="3" stop-time="20" id="tc1" x="-28.912243" y="16.333855" z="-32.701176" h="0.5"/>
+  <tyre-change compound="4" stop-time="20" id="tc2" x="-29.134789" y="16.362665" z="-41.452843" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-29.998507" y="16.446533" z="-50.250908" h="0.5"/>
+
   <item id="Empty" x="19.43" y="20.25" z="61.46" />
   <item id="Empty.001" x="20.34" y="20.25" z="58.88" />
   <item id="Empty.002" x="21.31" y="20.25" z="56.56" />
