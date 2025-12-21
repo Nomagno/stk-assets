@@ -3,11 +3,12 @@
   <material name="barrier.png">
     <sfx filename="box.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>
   </material>
-  <material name="stk_generic_grassB.png" slowdown-time="0.10" max-speed="0.60"/>
+  <material name="Concrete046_1K-JPG_Color.jpg" gloss-map="Concrete046_1K-JPG_Gloss.jpg" normal-map="Concrete046_1K-JPG_NormalGL.jpg"/>
+  <material name="Grass001_1K-JPG_Color.jpg" slowdown-time="0.10" max-speed="0.60" gloss-map="Grass001_1K-JPG_Gloss.jpg" normal-map="Grass001_1K-JPG_NormalGL.jpg"/>
+  <material name="rt4-transparency.png" shader="alphatest" collision-detect="Y" collision-reaction="reset"/>
   <material name="stk_generic_grid_b.png" shader="alphatest"/>
-  <material name="stk_generic_carpet_a.png" slowdown-time="0.05" max-speed="0.85"/>
-  <material name="stk_generic_sand_a.png" slowdown-time="0.02" max-speed="0.25"/>
-  <material name="stk_metalRustedBlue_a.png" slowdown-time="0.02" max-speed="0.4"/>
+  <material name="Asphalt005_1K-JPG_Color.jpg" slowdown-time="0.05" max-speed="0.85" gloss-map="Asphalt005_1K-JPG_Gloss.jpg" normal-map="Asphalt005_1K-JPG_NormalGL.jpg"/>
+  <material name="Ground080_1K-JPG_Color.jpg" slowdown-time="0.02" max-speed="0.25" gloss-map="Ground080_1K-JPG_Gloss.jpg" normal-map="Ground080_1K-JPG_NormalGL.jpg"/>
   <material name="crowdtest-special.png" shader="alphatest"/>
   <material name="race-direction.png" shader="alphatest"/>
   <material name="crowdtest.png" shader="alphatest"/>
@@ -18,7 +19,24 @@
   <material name="crowdtest-red.png" shader="alphatest"/>
   <material name="crowdtest-white.png" shader="alphatest"/>
   <material name="crowdtest-yellow.png" shader="alphatest"/>
+  <material name="crowdtest-orange.png" shader="alphatest"/>
+  <material name="race-control-logo.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="sp-orange-wide.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="stkflag_caldeiraFashion_a.jpg" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="stkflag_canyonJunctionRailway_a.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="sp-gray-wide.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="sp-green-wide.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="stkflag_mandaravaMotors_a.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="sp-black-wide.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="rt4-simple-logo.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="rt4-many-rt.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="stkflag_oceanicAirlinesAD_a.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="shto_2x1_sponsor.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="stkflag_stellacoffee_a.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="stkflag_transContPostAD_a.png" slowdown-time="0.02" max-speed="0.60"/>
+  <material name="sp-sky-wide.png" slowdown-time="0.02" max-speed="0.60"/>
   <material name="startline-wr.png" shader="alphatest" mirror-axis="V"/>
+  <material name="stk_metalRustedBlue_a.png" slowdown-time="0.02" max-speed="0.4"/>
   <material name="zipperoni.png" shader="alphatest" mirror-axis="V">
     <zipper duration="3.5" max-speed-increase="15.0" fade-out-time="3.0" speed-gain="4.5" min-speed="-1.0"/>
   </material>

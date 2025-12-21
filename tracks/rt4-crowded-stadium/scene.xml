@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <scene>
-  <track model="rt4-crowded-stadium_track.spm" x="0" y="0" z="0"/>
+  <track model="rt4-2025_track.spm" x="0" y="0" z="0"/>
   <object id="Gate Particle.001" type="animation" xyz="29.64 0.01 4.07" hpr="0.0 -26.5 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="EntryForward.spm" glow="0 36 106" skeletal-animation="false" if="isForward">
   </object>
   <object id="Gate Particle.002" type="animation" xyz="21.45 0.01 0.53" hpr="0.0 -20.5 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="ExitForward.spm" skeletal-animation="false" if="isForward">
@@ -27,43 +27,91 @@
   </object>
   <sun  xyz="-52.18 60.00 -3.47" sun-specular="250 250 250" sun-diffuse="230 230 230" ambient="150 150 150"/>
   <sky-box texture="genericskybox_top.jpg genericskybox_bottom.jpg genericskybox_east.jpg genericskybox_west.jpg genericskybox_south.jpg genericskybox_north.jpg" />
-  <camera far="1000.0"/>
+  <camera far="5000.0"/>
   <checks>
     <check-lap kind="lap" same-group="0" other-ids="1" />
-    <check-line kind="activate" other-ids="2" p1="-35.26 0.00 -121.89" p2="12.99 0.00 -113.19"
+    <check-line kind="activate" other-ids="2" p1="-27.96 0.00 -139.95" p2="4.07 0.00 -111.15"
                 same-group="1"/>
-    <check-line kind="activate" other-ids="3 14" p1="60.63 0.00 -51.68" p2="73.41 0.00 -62.18"
+    <check-line kind="activate" other-ids="3 14" p1="60.96 0.00 -51.46" p2="73.31 0.00 -62.60"
                 same-group="2"/>
-    <check-line kind="activate" other-ids="4 15" p1="45.25 0.00 27.16" p2="65.97 0.00 10.70"
+    <check-line kind="activate" other-ids="4 15" p1="44.82 0.00 27.44" p2="64.75 0.00 9.81"
                 same-group="3 14"/>
-    <check-line kind="activate" other-ids="5 16" p1="32.83 0.00 121.28" p2="47.97 0.00 143.88"
+    <check-line kind="activate" other-ids="5 16" p1="32.57 0.00 120.45" p2="48.98 0.00 143.40"
                 same-group="4 15"/>
-    <check-line kind="activate" other-ids="6 17" p1="-60.10 0.00 80.13" p2="-89.00 0.00 85.92"
+    <check-line kind="activate" other-ids="6 17" p1="-59.31 0.00 80.22" p2="-88.95 0.00 86.15"
                 same-group="5 16"/>
-    <check-line kind="activate" other-ids="7" p1="-10.02 0.00 8.97" p2="-17.29 0.00 -19.77"
+    <check-line kind="activate" other-ids="18" p1="-10.02 0.00 8.97" p2="-16.36 0.00 -20.00"
                 same-group="6 17"/>
-    <check-line kind="activate" other-ids="8" p1="-52.26 0.00 -54.92" p2="-63.33 0.00 -35.23"
+    <check-line kind="activate" other-ids="19" p1="-53.66 0.00 -53.23" p2="-52.33 0.00 -28.08"
                 same-group="7"/>
-    <check-line kind="activate" other-ids="9" p1="-98.78 0.00 -146.73" p2="-98.47 0.00 -119.80"
+    <check-line kind="activate" other-ids="20" p1="-79.76 0.00 -142.12" p2="-86.01 0.00 -117.41"
                 same-group="8"/>
-    <check-line kind="activate" other-ids="10" p1="-107.98 0.00 -12.17" p2="-89.97 0.00 -27.36"
+    <check-line kind="activate" other-ids="21" p1="-105.61 0.00 -9.23" p2="-93.18 0.00 -22.58"
                 same-group="9"/>
-    <check-line kind="activate" other-ids="11" p1="-28.71 0.30 77.02" p2="-5.22 0.30 54.83"
-                same-group="10"/>
-    <check-line kind="activate" other-ids="12" p1="65.82 -4.94 64.64" p2="65.07 -4.91 39.73"
+    <check-line kind="activate" other-ids="25 26 27 28" p1="-27.56 -0.20 78.53" p2="-5.22 -0.20 54.83"
+                same-group="10 22 23 24"/>
+    <check-line kind="activate" other-ids="33 34 35 36" p1="64.60 -4.84 64.44" p2="65.46 -4.81 39.82"
                 same-group="11"/>
-    <check-line kind="activate" other-ids="13" p1="126.36 0.06 2.82" p2="101.17 0.09 0.64"
-                same-group="12"/>
-    <check-line kind="activate" other-ids="0" p1="160.77 0.06 -58.32" p2="120.52 0.09 -54.90"
-                same-group="13"/>
-    <check-line kind="activate" other-ids="4 15" p1="-11.55 0.00 96.72" p2="-16.52 0.00 108.88"
+    <check-line kind="activate" other-ids="13 40 41" p1="126.29 -0.44 3.25" p2="101.17 -0.41 0.64"
+                same-group="12 37 38 39"/>
+    <check-line kind="activate" other-ids="0" p1="160.89 -0.50 -57.95" p2="122.56 -0.50 -50.89"
+                same-group="13 40 41"/>
+    <check-line kind="activate" other-ids="4 15" p1="-11.55 -2.50 96.72" p2="-16.52 -2.50 108.88"
                 same-group="3 14"/>
-    <check-line kind="activate" other-ids="5 16" p1="-13.23 0.00 96.05" p2="-18.25 0.00 108.13"
+    <check-line kind="activate" other-ids="5 16" p1="-13.23 -2.50 96.05" p2="-18.25 -2.50 108.13"
                 same-group="4 15"/>
-    <check-line kind="activate" other-ids="6 17" p1="-15.85 0.00 94.99" p2="-20.76 0.00 107.11"
+    <check-line kind="activate" other-ids="6 17" p1="-15.85 -2.50 94.99" p2="-20.76 -2.50 107.11"
                 same-group="5 16"/>
-    <check-line kind="activate" other-ids="7" p1="-17.40 0.00 94.32" p2="-22.29 0.00 106.48"
+    <check-line kind="activate" other-ids="7" p1="-17.40 -2.50 94.32" p2="-22.29 -2.50 106.48"
                 same-group="6 17"/>
+    <check-line kind="activate" other-ids="7" p1="-6.15 0.00 -32.15" p2="0.51 0.00 -44.11"
+                same-group="18"/>
+    <check-line kind="activate" other-ids="8" p1="-74.28 0.00 -96.64" p2="-46.66 0.00 -84.46"
+                same-group="19"/>
+    <check-line kind="activate" other-ids="9" p1="-100.93 0.00 -64.04" p2="-72.70 0.00 -42.17"
+                same-group="20"/>
+    <check-line kind="activate" other-ids="10 22 23 24" p1="-63.44 -4.90 27.90" p2="-51.00 -4.90 14.54"
+                same-group="21"/>
+    <check-line kind="activate" other-ids="25 26 27 28" p1="-27.56 4.30 78.53" p2="-5.22 4.30 54.83"
+                same-group="10 22 23 24"/>
+    <check-line kind="activate" other-ids="25 26 27 28" p1="-27.56 8.80 78.53" p2="-5.22 8.80 54.83"
+                same-group="10 22 23 24"/>
+    <check-line kind="activate" other-ids="25 26 27 28" p1="-27.56 13.30 78.53" p2="-5.22 13.30 54.83"
+                same-group="10 22 23 24"/>
+    <check-line kind="activate" other-ids="29 30 31 32" p1="9.56 -0.50 72.81" p2="37.70 -0.52 99.23"
+                same-group="25 26 27 28"/>
+    <check-line kind="activate" other-ids="29 30 31 32" p1="9.56 4.00 72.81" p2="37.70 3.98 99.23"
+                same-group="25 26 27 28"/>
+    <check-line kind="activate" other-ids="29 30 31 32" p1="9.56 8.50 72.81" p2="37.70 8.48 99.23"
+                same-group="25 26 27 28"/>
+    <check-line kind="activate" other-ids="29 30 31 32" p1="9.56 13.00 72.81" p2="37.70 12.98 99.23"
+                same-group="25 26 27 28"/>
+    <check-line kind="activate" other-ids="11" p1="-3.24 -0.52 36.45" p2="23.50 -0.51 56.79"
+                same-group="29 30 31 32"/>
+    <check-line kind="activate" other-ids="11" p1="-3.24 3.98 36.45" p2="23.50 3.99 56.79"
+                same-group="29 30 31 32"/>
+    <check-line kind="activate" other-ids="11" p1="-3.24 8.48 36.45" p2="23.50 8.49 56.79"
+                same-group="29 30 31 32"/>
+    <check-line kind="activate" other-ids="11" p1="-3.24 12.98 36.45" p2="23.50 12.99 56.79"
+                same-group="29 30 31 32"/>
+    <check-line kind="activate" other-ids="12 37 38 39" p1="140.25 -0.55 57.53" p2="115.55 -0.58 41.02"
+                same-group="33 34 35 36"/>
+    <check-line kind="activate" other-ids="12 37 38 39" p1="140.25 3.95 57.53" p2="115.55 3.92 41.02"
+                same-group="33 34 35 36"/>
+    <check-line kind="activate" other-ids="12 37 38 39" p1="140.25 8.45 57.53" p2="115.55 8.42 41.02"
+                same-group="33 34 35 36"/>
+    <check-line kind="activate" other-ids="12 37 38 39" p1="140.25 12.95 57.53" p2="115.55 12.92 41.02"
+                same-group="33 34 35 36"/>
+    <check-line kind="activate" other-ids="13 40 41" p1="126.29 4.06 3.25" p2="101.17 4.09 0.64"
+                same-group="12 37 38 39"/>
+    <check-line kind="activate" other-ids="13 40 41" p1="126.29 8.56 3.25" p2="101.17 8.59 0.64"
+                same-group="12 37 38 39"/>
+    <check-line kind="activate" other-ids="13 40 41" p1="126.29 13.06 3.25" p2="101.17 13.09 0.64"
+                same-group="12 37 38 39"/>
+    <check-line kind="activate" other-ids="0" p1="160.89 4.00 -57.95" p2="122.56 4.00 -50.89"
+                same-group="13 40 41"/>
+    <check-line kind="activate" other-ids="0" p1="160.89 8.50 -57.95" p2="122.56 8.50 -50.89"
+                same-group="13 40 41"/>
     <cannon p1="24.45 0.00 7.33" p2="30.17 0.00 10.17" target-p1="-1.80 0.00 107.62" target-p2="-4.22 0.00 113.52">
     <curve channel="LocXYZ" speed="25.00" interpolation="bezier" extend="const">
       <point c="27.321371 -0.026139 8.867306" h1="28.808214 -0.026139 5.824097" h2="25.834530 -0.026139 11.910515" />
@@ -101,6 +149,43 @@
     </curve>
     </cannon>
   </checks>
+  <end-cameras>
+    <camera type="static_follow_kart" xyz="56.647713 2.466095 -103.264496" distance="20.5"/> <!-- 001 C -->
+    <camera type="static_follow_kart" xyz="35.771221 5.000000 -109.803391" distance="18.0"/> <!-- 002 C -->
+    <camera type="static_follow_kart" xyz="23.282860 4.994714 -132.573349" distance="25.0"/> <!-- 003 C -->
+    <camera type="static_follow_kart" xyz="-21.822689 10.000000 -134.690552" distance="29.0"/> <!-- 004 C -->
+    <camera type="static_follow_kart" xyz="-10.895776 5.090424 -81.404312" distance="32.5"/> <!-- 005 C -->
+    <camera type="static_follow_kart" xyz="31.192841 6.000000 -75.342094" distance="16.5"/> <!-- 006 C -->
+    <camera type="static_follow_kart" xyz="54.270905 6.000000 -61.685131" distance="20.0"/> <!-- 007 C -->
+    <camera type="static_follow_kart" xyz="86.388542 6.000000 -38.434708" distance="25.0"/> <!-- 008 C -->
+    <camera type="static_follow_kart" xyz="90.531410 10.000000 -1.296056" distance="27.5"/> <!-- 009 C -->
+    <camera type="static_follow_kart" xyz="41.484348 0.502868 -1.970319" distance="32.0"/> <!-- 010 C -->
+    <camera type="static_follow_kart" xyz="64.868927 15.000000 37.708878" distance="29.0"/> <!-- 011 C -->
+    <camera type="static_follow_kart" xyz="61.095886 0.502868 95.797287" distance="41.0"/> <!-- 012 C -->
+    <camera type="static_follow_kart" xyz="13.106739 6.515270 165.356995" distance="54.0"/> <!-- 013 C -->
+    <camera type="static_follow_kart" xyz="-48.192417 5.000000 128.971741" distance="25.0"/> <!-- 014 C -->
+    <camera type="static_follow_kart" xyz="-66.998222 0.510000 96.540894" distance="23.0"/> <!-- 015 C -->
+    <camera type="static_follow_kart" xyz="-66.877998 0.504040 63.487331" distance="27.5"/> <!-- 016 C -->
+    <camera type="static_follow_kart" xyz="-73.074028 20.000000 8.478687" distance="42.0"/> <!-- 017 C -->
+    <camera type="static_follow_kart" xyz="-20.624039 8.700000 7.100734" distance="26.0"/> <!-- 018 C -->
+    <camera type="static_follow_kart" xyz="8.573496 5.000000 -12.578239" distance="24.5"/> <!-- 019 C -->
+    <camera type="static_follow_kart" xyz="-18.262381 3.810303 -60.470787" distance="37.5"/> <!-- 020 C -->
+    <camera type="static_follow_kart" xyz="-69.744682 15.000000 -39.904518" distance="37.0"/> <!-- 021 C -->
+    <camera type="static_follow_kart" xyz="-53.458050 0.498632 -87.529335" distance="22.0"/> <!-- 022 C -->
+    <camera type="static_follow_kart" xyz="-72.638191 10.000000 -133.206711" distance="39.5"/> <!-- 023 C -->
+    <camera type="static_follow_kart" xyz="-112.198517 5.000000 -73.616493" distance="59.0"/> <!-- 024 C -->
+    <camera type="static_follow_kart" xyz="-100.179008 0.503325 -26.586195" distance="26.0"/> <!-- 025 C -->
+    <camera type="static_follow_kart" xyz="-61.445713 -1.475171 28.355423" distance="47.5"/> <!-- 026 C -->
+    <camera type="static_follow_kart" xyz="-25.408060 -0.383694 52.596889" distance="25.0"/> <!-- 027 C -->
+    <camera type="static_follow_kart" xyz="33.113869 12.500000 94.753723" distance="51.5"/> <!-- 028 C -->
+    <camera type="static_follow_kart" xyz="5.213262 0.530952 35.552425" distance="35.0"/> <!-- 029 C -->
+    <camera type="static_follow_kart" xyz="62.922832 -2.000000 54.849159" distance="35.0"/> <!-- 030 C -->
+    <camera type="static_follow_kart" xyz="120.494080 5.000000 44.455078" distance="35.0"/> <!-- 031 C -->
+    <camera type="static_follow_kart" xyz="101.314903 10.000000 1.368899" distance="35.0"/> <!-- 032 C -->
+    <camera type="static_follow_kart" xyz="133.060898 3.000000 -26.354607" distance="24.5"/> <!-- 033 C -->
+    <camera type="static_follow_kart" xyz="137.633041 7.000000 -66.759872" distance="32.5"/> <!-- 034 C -->
+    <camera type="static_follow_kart" xyz="81.273705 5.000000 -68.568260" distance="30.0"/> <!-- 035 C -->
+  </end-cameras>
   <particle-emitter kind="orange.xml" id="Emitter" xyz="143.03 1.95 59.85" h="0.00" >
   </particle-emitter>
   <particle-emitter kind="orange.xml" id="Emitter.001" xyz="151.95 2.42 30.97" h="0.00" >
@@ -137,26 +222,16 @@
   <tyre-change compound="4" id="tc2" x="-18.9311" y="0.02" z="107.044" />
   <tyre-change compound="123" stop-time="5" id="tc3" x="-21.607361" y="0.312736" z="99.680351" h="0.5"/>
 
+  <small-nitro id="Empty" x="33.74" y="-0.00" z="-100.22" />
   <small-nitro id="Empty.001" x="35.77" y="-0.00" z="-102.91" />
   <small-nitro id="Empty.002" x="37.90" y="-0.00" z="-105.65" />
   <small-nitro id="Empty.003" x="-17.62" y="-0.00" z="-130.70" />
   <banana id="Empty.004" x="-7.12" y="-0.00" z="-121.53" />
-  <banana id="Empty.009" x="51.59" y="-0.00" z="-3.51" />
-  <banana id="Empty.049" x="12.36" y="-0.00" z="75.56" />
-  <banana id="Empty.050" x="19.00" y="0.00" z="50.49" />
-  <banana id="Empty.059" x="121.41" y="0.00" z="43.28" />
-  <banana id="Empty.067" x="131.95" y="-0.00" z="-52.64" />
-  <banana id="Empty.075" x="15.21" y="-0.00" z="78.26" />
-  <banana id="Empty.076" x="15.49" y="-0.00" z="49.19" />
-  <banana id="Empty.077" x="118.58" y="0.00" z="45.20" />
-  <banana id="Empty.078" x="129.24" y="-0.00" z="-51.98" />
-  <banana id="Empty.075" x="13.75" y="-0.00" z="76.85" />
-  <banana id="Empty.050" x="17.25" y="0.00" z="49.85" />
-
   <item id="Empty.005" x="-10.46" y="-0.00" z="-124.21" />
   <item id="Empty.006" x="-13.05" y="-0.00" z="-126.43" />
   <item id="Empty.007" x="63.06" y="-0.00" z="-53.65" />
   <small-nitro id="Empty.008" x="66.70" y="0.00" z="-56.76" />
+  <banana id="Empty.009" x="51.59" y="-0.00" z="-3.51" />
   <item id="Empty.010" x="48.61" y="-0.00" z="-6.20" />
   <item id="Empty.011" x="41.93" y="-0.00" z="-12.09" />
   <big-nitro id="Empty.012" x="38.15" y="-0.00" z="-15.43" />
@@ -193,6 +268,8 @@
   <small-nitro id="Empty.046" x="19.94" y="-0.00" z="82.65" />
   <item id="Empty.047" x="1.75" y="-0.00" z="52.30" />
   <item id="Empty.048" x="13.03" y="-0.00" z="35.58" />
+  <banana id="Empty.049" x="17.73" y="-0.00" z="80.62" />
+  <banana id="Empty.050" x="14.64" y="-0.00" z="49.77" />
   <big-nitro id="Empty.051" x="3.18" y="-0.00" z="41.33" />
   <small-nitro id="Empty.052" x="9.22" y="-0.00" z="46.43" />
   <small-nitro id="Empty.053" x="11.63" y="-0.00" z="47.21" />
@@ -201,464 +278,235 @@
   <small-nitro id="Empty.056" x="98.26" y="-4.21" z="50.34" />
   <small-nitro id="Empty.057" x="150.11" y="-0.10" z="45.46" />
   <small-nitro id="Empty.058" x="142.69" y="-0.09" z="34.56" />
+  <banana id="Empty.059" x="120.61" y="-0.03" z="40.71" />
   <small-nitro id="Empty.060" x="108.42" y="-0.00" z="24.71" />
   <item id="Empty.062" x="111.05" y="-0.00" z="23.39" />
   <item id="Empty.063" x="113.72" y="-0.00" z="21.30" />
-  <big-nitro id="Empty.064" x="122.36" y="-0.00" z="-50.67" />
+  <big-nitro id="Empty.064" x="116.64" y="0.00" z="-50.08" />
   <small-nitro id="Empty.065" x="140.30" y="-0.00" z="-55.01" />
   <item id="Empty.066" x="137.63" y="-0.00" z="-54.14" />
+  <banana id="Empty.067" x="131.95" y="-0.00" z="-52.64" />
   <item id="Empty.068" x="145.15" y="-0.00" z="-56.14" />
   <small-nitro id="Empty.069" x="87.76" y="-0.00" z="-68.02" />
   <small-nitro id="Empty.071" x="89.09" y="-0.00" z="-70.99" />
   <small-nitro id="Empty.072" x="90.50" y="-0.00" z="-74.10" />
   <item id="Empty.073" x="120.51" y="-0.00" z="-60.14" />
   <item id="Empty.074" x="19.35" y="-0.00" z="-76.86" />
+  <banana id="Empty.075" x="18.98" y="-0.00" z="81.81" />
+  <banana id="Empty.076" x="13.28" y="-0.00" z="48.72" />
+  <banana id="Empty.077" x="118.16" y="-0.38" z="46.36" />
+  <banana id="Empty.078" x="129.24" y="-0.00" z="-51.98" />
+  <banana id="Empty.022" x="130.26" y="-0.00" z="-53.66" h="-90.00" />
+  <banana id="Empty.029" x="130.93" y="-0.00" z="-50.95" h="-90.00" />
+  <banana id="Empty.033" x="121.44" y="-0.02" z="44.88" />
+  <banana id="Empty.061" x="133.48" y="-0.00" z="-53.09" h="45.00" />
+  <banana id="Empty.070" x="134.90" y="-0.00" z="-53.55" />
   <lightshaft xyz="-52.18 70.00 -3.47" id="Sun.001" opacity="0.10" color="255 226 9"/>
   <default-start karts-per-row     ="3"
                  forwards-distance ="1.50"
                  sidewards-distance="1.80"
                  upwards-distance  ="1.10"/>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy" xyz="-199.45 0.00 52.28" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy" xyz="-163.43 -0.00 14.40" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.001" xyz="-193.18 0.00 68.34" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.001" xyz="-165.78 0.73 117.17" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.002" xyz="-197.10 0.00 82.84" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.002" xyz="-179.55 0.21 71.83" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.003" xyz="-212.78 0.00 54.24" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.003" xyz="-212.47 0.66 29.51" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.004" xyz="-205.33 0.00 67.56" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.008" xyz="-130.18 0.00 97.69" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.005" xyz="-186.91 0.00 78.53" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.009" xyz="-224.06 7.78 80.51" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.006" xyz="-183.78 0.00 89.51" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.011" xyz="-267.55 41.70 99.37" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.007" xyz="-169.67 0.00 80.49" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.012" xyz="-325.65 65.27 52.02" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.008" xyz="-172.80 0.00 97.74" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.013" xyz="-280.88 39.12 62.32" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.009" xyz="-190.05 0.00 98.52" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.016" xyz="-249.53 11.71 28.46" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.010" xyz="-205.33 0.00 101.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.017" xyz="-243.94 15.45 57.84" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.011" xyz="-217.87 0.00 100.87" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.019" xyz="-137.57 0.00 56.72" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.012" xyz="-218.65 0.00 87.94" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.020" xyz="171.25 0.00 -3.28" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.013" xyz="-230.02 0.00 85.20" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.021" xyz="200.11 0.62 -44.93" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.014" xyz="-246.48 0.00 72.66" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.022" xyz="219.11 1.55 -5.84" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.015" xyz="-234.33 0.00 71.48" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.028" xyz="276.10 4.54 116.55" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.016" xyz="-227.67 0.00 55.41" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.032" xyz="229.19 0.00 102.91" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.017" xyz="-217.09 0.00 66.38" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.033" xyz="131.56 0.32 111.43" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.018" xyz="-182.99 0.00 55.41" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.036" xyz="159.94 0.00 182.64" hpr="0.0 49.8 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.019" xyz="-165.75 0.00 62.86" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.041" xyz="180.17 1.84 139.84" hpr="0.0 49.8 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.020" xyz="190.78 0.00 42.17" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.048" xyz="377.76 53.14 161.94" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.021" xyz="199.80 0.00 48.83" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.051" xyz="353.11 40.15 -234.69" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.022" xyz="206.85 0.00 55.49" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.052" xyz="575.34 70.29 39.77" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.023" xyz="215.86 0.00 65.29" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.053" xyz="492.01 71.79 239.00" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.024" xyz="226.05 0.00 71.56" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.054" xyz="242.78 10.11 -142.80" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.025" xyz="235.85 0.00 68.03" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.055" xyz="158.69 1.84 -123.86" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.026" xyz="236.24 0.00 54.31" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.056" xyz="513.22 69.77 192.03" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.027" xyz="223.70 0.00 48.83" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.057" xyz="531.40 81.39 98.85" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.028" xyz="214.69 0.00 46.48" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.058" xyz="362.58 37.47 -142.62" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.029" xyz="224.09 0.00 59.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.063" xyz="250.22 0.00 -93.55" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.030" xyz="217.43 0.00 82.92" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.064" xyz="598.07 47.23 139.76" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.031" xyz="226.05 0.00 90.76" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.065" xyz="285.25 14.39 -176.29" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.032" xyz="229.19 0.00 102.91" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.066" xyz="192.07 -0.00 39.10" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.033" xyz="218.61 0.00 116.23" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.075" xyz="-277.62 65.78 142.03" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.034" xyz="173.03 0.00 169.58" hpr="0.0 49.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.076" xyz="-237.99 24.57 116.84" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.035" xyz="164.08 0.00 172.28" hpr="0.0 49.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.077" xyz="-177.20 13.49 192.74" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.036" xyz="159.94 0.00 182.64" hpr="0.0 49.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.078" xyz="-120.44 0.06 139.67" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.037" xyz="169.05 0.00 178.54" hpr="0.0 49.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.079" xyz="189.75 7.82 -164.77" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.038" xyz="181.54 0.00 171.65" hpr="0.0 49.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.080" xyz="465.50 68.85 302.63" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.039" xyz="184.30 0.00 164.74" hpr="0.0 49.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.081" xyz="532.16 30.81 304.91" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.040" xyz="196.31 0.00 162.07" hpr="0.0 49.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy" xyz="-267.88 11.39 -27.25" hpr="0.0 -21.0 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.041" xyz="189.61 0.00 151.79" hpr="0.0 49.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.001" xyz="-252.10 6.68 -63.85" hpr="-0.0 73.4 -0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.042" xyz="204.01 0.00 151.13" hpr="0.0 49.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.002" xyz="-6.81 1.69 -202.72" hpr="0.0 15.5 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.043" xyz="212.73 0.00 129.95" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.003" xyz="-211.46 4.98 -119.61" hpr="0.0 -170.9 -0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.044" xyz="224.09 0.00 145.62" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.004" xyz="-269.77 12.17 -110.14" hpr="0.0 139.0 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.045" xyz="214.69 0.00 144.45" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.005" xyz="-192.32 6.15 -164.95" hpr="0.0 68.3 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.046" xyz="231.54 0.00 126.81" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.006" xyz="-177.20 0.20 -53.44" hpr="0.0 12.8 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.047" xyz="239.38 0.00 131.52" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.008" xyz="-203.06 0.20 -17.51" hpr="0.0 62.3 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.048" xyz="243.69 0.00 120.54" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.009" xyz="-143.95 1.03 -155.88" hpr="0.0 68.3 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.049" xyz="239.77 0.00 111.53" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.010" xyz="-250.46 12.63 -164.16" hpr="0.0 133.1 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.050" xyz="248.00 0.00 94.29" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.011" xyz="-67.72 1.06 -191.14" hpr="-0.0 78.0 -0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.051" xyz="250.62 0.00 -108.44" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.012" xyz="-146.31 6.88 -204.24" hpr="0.0 -162.1 -0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.052" xyz="241.21 0.00 -113.93" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.013" xyz="-138.58 -0.00 -25.23" hpr="0.0 90.7 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.053" xyz="232.59 0.00 -120.98" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.014" xyz="-134.89 0.00 -61.50" hpr="0.0 138.1 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.054" xyz="223.97 0.00 -128.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.015" xyz="-170.41 0.58 -101.74" hpr="0.0 -81.2 0.0" scale="1.50 1.50 1.50">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.055" xyz="211.82 0.00 -132.35" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.084" xyz="-128.50 14.32 221.62" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.056" xyz="211.04 0.00 -122.16" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.085" xyz="-237.78 37.99 165.32" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.057" xyz="207.51 0.00 -114.71" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.086" xyz="-130.18 1.94 182.33" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.058" xyz="221.62 0.00 -108.83" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.087" xyz="-307.18 74.15 107.77" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.059" xyz="220.44 0.00 -119.41" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.089" xyz="-273.26 83.45 189.72" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.060" xyz="231.02 0.00 -113.54" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.090" xyz="-171.16 4.67 154.12" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.061" xyz="232.59 0.00 -102.96" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.091" xyz="-221.87 50.66 207.18" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.062" xyz="240.04 0.00 -96.69" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.095" xyz="-210.79 9.72 147.74" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.063" xyz="250.22 0.00 -93.55" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.096" xyz="-154.03 46.20 259.57" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.064" xyz="245.52 0.00 -103.74" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.097" xyz="-192.65 47.09 231.70" hpr="0.0 43.5 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.065" xyz="254.93 0.00 -100.21" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.099" xyz="258.42 5.06 12.57" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.066" xyz="204.89 0.00 32.37" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.110" xyz="242.63 1.63 57.28" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.067" xyz="222.13 0.00 31.19" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.113" xyz="288.40 11.59 75.17" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.068" xyz="240.94 0.00 87.62" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.117" xyz="312.08 15.94 -126.32" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.069" xyz="253.88 0.00 110.35" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.118" xyz="425.29 69.33 -132.05" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.070" xyz="235.46 0.00 143.27" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.119" xyz="423.08 55.91 -207.33" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.071" xyz="226.05 0.00 150.33" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.123" xyz="509.25 59.61 -128.26" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.072" xyz="-242.17 0.00 93.03" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.125" xyz="363.63 23.76 -91.59" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.073" xyz="-245.30 0.00 104.01" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.126" xyz="189.50 1.45 -85.81" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.074" xyz="-233.94 0.00 113.41" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.127" xyz="243.16 2.74 -43.72" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.075" xyz="-207.68 0.00 128.30" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.142" xyz="317.79 14.77 134.79" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.076" xyz="-192.79 0.00 118.90" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.143" xyz="449.38 81.79 150.92" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.077" xyz="-183.39 0.00 129.09" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.147" xyz="283.07 14.96 211.18" hpr="0.0 174.1 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.078" xyz="-180.64 0.00 114.59" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.150" xyz="308.95 13.68 176.46" hpr="0.0 174.1 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.079" xyz="201.24 0.00 -135.87" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.151" xyz="362.61 58.20 221.91" hpr="0.0 174.1 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.080" xyz="195.75 0.00 -128.04" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.152" xyz="215.52 16.33 257.26" hpr="0.0 174.1 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.081" xyz="188.70 0.00 -137.44" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.153" xyz="313.37 24.05 254.74" hpr="0.0 174.1 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.082" xyz="231.93 0.00 37.07" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.155" xyz="178.91 0.00 85.55" hpr="0.0 174.1 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.083" xyz="249.17 0.00 77.04" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.160" xyz="329.96 22.22 76.22" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy" xyz="-220.32 0.00 -52.69" hpr="0.0 -21.0 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.162" xyz="241.96 0.00 155.08" hpr="0.0 174.1 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.001" xyz="-213.46 0.00 -65.21" hpr="-0.0 73.4 -0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.163" xyz="265.40 23.07 278.09" hpr="0.0 174.1 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.002" xyz="-225.17 0.00 -90.13" hpr="0.0 15.5 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.165" xyz="223.73 7.90 208.65" hpr="0.0 174.1 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.003" xyz="-205.82 0.00 -94.93" hpr="0.0 -170.9 -0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.171" xyz="305.76 14.26 40.45" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.004" xyz="-207.95 0.00 -80.30" hpr="0.0 139.0 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.173" xyz="432.02 54.99 -14.79" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.005" xyz="-193.78 0.00 -105.75" hpr="0.0 68.3 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.176" xyz="493.04 93.60 20.98" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.006" xyz="-195.84 0.00 -89.05" hpr="0.0 12.8 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.177" xyz="463.58 81.42 80.43" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.007" xyz="-199.85 0.00 -63.47" hpr="0.0 143.3 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.178" xyz="382.57 43.85 100.95" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.008" xyz="-196.78 0.00 -49.46" hpr="0.0 62.3 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.180" xyz="400.98 45.98 37.82" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.009" xyz="-179.52 0.00 -116.30" hpr="0.0 68.3 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.181" xyz="427.28 57.40 -74.76" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.010" xyz="-208.17 0.00 -142.01" hpr="0.0 133.1 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.182" xyz="358.37 27.99 33.61" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.011" xyz="-198.47 0.00 -137.59" hpr="-0.0 78.0 -0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.184" xyz="307.34 9.52 -82.13" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.012" xyz="-187.76 0.00 -116.65" hpr="0.0 -162.1 -0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.186" xyz="513.03 77.60 -39.88" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.013" xyz="-188.48 0.00 -78.69" hpr="0.0 90.7 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.190" xyz="526.19 41.08 -208.38" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.014" xyz="-179.29 0.00 -70.04" hpr="0.0 138.1 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.191" xyz="422.02 91.35 226.68" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.015" xyz="-178.19 0.00 -89.74" hpr="0.0 -81.2 0.0" scale="0.50 0.50 0.50">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.196" xyz="299.45 7.08 -25.31" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.016" xyz="-165.26 0.00 -62.62" hpr="0.0 -48.9 0.0" scale="0.50 0.50 0.50">
-  </library>
-  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.017" xyz="-159.56 0.00 -47.61" hpr="0.0 -48.9 0.0" scale="0.50 0.50 0.50">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.084" xyz="-177.73 0.00 139.84" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.085" xyz="-162.12 0.00 147.17" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.086" xyz="-154.97 0.00 160.38" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.087" xyz="-171.46 0.00 154.96" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.088" xyz="-150.55 0.00 150.24" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.089" xyz="-140.72 0.00 156.03" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.090" xyz="-136.70 0.00 139.78" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.091" xyz="-127.10 0.00 154.44" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.092" xyz="-139.06 0.00 166.89" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.093" xyz="-147.98 0.00 179.68" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.094" xyz="-163.63 0.00 130.77" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.095" xyz="-146.00 0.00 124.30" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.096" xyz="-127.01 0.00 183.55" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.097" xyz="-113.18 0.00 184.46" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.098" xyz="-121.18 0.00 172.06" hpr="0.0 43.5 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.099" xyz="270.93 0.00 46.63" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.100" xyz="261.53 0.00 41.14" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.101" xyz="252.91 0.00 34.09" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.102" xyz="279.50 0.00 12.42" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.103" xyz="267.35 0.00 8.51" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.104" xyz="266.56 0.00 18.69" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.105" xyz="263.04 0.00 26.14" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.106" xyz="277.15 0.00 32.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.107" xyz="275.97 0.00 21.44" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.108" xyz="251.34 0.00 41.54" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.109" xyz="252.91 0.00 52.12" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.110" xyz="260.35 0.00 58.39" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.111" xyz="270.54 0.00 61.52" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.112" xyz="265.84 0.00 51.33" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.113" xyz="275.24 0.00 54.86" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.114" xyz="256.77 0.00 4.98" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.115" xyz="251.28 0.00 12.82" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.116" xyz="238.13 0.00 27.79" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.117" xyz="260.35 0.00 -78.59" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.118" xyz="269.36 0.00 -68.79" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.119" xyz="279.55 0.00 -62.52" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.120" xyz="289.35 0.00 -66.05" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.121" xyz="289.74 0.00 -79.77" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.122" xyz="277.20 0.00 -85.25" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.123" xyz="268.19 0.00 -87.60" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.124" xyz="277.59 0.00 -75.06" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.125" xyz="270.93 0.00 -51.16" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.126" xyz="279.55 0.00 -43.32" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.127" xyz="282.69 0.00 -31.17" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.128" xyz="272.10 0.00 -17.85" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.129" xyz="266.23 0.00 -4.13" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.130" xyz="285.04 0.00 -7.27" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.131" xyz="292.87 0.00 -2.56" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.132" xyz="297.18 0.00 -13.54" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.133" xyz="293.27 0.00 -22.55" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.134" xyz="301.50 0.00 -39.79" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.135" xyz="294.44 0.00 -46.46" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.136" xyz="307.37 0.00 -23.73" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.137" xyz="302.67 0.00 -57.04" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.138" xyz="258.03 0.00 89.46" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.139" xyz="265.09 0.00 96.12" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.140" xyz="274.10 0.00 105.92" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.141" xyz="284.29 0.00 112.19" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.142" xyz="294.09 0.00 108.66" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.143" xyz="294.48 0.00 94.95" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.144" xyz="281.94 0.00 89.46" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.145" xyz="272.93 0.00 87.11" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.146" xyz="282.33 0.00 99.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.147" xyz="275.41 0.00 186.10" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.148" xyz="267.63 0.00 177.42" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.149" xyz="265.76 0.00 165.01" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.150" xyz="277.65 0.00 152.84" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.151" xyz="284.90 0.00 139.80" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.152" xyz="275.20 0.00 123.04" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.153" xyz="284.44 0.00 125.18" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.154" xyz="265.87 0.00 140.99" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.155" xyz="258.55 0.00 135.51" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.156" xyz="253.14 0.00 145.99" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.157" xyz="256.12 0.00 155.35" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.158" xyz="246.16 0.00 171.66" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.159" xyz="263.13 0.00 73.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.160" xyz="280.37 0.00 71.82" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.161" xyz="252.50 0.00 179.01" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.162" xyz="241.96 0.00 155.08" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.163" xyz="263.66 0.00 124.22" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.164" xyz="290.17 0.00 77.70" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.165" xyz="243.23 0.00 188.69" hpr="0.0 174.1 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.166" xyz="329.17 0.00 87.26" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.167" xyz="319.76 0.00 81.77" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.168" xyz="311.14 0.00 74.72" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.169" xyz="303.20 0.00 42.22" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.170" xyz="291.05 0.00 38.30" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.171" xyz="290.27 0.00 48.49" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.172" xyz="321.27 0.00 66.77" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.173" xyz="335.38 0.00 72.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.174" xyz="299.67 0.00 51.23" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.175" xyz="309.57 0.00 82.17" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.176" xyz="311.14 0.00 92.75" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.177" xyz="318.59 0.00 99.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.178" xyz="328.78 0.00 102.15" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.179" xyz="324.07 0.00 91.96" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.180" xyz="333.48 0.00 95.49" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.181" xyz="315.00 0.00 45.61" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.182" xyz="309.52 0.00 53.45" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.183" xyz="296.37 0.00 68.42" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.184" xyz="318.58 0.00 -37.96" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.185" xyz="327.60 0.00 -28.16" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.186" xyz="337.79 0.00 -21.89" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.187" xyz="347.58 0.00 -25.42" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.188" xyz="347.98 0.00 -39.13" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.189" xyz="335.83 0.00 -34.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.190" xyz="329.17 0.00 -10.53" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.191" xyz="337.11 0.00 14.92" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.192" xyz="306.39 0.00 -1.38" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.193" xyz="295.81 0.00 11.95" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.194" xyz="289.93 0.00 25.66" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.195" xyz="308.74 0.00 22.53" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.196" xyz="316.58 0.00 27.23" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.197" xyz="320.89 0.00 16.26" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.198" xyz="316.97 0.00 7.25" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.199" xyz="319.78 0.00 -10.67" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.200" xyz="352.68 0.00 -5.82" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.201" xyz="331.07 0.00 6.07" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
-  </library>
-  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.202" xyz="360.91 0.00 -16.41" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.201" xyz="361.00 19.84 -33.73" hpr="0.0 -0.0 0.0" scale="3.00 3.00 3.00">
   </library>
   <library name="stklib_computerScreenMail_a" id="stklib_computerScreenMail_a_main_proxy" xyz="-13.39 0.07 102.01" hpr="0.0 -22.5 0.0" scale="0.18 0.18 0.18">
   </library>
@@ -679,5 +527,29 @@
   <library name="stklib_computerScreenMail_a" id="stklib_computerScreenMail_a_main_proxy.008" xyz="-18.65 0.07 99.82" hpr="0.0 -22.5 0.0" scale="0.18 0.18 0.18">
   </library>
   <library name="stklib_computerScreenMail_a" id="stklib_computerScreenMail_a_main_proxy.009" xyz="-19.31 0.07 99.55" hpr="0.0 -22.5 0.0" scale="0.18 0.18 0.18">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.007" xyz="93.02 0.00 24.99" hpr="-0.0 103.6 -0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.016" xyz="58.57 0.43 -166.02" hpr="-0.0 106.4 -0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.017" xyz="88.18 6.12 -227.41" hpr="0.0 -143.0 -0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.004" xyz="134.12 3.41 -164.95" hpr="-0.0 152.7 -0.0" scale="3.00 3.00 3.00">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.018" xyz="2.97 0.00 -110.55" hpr="0.0 -45.9 0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.019" xyz="-76.91 0.00 -107.66" hpr="-0.0 154.4 -0.0" scale="1.50 1.50 1.50">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.005" xyz="38.44 1.79 208.77" hpr="0.0 -47.9 0.0" scale="3.00 3.00 3.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.006" xyz="-22.96 9.20 268.82" hpr="0.0 -130.4 -0.0" scale="3.00 3.00 3.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.007" xyz="-53.21 0.38 202.00" hpr="-0.0 134.5 -0.0" scale="3.00 3.00 3.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.010" xyz="80.42 10.46 281.46" hpr="0.0 -56.0 0.0" scale="3.00 3.00 3.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.014" xyz="130.99 21.97 328.86" hpr="0.0 80.0 0.0" scale="3.00 3.00 3.00">
+  </library>
+  <library name="stklib_pinetree_a" id="stklib_pinetree_a_main_proxy.015" xyz="130.09 8.10 240.83" hpr="0.0 -68.4 0.0" scale="3.00 3.00 3.00">
   </library>
 </scene>

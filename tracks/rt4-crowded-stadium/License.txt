@@ -4,9 +4,48 @@
 * 
 * Music - bfc.ogg - "Boss Fight Circuit" by Komiku, from https://loyaltyfreakmusic.com/music/incredible-kart-game/ , released under CC0
 * stkflag_stellacoffee_a.png is taken from STK Media Repo for the reason of not loading by default like other textures did
+*
+* Concrete046, Asphalt005, Ground080, Grass001 and similar textures are taken from ambientcg.
+* I believe they are all released under CC0, and can be seen with https://ambientcg.com/view?id=[THE_ID_WITHOUT_BRACKETS]
 * 
 * All other files are made or generated with Blender by kimden and are released under CC-BY 4.0 except for the following files:
 * - box.ogg which is released under CC0.
+*
+* Thanks to STK executable, STK exporter and STK guides for prolonging the time spent to release v2. lol.
+* Also note that I had to fix things in scene.xml/materials.xml, so export carefully.
+* (most of time materials under-exported, and cameras are in wrong order
+* according to driveline because it's such a good idea to sort them like that!)
 * 
 * v1: fixed some flipped normals, incorrectly formed faces and texturing for metal things compared to v0
+* 
+* v2: (listed in some order)
+* - new concrete barriers with net, some are 90° and some are 45° tilted wrt the ground
+* - new sand texture from ambientcg
+* - new grass texture from ambientcg
+* - reworked sponsorship on barriers to have less faces
+* - triplicated the size and likely halved the quantity of trees, added some palms to the interior of the track
+* - tight turns got cylindrical kerbs (or whatever it's called in English, but not the default kerbs)
+* - more invisible walls, more checklines, higher checklines to prevent lap skipping
+* - as a consequence, fixed an ultra rare chicane jump cut by one of the extraordinary skill players (thank you!)
+* - added egg hunt
+* - added end cameras
+* - sadly haven't added skybox (I am lazy enough, you see)
+* - added billboards which are nice I think
+* - added new red RT4 logo and combined RT4 avatars, and SHTO ads
+* - reworked stadium to be uniformly colored, colors are now visible outside, and it's less of a mess despite still being wooden
+* - reworked tunnel walls, they are now incredibly smooth now it seems almost impossible to me to use them for cutting
+* - absolutely did not touch slowdown lmao
+* - did not add smooth transition of textures due to excessive time spent.
+* - maybe something else? I forgor, check it yourself
+* - 
+* - If you think this is a lot, this is a lot!
+* - If you think v1 was a garbage, no, it wasn't! I literally made it in a week having much less skill than now.
+* - It's actually amazing for me.
+*
+* This map is used in Legendarry Antagonists SHOWDOWN TOUR 2025 as a main track for two events.
+* 
+* I thank everyone who enjoyed my maps, competitions, servers, and anything else -
+* listing you would be very long but I thank all of you.
+* It's been fun.
+* 
 * 
