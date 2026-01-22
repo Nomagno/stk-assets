@@ -16,16 +16,18 @@
                 same-group="1"/>
     <check-line kind="activate" other-ids="3" p1="75.82 20.09 61.37" p2="90.61 20.09 52.05"
                 same-group="2"/>
-    <check-line kind="activate" other-ids="4" p1="46.63 17.01 116.99" p2="45.39 17.01 134.43"
+    <check-line kind="activate" other-ids="4 5" p1="46.63 17.01 116.99" p2="45.39 17.01 134.43"
                 same-group="3"/>
-    <check-line kind="activate" other-ids="5" p1="-12.77 16.06 -1.98" p2="-30.25 16.06 -2.26"
-                same-group="4"/>
-    <check-line kind="activate" other-ids="6" p1="9.40 16.89 -178.80" p2="12.86 16.89 -161.66"
-                same-group="5"/>
-    <check-line kind="activate" other-ids="7" p1="46.12 19.31 -97.65" p2="54.11 19.52 -82.10"
+    <check-line kind="activate" other-ids="6" p1="-12.77 16.06 -1.98" p2="-30.25 16.06 -2.26"
+                same-group="4 5"/>
+    <check-line kind="activate" other-ids="6" p1="-12.77 19.06 -1.98" p2="-30.25 19.06 -2.26"
+                same-group="5 4"/>
+    <check-line kind="activate" other-ids="7" p1="9.40 16.89 -178.80" p2="12.86 16.89 -161.66"
                 same-group="6"/>
-    <check-line kind="activate" other-ids="0" p1="5.81 20.25 -44.72" p2="-11.66 20.29 -45.10"
+    <check-line kind="activate" other-ids="8" p1="46.12 19.31 -97.65" p2="54.11 19.52 -82.10"
                 same-group="7"/>
+    <check-line kind="activate" other-ids="0" p1="5.81 20.25 -44.72" p2="-11.66 20.29 -45.10"
+                same-group="8"/>
   </checks>
 
 
