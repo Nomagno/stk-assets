@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<kart name="FEC Kartillac V-Series.R" version="3" model-file="kartillac v-series.r.spm" icon-file="icon.png" minimap-icon-file="number-plate-mini.png" shadow-file="genericshadow.png" type="hypercar" groups="FrankfurtEnduranceChampionship" rgb="1.00 1.00 1.00" revision="1">
+    <sounds engine="large">
+        <skid name="default"/>
+    </sounds>
+    <animations left="9" straight="19" right="29" backpedal-left="34" backpedal="44" backpedal-right="54" start-jump="64" start-jump-loop="69" end-jump="77" selection-start="109" selection-end="179" start-winning="197" start-winning-loop="301" end-winning="321" start-losing="359" start-losing-loop="414" end-losing="442"/>
+    <wheels>
+        <front-right position="0.430000 0.160000 0.466000" model="wheel-front-right.spm"/>
+        <rear-right position="0.410000 0.168000 -0.564000" model="wheel-rear-right.spm"/>
+        <front-left position="-0.430000 0.160000 0.466000" model="wheel-front-left.spm"/>
+        <rear-left position="-0.410000 0.168000 -0.564000" model="wheel-rear-left.spm"/>
+    </wheels>
+    <nitro-emitter>
+        <nitro-emitter-a position="0.000000 0.190000 -0.830000"/>
+        <nitro-emitter-b position="0.000000 0.190000 -0.940000"/>
+    </nitro-emitter>
+    <headlights>
+        <object position="0.000000 0.200000 2.000000" rotation="0.000000 -0.000000 0.000000" scale="1.000000 1.000000 1.000000" color="200 200 200" model="HD.001.spm"/>
+    </headlights>
+    <exhaust file="kart_exhaust.xml"/>
+</kart>

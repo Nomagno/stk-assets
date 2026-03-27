@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="spa-concrete_black.png" gloss-map="spa-concrete_red.png"/>
+  <material name="cadi_base_color.png" gloss-map="spa-concrete_red.png" colorizable="Y"/>
+  <material name="carbonfiber_a.jpg" gloss-map="gloss_cf.png" colorizable="Y"/>
+  <material name="pidginwindow_BLACK.png" shader="alphablend"/>
+  <material name="gray.png" gloss-map="red.png"/>
+  <material name="mps_tire_out.png" shader="alphatest" colorizable="Y"/>
+  <material name="silver.jpg" gloss-map="red.png"/>
+  <material name="spa-concrete-2.png" gloss-map="red.png"/>
+  <material name="words.png" shader="alphatest"/>
+</materials>

@@ -1,0 +1,7 @@
+1. This mod kart "Kartillac V-Series.R" was created by Cirno de Ice Fairy Racing (STK account: Cirno_del_Nueve) for SuperTuxKart.
+	License in STK (as something that would put in the "karts" folder): License: CC-BY 4.0 
+2. "Kartillac V-Series.R" kart model (inspire by "Cadillac V-Series.R" from WEC/IMSA) by Cirno de Ice Fairy Racing (STK account: Cirno_del_Nueve)
+	License: CC-BY 4.0 (Feel free to paint other liveries or let other characters drive this kart, but should doing in a reasonable manner and for non-commercial usages. More recommend to try different texture and pattern designs, and don't just change color if you want to use this kart for modding.) 
+2-1. Some textures ported and modified from Ardennen-Spa.
+	License: GNU GPL
+3. If any trade mark happened appears here, it belong to it's owners.
