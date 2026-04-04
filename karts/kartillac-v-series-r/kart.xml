@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<kart name="FEC Kartillac V-Series.R" version="3" model-file="kartillac v-series.r.spm" icon-file="icon.png" minimap-icon-file="number-plate-mini.png" shadow-file="genericshadow.png" type="hypercar" groups="FrankfurtEnduranceChampionship" rgb="1.00 1.00 1.00" revision="1">
+<kart name="FEC Kartillac V-Series.R" version="3" model-file="kartillac v-series.r.spm" icon-file="icon.png" minimap-icon-file="number-plate-mini.png" shadow-file="genericshadow.png" type="hypercar" groups="FrankfurtEndurance" rgb="1.00 1.00 1.00" revision="1">
     <sounds engine="large">
         <skid name="default"/>
     </sounds>
