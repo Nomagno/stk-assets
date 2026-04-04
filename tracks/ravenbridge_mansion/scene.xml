@@ -377,6 +377,11 @@
   <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy" xyz="233.94 -19.01 -213.60" hpr="-0.0 -0.0 0.0" scale="0.85 0.85 0.85"/>
   <!-- END Hair system Plane.003 -->
 
+  <tyre-change compound="2" stop-time="20" id="tc0" x="162.344482" y="-10.664959" z="33.697659" h="0.5"/>
+  <tyre-change compound="3" stop-time="15" id="tc1" x="150.566376" y="-11.056220" z="39.759689" h="0.5"/>
+  <tyre-change compound="4" stop-time="15" id="tc2" x="140.477783" y="-11.293330" z="44.820904" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="132.533493" y="-11.377858" z="48.607452" h="0.5"/>
+
   <banana id="Empty" x="7.68" y="-0.08" z="17.70" h="-44.03" />
   <item id="Empty.001" x="10.32" y="-0.08" z="15.24" h="-44.03" />
   <item id="Empty.002" x="5.25" y="-0.08" z="20.34" h="-44.03" />

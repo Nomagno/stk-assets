@@ -550,6 +550,12 @@
       <p c="140.000 -4.060" h1="136.103 9.621" h2="143.897 -17.741"/>
     </curve>
   </particle-emitter>
+
+  <tyre-change compound="2" stop-time="12" id="tc0" x="-9.457706" y="-3.093000" z="-76.462769" h="0.5"/>
+  <tyre-change compound="3" stop-time="12" id="tc1" x="-6.664083" y="-3.067519" z="-76.486084" h="0.5"/>
+  <tyre-change compound="4" stop-time="12" id="tc2" x="-3.708189" y="-2.976552" z="-76.490082" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-7.100809" y="-2.027371" z="-33.768406" h="0.5"/>
+
   <banana id="Empty" x="100.78" y="-0.40" z="25.30" />
   <small-nitro id="empty" x="86.89" y="-8.43" z="-119.35" h="-106.30" />
   <banana id="Empty.001" x="155.71" y="-1.36" z="-11.02" />

@@ -79,6 +79,12 @@
   </end-cameras>
   <particle-emitter kind="black_smoke.xml" id="Empty.030" xyz="78.39 40.51 -241.34" h="-90.00" >
   </particle-emitter>
+
+  <tyre-change compound="2" stop-time="14" id="tc0" x="-80.564400" y="9.975313" z="-119.897942" h="0.5"/>
+  <tyre-change compound="3" stop-time="14" id="tc1" x="-79.322678" y="9.898572" z="-123.715347" h="0.5"/>
+  <tyre-change compound="4" stop-time="14" id="tc2" x="-76.747475" y="9.561285" z="-130.652084" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-71.320549" y="9.035907" z="-142.518692" h="0.5"/>
+
   <item id="Empty" x="0.55" y="0.63" z="71.59" />
   <item id="Empty.001" x="3.55" y="0.63" z="71.59" />
   <item id="Empty.002" x="-2.45" y="0.63" z="71.59" />

@@ -287,6 +287,12 @@
   </particle-emitter>
   <object type="sfx-emitter" id="Empty.041" sound="lenautile_restaurant.ogg" rolloff="0.200" volume="1.0" max_dist="60.0" xyz="-175.37 -8.77 18.13" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
   </object>
+
+  <tyre-change compound="2" stop-time="10" id="tc0" x="7.713711" y="-10.764062" z="9.808394" h="0.5"/>
+  <tyre-change compound="3" stop-time="10" id="tc1" x="7.698163" y="-10.664202" z="3.249268" h="0.5"/>
+  <tyre-change compound="4" stop-time="10" id="tc2" x="7.683065" y="-10.648537" z="-2.882314" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="7.664822" y="-10.750311" z="-10.261989" h="0.5"/>
+
   <item id="Empty" x="-47.87" y="-10.64" z="0.03" />
   <item id="Empty.001" x="-53.87" y="-10.64" z="0.03" />
   <banana id="Empty.002" x="-90.87" y="-10.64" z="0.03" />

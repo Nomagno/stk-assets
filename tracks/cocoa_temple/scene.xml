@@ -966,6 +966,12 @@
   </object>
   <object type="sfx-emitter" id="Empty.051" sound="river_loop.ogg" rolloff="0.000" volume="1.0" max_dist="130.0" xyz="183.50 -2.19 133.56" hpr="0.0 45.0 0.0" scale="70.54 70.54 70.54">
   </object>
+
+  <tyre-change compound="2" stop-time="20" id="tc0" x="-54.948093" y="-1.350486" z="44.917587" h="0.5"/>
+  <tyre-change compound="3" stop-time="20" id="tc1" x="-47.347363" y="-1.368560" z="51.261265" h="0.5"/>
+  <tyre-change compound="4" stop-time="20" id="tc2" x="-37.336452" y="-1.341210" z="56.763763" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-24.550610" y="-1.328527" z="58.897308" h="0.5"/>
+
   <item id="Empty.000" x="287.95" y="20.77" z="-141.84" h="29.51" />
   <big-nitro id="Empty.001" x="-54.04" y="0.10" z="-117.15" drop="false" />
   <small-nitro id="Empty.002" x="227.67" y="8.46" z="23.84" />

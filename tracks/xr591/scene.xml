@@ -186,6 +186,12 @@
     <check-line kind="activate" other-ids="0" p1="9.46 -4.78 -127.98" p2="5.41 -5.49 -95.49"
                 same-group="6"/>
   </checks>
+
+  <tyre-change compound="2" stop-time="17" id="tc0" x="-70.047714" y="3.063504" z="172.408478" h="0.5"/>
+  <tyre-change compound="3" stop-time="16" id="tc1" x="-81.412308" y="3.736726" z="165.384384" h="0.5"/>
+  <tyre-change compound="4" stop-time="15" id="tc2" x="-88.872078" y="3.437294" z="158.101135" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-85.368660" y="5.426492" z="128.191193" h="0.5"/>
+
   <banana id="Empty" x="2.36" y="-1.03" z="-41.11" />
   <banana id="Empty.001" x="20.28" y="-3.91" z="-98.27" />
   <banana id="Empty.002" x="-39.94" y="-6.98" z="-35.24" />

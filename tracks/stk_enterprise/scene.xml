@@ -436,6 +436,12 @@
   </object>
   <object type="sfx-emitter" id="Sound-emitter-electricity.002" sound="bzzt2.ogg" rolloff="0.003" volume="1.0" max_dist="100.0" xyz="51.31 3.45 -65.22" hpr="-0.0 90.0 0.0" scale="1.00 1.00 1.00" play-when-near="true" distance="20.0">
   </object>
+
+  <tyre-change compound="2" stop-time="18" id="tc0" x="4.215768" y="-1.707689" z="74.409515" h="0.5"/>
+  <tyre-change compound="3" stop-time="18" id="tc1" x="4.250625" y="-1.716260" z="67.245644" h="0.5"/>
+  <tyre-change compound="4" stop-time="18" id="tc2" x="4.290131" y="-1.717779" z="59.126385" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-18.942146" y="-1.707275" z="66.984711" h="0.5"/>
+
   <banana id="banana.001" x="247.50" y="11.00" z="-13.50" h="-90.00" />
   <banana id="banana.002" x="317.50" y="11.00" z="-13.50" h="-90.00" />
   <banana id="banana.003" x="317.50" y="11.00" z="19.50" h="-90.00" />

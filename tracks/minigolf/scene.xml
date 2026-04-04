@@ -187,6 +187,12 @@
   <water model="Water.spm" xyz="-42.98 -57.32 2.96" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" height="0.20" speed="200.00" length="2.00">
     <animated-texture name="water.png" dx="0.01000"  dy="-0.00500" />
   </water>
+
+  <tyre-change compound="2" stop-time="10" id="tc0" x="54.334446" y="0.372351" z="-30.421015" h="0.5"/>
+  <tyre-change compound="3" stop-time="10" id="tc1" x="49.313984" y="0.372222" z="-26.918852" h="0.5"/>
+  <tyre-change compound="4" stop-time="10" id="tc2" x="41.119492" y="0.371853" z="-25.797316" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="32.604450" y="0.361220" z="-29.354805" h="0.5"/>
+
   <small-nitro id="Empty" x="-17.75" y="1.20" z="-20.61" />
   <small-nitro id="Empty.001" x="-27.86" y="1.20" z="-20.61" />
   <item id="Empty.002" x="-63.85" y="1.87" z="-36.48" />

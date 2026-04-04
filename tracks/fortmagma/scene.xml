@@ -579,6 +579,12 @@
   </particle-emitter>
   <particle-emitter kind="fire.xml" id="Fire.013" xyz="-67.86 49.52 11.95" h="540.00" >
   </particle-emitter>
+  <tyre-change compound="2" stop-time="15" id="tc0" x="-112.581123" y="-0.017278" z="-22.506033" h="0.5"/>
+  <tyre-change compound="3" stop-time="15" id="tc1" x="-112.502777" y="-0.017286" z="-19.319345" h="0.5"/>
+  <tyre-change compound="4" stop-time="15" id="tc2" x="-112.405388" y="-0.017448" z="-15.361206" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-112.285622" y="-0.017276" z="-10.494912" h="0.5"/>
+
+
   <small-nitro id="Empty.000" x="-148.24" y="1.30" z="27.88" h="180.00" />
   <small-nitro id="Empty.001" x="-156.24" y="1.30" z="11.88" h="180.00" />
   <small-nitro id="Empty.002" x="-157.85" y="3.08" z="-34.08" h="180.00" />

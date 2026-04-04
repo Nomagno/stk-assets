@@ -65,6 +65,12 @@
   </particle-emitter>
   <particle-emitter kind="waterfall.xml" id="Empty.046" xyz="-187.10 -168.53 -3.27" h="-2.09" >
   </particle-emitter>
+
+  <tyre-change compound="2" stop-time="8" id="tc0" x="20.361401" y="-135.247787" z="-76.031830" h="0.5"/>
+  <tyre-change compound="3" stop-time="8" id="tc1" x="20.285128" y="-136.074509" z="-65.092010" h="0.5"/>
+  <tyre-change compound="4" stop-time="8" id="tc2" x="20.021732" y="-136.391083" z="-51.376724" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="19.750616" y="-136.894989" z="-36.060299" h="0.5"/>
+
   <item id="Empty" x="-2.06" y="-140.47" z="66.37" />
   <item id="Empty.001" x="0.68" y="-140.47" z="66.37" />
   <item id="Empty.002" x="3.57" y="-140.47" z="66.37" />

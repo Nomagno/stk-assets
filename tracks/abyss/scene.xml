@@ -241,6 +241,12 @@
   <item id="Empty.009" x="60.40" y="3.70" z="-136.20" />
   <item id="Empty.010" x="120.97" y="20.07" z="-183.10" h="90.00" />
   <item id="Empty.011" x="112.97" y="20.07" z="-183.10" h="90.00" />
+
+  <tyre-change compound="2" stop-time="14" id="tc0" x="-47.555126" y="18.759682" z="-57.449574" h="0.5"/>
+  <tyre-change compound="3" stop-time="12" id="tc1" x="-47.456543" y="18.761381" z="-50.744072" h="0.5"/>
+  <tyre-change compound="4" stop-time="10" id="tc2" x="-47.352184" y="18.763441" z="-43.646381" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-47.240925" y="18.765589" z="-36.078251" h="0.5"/>
+
   <banana id="Empty.012" x="116.97" y="20.07" z="-183.10" />
   <small-nitro id="Empty.013" x="133.36" y="12.36" z="-104.38" />
   <small-nitro id="Empty.014" x="117.00" y="12.36" z="-99.02" />

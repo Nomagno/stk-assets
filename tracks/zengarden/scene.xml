@@ -215,6 +215,11 @@
   <library name="stklib_lowPineTree_a" id="stklib_lowPineTree_a_main_proxy.078" xyz="146.14 -46.39 78.10" hpr="-0.0 -0.0 0.0" scale="2.45 2.45 2.45"/>
   <!-- END Hair system Circle.012 -->
 
+  <tyre-change compound="2" stop-time="8" id="tc0" x="-132.591476" y="0.550189" z="43.354706" h="0.5"/>
+  <tyre-change compound="3" stop-time="8" id="tc1" x="-131.893188" y="0.550229" z="46.513710" h="0.5"/>
+  <tyre-change compound="4" stop-time="8" id="tc2" x="-132.064560" y="0.546691" z="49.488991" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-143.165695" y="0.550202" z="50.154060" h="0.5"/>
+
   <small-nitro id="Empty.005" x="-117.49" y="0.14" z="50.06" />
   <banana id="Empty.006" x="-30.39" y="0.14" z="12.24" />
   <small-nitro id="Empty.007" x="-55.13" y="0.14" z="2.10" />

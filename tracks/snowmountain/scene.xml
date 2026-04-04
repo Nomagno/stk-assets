@@ -96,6 +96,12 @@
   </checks>
   <particle-emitter kind="black_smoke.xml" id="Empty" xyz="-122.87 11.93 -17.97" h="0.00" clip_distance="200">
   </particle-emitter>
+
+  <tyre-change compound="2" stop-time="20" id="tc0" x="-120.505157" y="7.194855" z="45.600929" h="0.5"/>
+  <tyre-change compound="3" stop-time="20" id="tc1" x="-122.017418" y="7.604803" z="39.030907" h="0.5"/>
+  <tyre-change compound="4" stop-time="20" id="tc2" x="-124.512840" y="8.027763" z="28.398685" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-126.647980" y="8.275126" z="13.218962" h="0.5"/>
+
   <banana id="Banana" x="-2.88" y="-0.30" z="39.38" />
   <banana id="Banana.001" x="-51.49" y="3.66" z="77.64" />
   <banana id="Banana.002" x="-64.64" y="2.49" z="33.10" />

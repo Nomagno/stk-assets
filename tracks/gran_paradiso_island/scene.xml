@@ -758,6 +758,13 @@
   </object>
   <object type="sfx-emitter" id="Empty.037" sound="sara_airport_pa.ogg" rolloff="0.030" volume="1.0" max_dist="50.0" xyz="89.67 20.64 -59.36" hpr="0.0 -0.0 0.0" scale="27.55 27.55 27.55">
   </object>
+
+  <tyre-change compound="2" stop-time="10" id="tc0" x="125.786781" y="5.850532" z="121.232956" h="0.5"/>
+  <tyre-change compound="3" stop-time="10" id="tc1" x="119.729156" y="5.852078" z="138.101501" h="0.5"/>
+  <tyre-change compound="4" stop-time="10" id="tc2" x="114.560829" y="5.852166" z="150.281311" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="104.473709" y="5.852416" z="162.090530" h="0.5"/>
+
+
   <small-nitro id="Empty" x="-123.19" y="5.35" z="120.31" />
   <small-nitro id="Empty.001" x="-124.75" y="5.35" z="123.10" />
   <small-nitro id="Empty.003" x="-121.68" y="5.35" z="116.87" />

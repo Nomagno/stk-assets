@@ -1902,6 +1902,12 @@
       <p c="450.000 30.204" h1="444.925 30.204" h2="455.075 30.204"/>
     </curve>
   </object>
+
+  <tyre-change compound="2" stop-time="30" id="tc0" x="-62.440620" y="5.207112" z="37.290787" h="0.5"/>
+  <tyre-change compound="3" stop-time="30" id="tc1" x="-56.042183" y="4.806949" z="33.541775" h="0.5"/>
+  <tyre-change compound="4" stop-time="30" id="tc2" x="-51.295376" y="4.235770" z="26.888948" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-46.616428" y="3.595900" z="21.128643" h="0.5"/>
+
   <small-nitro id="Empty" x="-123.20" y="1.98" z="371.39" />
   <small-nitro id="Empty.001" x="-113.47" y="2.55" z="367.63" />
   <small-nitro id="Empty.002" x="-101.21" y="4.06" z="367.85" />

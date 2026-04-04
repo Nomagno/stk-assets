@@ -260,6 +260,12 @@
     <check-line kind="lap" other-ids="1" p1="18.93 -67.30" p2="18.93 -56.89"
                 min-height="-14.16" same-group="0 4 5"/>
   </checks>
+
+  <tyre-change compound="2" stop-time="12" id="tc0" x="-50.852814" y="-25.821064" z="-156.721741" h="0.5"/>
+  <tyre-change compound="3" stop-time="12" id="tc1" x="-42.608879" y="-25.302355" z="-161.170563" h="0.5"/>
+  <tyre-change compound="4" stop-time="12" id="tc2" x="-32.848991" y="-24.298563" z="-165.666016" h="0.5"/>
+  <tyre-change compound="123" stop-time="5" id="tcf" x="-16.729614" y="-23.295254" z="-173.816055" h="0.5"/>
+
   <item id="Empty" x="83.67" y="-16.09" z="0.94" />
   <item id="Empty.001" x="81.79" y="-16.09" z="-0.97" />
   <item id="Empty.002" x="79.71" y="-16.09" z="-2.75" />
